@@ -1,0 +1,10 @@
+{
+  "id": "recallops",
+  "name": "RecallOps",
+  "description": "Trusted incident memory tools for OpenClaw",
+  "version": "0.1.0",
+  "entry": "./dist/index.js",
+  "activation": {"onStartup": true},
+  "contracts": {"tools": ["incident_search", "incident_draft", "incident_commit", "incident_get", "incident_correct"]}
+}
+

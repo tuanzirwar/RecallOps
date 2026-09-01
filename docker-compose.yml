@@ -1,0 +1,25 @@
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_DB: recallops
+      POSTGRES_USER: recallops
+      POSTGRES_PASSWORD: recallops
+    ports: ["5432:5432"]
+    volumes: ["recallops-data:/var/lib/postgresql/data"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U recallops"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+  api:
+    build: ./memory-service
+    environment:
+      RECALLOPS_DATABASE_URL: postgresql+psycopg://recallops:recallops@postgres:5432/recallops
+      RECALLOPS_TRUSTED_PROXY_TOKEN: ${RECALLOPS_TRUSTED_PROXY_TOKEN:-dev-proxy-token}
+    ports: ["8000:8000"]
+    depends_on:
+      postgres: {condition: service_healthy}
+volumes:
+  recallops-data:
+

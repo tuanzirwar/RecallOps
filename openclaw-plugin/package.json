@@ -1,0 +1,12 @@
+{
+  "name": "@recallops/openclaw-plugin",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "files": ["dist", "openclaw.plugin.json"],
+  "scripts": {"build": "tsc -p tsconfig.json", "test": "vitest run"},
+  "dependencies": {"typebox": "^1.0.14"},
+  "devDependencies": {"typescript": "^5.8.2", "vitest": "^3.0.8"},
+  "peerDependencies": {"openclaw": ">=2026.5.17"},
+  "peerDependenciesMeta": {"openclaw": {"optional": true}}
+}

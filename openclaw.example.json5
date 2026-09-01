@@ -1,0 +1,26 @@
+{
+  channels: {
+    feishu: {
+      groupPolicy: "allowlist",
+      groupAllowFrom: ["oc_incident_group"],
+      requireMention: true,
+      groupSessionScope: "group_topic",
+      replyInThread: "enabled"
+    }
+  },
+  plugins: {
+    entries: {
+      recallops: {
+        enabled: true,
+        config: {
+          baseUrl: "http://localhost:8000",
+          proxyToken: "${RECALLOPS_TRUSTED_PROXY_TOKEN}",
+          tenantId: "tenant-demo",
+          workspaceId: "workspace-demo"
+        }
+      }
+    }
+  },
+  tools: { allow: ["recallops"] }
+}
+

@@ -1,0 +1,65 @@
+{
+  "fts": {
+    "queries": 1140,
+    "answer_queries": 960,
+    "no_answer_queries": 180,
+    "hit_rate_at_5": 0.9917,
+    "recall_at_5": 0.9396,
+    "mrr": 0.9917,
+    "no_answer_false_recall_rate": 0.0333,
+    "p95_latency_ms": 20.431,
+    "by_query_type": {
+      "error_code": 1.0,
+      "no_answer": 0.0333,
+      "resolution": 0.9688,
+      "root_cause": 0.9938,
+      "service_symptom": 0.9875,
+      "short_query": 1.0,
+      "symptom_verbatim": 1.0
+    }
+  },
+  "vector": {
+    "queries": 1140,
+    "answer_queries": 960,
+    "no_answer_queries": 180,
+    "hit_rate_at_5": 0.5719,
+    "recall_at_5": 0.4637,
+    "mrr": 0.4494,
+    "no_answer_false_recall_rate": 0.0167,
+    "p95_latency_ms": 20.614,
+    "by_query_type": {
+      "error_code": 0.0,
+      "no_answer": 0.0167,
+      "resolution": 0.9625,
+      "root_cause": 0.4938,
+      "service_symptom": 0.075,
+      "short_query": 0.9,
+      "symptom_verbatim": 1.0
+    }
+  },
+  "hybrid": {
+    "queries": 1140,
+    "answer_queries": 960,
+    "no_answer_queries": 180,
+    "hit_rate_at_5": 0.9615,
+    "recall_at_5": 0.8902,
+    "mrr": 0.8887,
+    "no_answer_false_recall_rate": 0.05,
+    "p95_latency_ms": 21.031,
+    "by_query_type": {
+      "error_code": 1.0,
+      "no_answer": 0.05,
+      "resolution": 0.975,
+      "root_cause": 0.9938,
+      "service_symptom": 0.8,
+      "short_query": 1.0,
+      "symptom_verbatim": 1.0
+    }
+  },
+  "dataset": {
+    "incidents": 160,
+    "queries": 1140,
+    "source": "deterministic synthetic benchmark; 10 seed cases plus generated variations"
+  },
+  "methodology": "Deterministic local hashing embeddings; results are reproducible synthetic baselines, not production-model or live-incident claims."
+}

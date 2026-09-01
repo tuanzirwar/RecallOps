@@ -1,0 +1,1140 @@
+{"query": "海洋浮标制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "notification-service 在 海外 活动流量上来后接口开始雪崩，有没有历史案例", "relevant": ["INC-0045", "INC-0105"], "query_type": "service_symptom"}
+{"query": "STOCK_5103 以前怎么处理？", "relevant": ["INC-0013"], "query_type": "error_code"}
+{"query": "华东生产环境第40批告警：物流接口 P95 延迟超过 3 秒，用户请求持续超时，影响 shipping-service 的核心链路", "relevant": ["INC-0050"], "query_type": "symptom_verbatim"}
+{"query": "运营报表停留在两小时前", "relevant": ["INC-009"], "query_type": "symptom_verbatim"}
+{"query": "shipping-service 在 海外 活动流量上来后接口开始雪崩，有没有历史案例", "relevant": ["INC-0065", "INC-0125"], "query_type": "service_symptom"}
+{"query": "media-service 在 华东 第三方通知持续验签不通过，有没有历史案例", "relevant": ["INC-0018", "INC-0078", "INC-0138"], "query_type": "service_symptom"}
+{"query": "物流请求超时（华东第40批）", "relevant": ["INC-0050"], "query_type": "short_query"}
+{"query": "风力发电机燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "海外生产环境第23批告警：媒体上游处理成功但页面状态迟迟没有更新，影响 media-service 的核心链路", "relevant": ["INC-0033"], "query_type": "symptom_verbatim"}
+{"query": "支付重复处理（华东第16批）", "relevant": ["INC-0026"], "query_type": "short_query"}
+{"query": "ANALYTICS_5182 以前怎么处理？", "relevant": ["INC-0092"], "query_type": "error_code"}
+{"query": "优惠券超发", "relevant": ["INC-006"], "query_type": "short_query"}
+{"query": "payment-service 在 华东 的 消息重复投递且缺少幂等键 如何排查", "relevant": ["INC-0026", "INC-0056", "INC-0086", "INC-0116", "INC-0146"], "query_type": "root_cause"}
+{"query": "华南 环境中，扩容连接池并限制重试风暴 是解决过什么故障", "relevant": ["INC-0020", "INC-0040", "INC-0060", "INC-0080", "INC-0100", "INC-0120", "INC-0140", "INC-0160"], "query_type": "resolution"}
+{"query": "SHIP_5230 以前怎么处理？", "relevant": ["INC-0140"], "query_type": "error_code"}
+{"query": "STOCK_5178 以前怎么处理？", "relevant": ["INC-0088"], "query_type": "error_code"}
+{"query": "媒体状态不同步（华北第53批）", "relevant": ["INC-0063"], "query_type": "short_query"}
+{"query": "coupon-service 在 华东 的 请求体大小限制低于业务配置 如何排查", "relevant": ["INC-0034", "INC-0064", "INC-0094", "INC-0124", "INC-0154"], "query_type": "root_cause"}
+{"query": "太阳能逆变器制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "海外 环境中，修复消费者超时配置并重启消费组 是解决过什么故障", "relevant": ["INC-0021", "INC-0041", "INC-0061", "INC-0081", "INC-0101", "INC-0121", "INC-0141"], "query_type": "resolution"}
+{"query": "海外 环境中，缓存增加随机过期并预热热点 是解决过什么故障", "relevant": ["INC-0025", "INC-0045", "INC-0065", "INC-0085", "INC-0105", "INC-0125", "INC-0145"], "query_type": "resolution"}
+{"query": "海外生产环境第99批告警：优惠券数据已存在但接口返回空结果，影响 coupon-service 的核心链路", "relevant": ["INC-0109"], "query_type": "symptom_verbatim"}
+{"query": "海外生产环境第131批告警：计费运营侧数据停留在数小时前，影响 billing-service 的核心链路", "relevant": ["INC-0141"], "query_type": "symptom_verbatim"}
+{"query": "激光测距仪制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "AUTH_5147 以前怎么处理？", "relevant": ["INC-0057"], "query_type": "error_code"}
+{"query": "SEARCH_5179 以前怎么处理？", "relevant": ["INC-0089"], "query_type": "error_code"}
+{"query": "shipping-service 在 华南 调用频繁卡住并出现超时，有没有历史案例", "relevant": ["INC-0020", "INC-0080", "INC-0140"], "query_type": "service_symptom"}
+{"query": "settlement-service 在 海外 活动流量上来后接口开始雪崩，有没有历史案例", "relevant": ["INC-0025", "INC-0085", "INC-0145"], "query_type": "service_symptom"}
+{"query": "notification-service 在 华南 的 PostgreSQL 连接池耗尽 如何排查", "relevant": ["INC-0030", "INC-0060", "INC-0090", "INC-0120", "INC-0150"], "query_type": "root_cause"}
+{"query": "华北生产环境第73批告警：风控上游处理成功但页面状态迟迟没有更新，影响 risk-service 的核心链路", "relevant": ["INC-0083"], "query_type": "symptom_verbatim"}
+{"query": "risk-service 在 华南 的 回调证书过期 如何排查", "relevant": ["INC-0038", "INC-0068", "INC-0098", "INC-0128", "INC-0158"], "query_type": "root_cause"}
+{"query": "华北 环境中，重启索引 worker 并重放失败任务 是解决过什么故障", "relevant": ["INC-0019", "INC-0039", "INC-0059", "INC-0079", "INC-0099", "INC-0119", "INC-0139", "INC-0159"], "query_type": "resolution"}
+{"query": "BILL_5231 以前怎么处理？", "relevant": ["INC-0141"], "query_type": "error_code"}
+{"query": "SETTLE_5205 以前怎么处理？", "relevant": ["INC-0115"], "query_type": "error_code"}
+{"query": "catalog-service 在 海外 还没到预估峰值就被限流，有没有历史案例", "relevant": ["INC-0037", "INC-0097", "INC-0157"], "query_type": "service_symptom"}
+{"query": "risk-service 在 华南 第三方通知持续验签不通过，有没有历史案例", "relevant": ["INC-0068", "INC-0128"], "query_type": "service_symptom"}
+{"query": "智能电表液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "显微镜成像燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "线上 环境中，扩容 Redis 并限制重试 是解决过什么故障", "relevant": ["INC-002"], "query_type": "resolution"}
+{"query": "物流流量突增（华北第145批）", "relevant": ["INC-0155"], "query_type": "short_query"}
+{"query": "华南生产环境第138批告警：库存第三方回调持续验签失败，影响 inventory-service 的核心链路", "relevant": ["INC-0148"], "query_type": "symptom_verbatim"}
+{"query": "REFUND_4017 以前怎么处理？", "relevant": ["INC-010"], "query_type": "error_code"}
+{"query": "member-service 在 华北 的 索引任务积压导致搜索索引滞后 如何排查", "relevant": ["INC-0039", "INC-0069", "INC-0099", "INC-0129", "INC-0159"], "query_type": "root_cause"}
+{"query": "search-service 在 线上 搜索结果为空，有没有历史案例", "relevant": ["INC-005"], "query_type": "service_symptom"}
+{"query": "risk-service 在 华东 的 回调证书过期 如何排查", "relevant": ["INC-0038", "INC-0068", "INC-0098", "INC-0128", "INC-0158"], "query_type": "root_cause"}
+{"query": "智能电表燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "风控回调失败（华南第58批）", "relevant": ["INC-0068"], "query_type": "short_query"}
+{"query": "risk-service 在 华南 的 回调证书过期 如何排查", "relevant": ["INC-0038", "INC-0068", "INC-0098", "INC-0128", "INC-0158"], "query_type": "root_cause"}
+{"query": "地震监测仪燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "太阳能逆变器制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "华东生产环境第20批告警：通知接口 P95 延迟超过 3 秒，用户请求持续超时，影响 notification-service 的核心链路", "relevant": ["INC-0030"], "query_type": "symptom_verbatim"}
+{"query": "ORDER_5121 以前怎么处理？", "relevant": ["INC-0031"], "query_type": "error_code"}
+{"query": "海外生产环境第19批告警：检索数据已存在但接口返回空结果，影响 search-service 的核心链路", "relevant": ["INC-0029"], "query_type": "symptom_verbatim"}
+{"query": "华南生产环境第42批告警：商品目录已授权用户调用接口却被拒绝，影响 catalog-service 的核心链路", "relevant": ["INC-0052"], "query_type": "symptom_verbatim"}
+{"query": "用户无法登录且网关返回超时", "relevant": ["INC-002"], "query_type": "symptom_verbatim"}
+{"query": "华南生产环境第38批告警：媒体第三方回调持续验签失败，影响 media-service 的核心链路", "relevant": ["INC-0048"], "query_type": "symptom_verbatim"}
+{"query": "华南生产环境第22批告警：分析已授权用户调用接口却被拒绝，影响 analytics-service 的核心链路", "relevant": ["INC-0032"], "query_type": "symptom_verbatim"}
+{"query": "华北生产环境第129批告警：优惠券数据已存在但接口返回空结果，影响 coupon-service 的核心链路", "relevant": ["INC-0139"], "query_type": "symptom_verbatim"}
+{"query": "高速列车受电弓液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "analytics-service 在 华北 还没到预估峰值就被限流，有没有历史案例", "relevant": ["INC-0047", "INC-0107"], "query_type": "service_symptom"}
+{"query": "华东生产环境第24批告警：优惠券大文件传输到一半被网关中断，影响 coupon-service 的核心链路", "relevant": ["INC-0034"], "query_type": "symptom_verbatim"}
+{"query": "海外 环境中，重启索引 worker 并重放失败任务 是解决过什么故障", "relevant": ["INC-0029", "INC-0049", "INC-0069", "INC-0089", "INC-0109", "INC-0129", "INC-0149"], "query_type": "resolution"}
+{"query": "高速列车受电弓燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "无人机飞控燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "气象雷达液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "member-service 在 华北 明明有数据却查不到，有没有历史案例", "relevant": ["INC-0039", "INC-0099", "INC-0159"], "query_type": "service_symptom"}
+{"query": "华南 环境中，提高网关请求体限制并增加分片上传 是解决过什么故障", "relevant": ["INC-0024", "INC-0044", "INC-0064", "INC-0084", "INC-0104", "INC-0124", "INC-0144"], "query_type": "resolution"}
+{"query": "shipping-service 在 华南 调用频繁卡住并出现超时，有没有历史案例", "relevant": ["INC-0020", "INC-0080", "INC-0140"], "query_type": "service_symptom"}
+{"query": "member-service 在 华南 大文件总是在传输中断开，有没有历史案例", "relevant": ["INC-0024", "INC-0084", "INC-0144"], "query_type": "service_symptom"}
+{"query": "气象雷达液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "search-service 在 华南 大文件总是在传输中断开，有没有历史案例", "relevant": ["INC-0044", "INC-0104"], "query_type": "service_symptom"}
+{"query": "火星探测器制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "MEMBER_5189 以前怎么处理？", "relevant": ["INC-0099"], "query_type": "error_code"}
+{"query": "华北生产环境第17批告警：认证请求被限流且业务量未达到预估峰值，影响 auth-service 的核心链路", "relevant": ["INC-0027"], "query_type": "symptom_verbatim"}
+{"query": "海外生产环境第115批告警：物流活动开始后接口错误率和延迟同时升高，影响 shipping-service 的核心链路", "relevant": ["INC-0125"], "query_type": "symptom_verbatim"}
+{"query": "notification-service 在 海外 的 热点缓存同时过期造成回源洪峰 如何排查", "relevant": ["INC-0015", "INC-0045", "INC-0075", "INC-0105", "INC-0135"], "query_type": "root_cause"}
+{"query": "智能电表制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "华东生产环境第144批告警：优惠券大文件传输到一半被网关中断，影响 coupon-service 的核心链路", "relevant": ["INC-0154"], "query_type": "symptom_verbatim"}
+{"query": "settlement-service 在 华东 调用频繁卡住并出现超时，有没有历史案例", "relevant": ["INC-0070", "INC-0130"], "query_type": "service_symptom"}
+{"query": "计费重复处理（华东第116批）", "relevant": ["INC-0126"], "query_type": "short_query"}
+{"query": "COUPON_5214 以前怎么处理？", "relevant": ["INC-0124"], "query_type": "error_code"}
+{"query": "shipping-service 在 华北 的 热点缓存同时过期造成回源洪峰 如何排查", "relevant": ["INC-0035", "INC-0065", "INC-0095", "INC-0125", "INC-0155"], "query_type": "root_cause"}
+{"query": "华南 环境中，以业务事件 ID 增加幂等记录 是解决过什么故障", "relevant": ["INC-0016", "INC-0036", "INC-0056", "INC-0076", "INC-0096", "INC-0116", "INC-0136", "INC-0156"], "query_type": "resolution"}
+{"query": "检索上传失败（华东第124批）", "relevant": ["INC-0134"], "query_type": "short_query"}
+{"query": "海外 环境中，恢复消费者并补偿积压事件 是解决过什么故障", "relevant": ["INC-0013", "INC-0033", "INC-0053", "INC-0073", "INC-0093", "INC-0113", "INC-0133", "INC-0153"], "query_type": "resolution"}
+{"query": "PAY_5161 以前怎么处理？", "relevant": ["INC-0071"], "query_type": "error_code"}
+{"query": "华南 环境中，提高网关请求体限制并增加分片上传 是解决过什么故障", "relevant": ["INC-0024", "INC-0044", "INC-0064", "INC-0084", "INC-0104", "INC-0124", "INC-0144"], "query_type": "resolution"}
+{"query": "RISK_5113 以前怎么处理？", "relevant": ["INC-0023"], "query_type": "error_code"}
+{"query": "分析配额超限（海外第127批）", "relevant": ["INC-0137"], "query_type": "short_query"}
+{"query": "华南 环境中，失效权限缓存并发布角色版本 是解决过什么故障", "relevant": ["INC-0012", "INC-0032", "INC-0052", "INC-0072", "INC-0092", "INC-0112", "INC-0132", "INC-0152"], "query_type": "resolution"}
+{"query": "catalog-service 在 海外 还没到预估峰值就被限流，有没有历史案例", "relevant": ["INC-0037", "INC-0097", "INC-0157"], "query_type": "service_symptom"}
+{"query": "海外生产环境第147批告警：商品目录请求被限流且业务量未达到预估峰值，影响 catalog-service 的核心链路", "relevant": ["INC-0157"], "query_type": "symptom_verbatim"}
+{"query": "RISK_5233 以前怎么处理？", "relevant": ["INC-0143"], "query_type": "error_code"}
+{"query": "海外 环境中，重启索引 worker 并重放失败任务 是解决过什么故障", "relevant": ["INC-0029", "INC-0049", "INC-0069", "INC-0089", "INC-0109", "INC-0129", "INC-0149"], "query_type": "resolution"}
+{"query": "NOTIFY_5120 以前怎么处理？", "relevant": ["INC-0030"], "query_type": "error_code"}
+{"query": "海外 环境中，恢复消费者并补偿积压事件 是解决过什么故障", "relevant": ["INC-0013", "INC-0033", "INC-0053", "INC-0073", "INC-0093", "INC-0113", "INC-0133", "INC-0153"], "query_type": "resolution"}
+{"query": "海外 环境中，修复消费者超时配置并重启消费组 是解决过什么故障", "relevant": ["INC-0021", "INC-0041", "INC-0061", "INC-0081", "INC-0101", "INC-0121", "INC-0141"], "query_type": "resolution"}
+{"query": "MEMBER_5159 以前怎么处理？", "relevant": ["INC-0069"], "query_type": "error_code"}
+{"query": "billing-service 在 华东 业务单据疑似被反复执行，有没有历史案例", "relevant": ["INC-0066", "INC-0126"], "query_type": "service_symptom"}
+{"query": "MEMBER_5219 以前怎么处理？", "relevant": ["INC-0129"], "query_type": "error_code"}
+{"query": "核磁共振设备燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "支付数据延迟（海外第31批）", "relevant": ["INC-0041"], "query_type": "short_query"}
+{"query": "华北生产环境第61批告警：支付运营侧数据停留在数小时前，影响 payment-service 的核心链路", "relevant": ["INC-0071"], "query_type": "symptom_verbatim"}
+{"query": "华东 环境中，提高网关请求体限制并增加分片上传 是解决过什么故障", "relevant": ["INC-0014", "INC-0034", "INC-0054", "INC-0074", "INC-0094", "INC-0114", "INC-0134", "INC-0154"], "query_type": "resolution"}
+{"query": "风控状态不同步（海外第103批）", "relevant": ["INC-0113"], "query_type": "short_query"}
+{"query": "工业机械臂制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "卫星姿态控制制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "华东 环境中，轮换证书并补偿失败回调 是解决过什么故障", "relevant": ["INC-0018", "INC-0038", "INC-0058", "INC-0078", "INC-0098", "INC-0118", "INC-0138", "INC-0158"], "query_type": "resolution"}
+{"query": "coupon-service 在 华东 的 请求体大小限制低于业务配置 如何排查", "relevant": ["INC-0034", "INC-0064", "INC-0094", "INC-0124", "INC-0154"], "query_type": "root_cause"}
+{"query": "COUPON_5184 以前怎么处理？", "relevant": ["INC-0094"], "query_type": "error_code"}
+{"query": "港口吊机制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "member-service 在 海外 的 索引任务积压导致搜索索引滞后 如何排查", "relevant": ["INC-0039", "INC-0069", "INC-0099", "INC-0129", "INC-0159"], "query_type": "root_cause"}
+{"query": "华南生产环境第98批告警：媒体第三方回调持续验签失败，影响 media-service 的核心链路", "relevant": ["INC-0108"], "query_type": "symptom_verbatim"}
+{"query": "order-service 在 华东 的 消息重复投递且缺少幂等键 如何排查", "relevant": ["INC-0016", "INC-0046", "INC-0076", "INC-0106", "INC-0136"], "query_type": "root_cause"}
+{"query": "notification-service 在 华东 的 PostgreSQL 连接池耗尽 如何排查", "relevant": ["INC-0030", "INC-0060", "INC-0090", "INC-0120", "INC-0150"], "query_type": "root_cause"}
+{"query": "华南生产环境第50批告警：通知接口 P95 延迟超过 3 秒，用户请求持续超时，影响 notification-service 的核心链路", "relevant": ["INC-0060"], "query_type": "symptom_verbatim"}
+{"query": "海底光缆燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "线上 环境中，修复消费者超时配置并重启消费组 是解决过什么故障", "relevant": ["INC-009"], "query_type": "resolution"}
+{"query": "海外生产环境第11批告警：计费运营侧数据停留在数小时前，影响 billing-service 的核心链路", "relevant": ["INC-0021"], "query_type": "symptom_verbatim"}
+{"query": "member-service 在 华北 的 索引任务积压导致搜索索引滞后 如何排查", "relevant": ["INC-0039", "INC-0069", "INC-0099", "INC-0129", "INC-0159"], "query_type": "root_cause"}
+{"query": "物流请求超时（华南第70批）", "relevant": ["INC-0080"], "query_type": "short_query"}
+{"query": "COUPON_5229 以前怎么处理？", "relevant": ["INC-0139"], "query_type": "error_code"}
+{"query": "分析权限拒绝（华南第82批）", "relevant": ["INC-0092"], "query_type": "short_query"}
+{"query": "analytics-service 在 线上 的 消费者发生分区再均衡循环 如何排查", "relevant": ["INC-009"], "query_type": "root_cause"}
+{"query": "notification-service 在 华北 的 热点缓存同时过期造成回源洪峰 如何排查", "relevant": ["INC-0015", "INC-0045", "INC-0075", "INC-0105", "INC-0135"], "query_type": "root_cause"}
+{"query": "shipping-service 在 海外 活动流量上来后接口开始雪崩，有没有历史案例", "relevant": ["INC-0065", "INC-0125"], "query_type": "service_symptom"}
+{"query": "显微镜成像制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "优惠券上传失败（华南第54批）", "relevant": ["INC-0064"], "query_type": "short_query"}
+{"query": "inventory-service 在 华东 第三方通知持续验签不通过，有没有历史案例", "relevant": ["INC-0058", "INC-0118"], "query_type": "service_symptom"}
+{"query": "海洋浮标液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "ANALYTICS_5122 以前怎么处理？", "relevant": ["INC-0032"], "query_type": "error_code"}
+{"query": "海外 环境中，恢复消费者并补偿积压事件 是解决过什么故障", "relevant": ["INC-0013", "INC-0033", "INC-0053", "INC-0073", "INC-0093", "INC-0113", "INC-0133", "INC-0153"], "query_type": "resolution"}
+{"query": "华北生产环境第101批告警：计费运营侧数据停留在数小时前，影响 billing-service 的核心链路", "relevant": ["INC-0111"], "query_type": "symptom_verbatim"}
+{"query": "华东 环境中，提高网关请求体限制并增加分片上传 是解决过什么故障", "relevant": ["INC-0014", "INC-0034", "INC-0054", "INC-0074", "INC-0094", "INC-0114", "INC-0134", "INC-0154"], "query_type": "resolution"}
+{"query": "库存状态不同步（海外第123批）", "relevant": ["INC-0133"], "query_type": "short_query"}
+{"query": "显微镜成像燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "SETTLE_5115 以前怎么处理？", "relevant": ["INC-0025"], "query_type": "error_code"}
+{"query": "notification-service 在 华北 活动流量上来后接口开始雪崩，有没有历史案例", "relevant": ["INC-0015", "INC-0075", "INC-0135"], "query_type": "service_symptom"}
+{"query": "MEDIA_5153 以前怎么处理？", "relevant": ["INC-0063"], "query_type": "error_code"}
+{"query": "member-service 在 华东 的 请求体大小限制低于业务配置 如何排查", "relevant": ["INC-0024", "INC-0054", "INC-0084", "INC-0114", "INC-0144"], "query_type": "root_cause"}
+{"query": "物流流量突增（海外第115批）", "relevant": ["INC-0125"], "query_type": "short_query"}
+{"query": "auth-service 在 华南 的 缓存的 RBAC 角色版本没有刷新 如何排查", "relevant": ["INC-0012", "INC-0042", "INC-0072", "INC-0102", "INC-0132"], "query_type": "root_cause"}
+{"query": "华北生产环境第121批告警：支付运营侧数据停留在数小时前，影响 payment-service 的核心链路", "relevant": ["INC-0131"], "query_type": "symptom_verbatim"}
+{"query": "MEDIA_5123 以前怎么处理？", "relevant": ["INC-0033"], "query_type": "error_code"}
+{"query": "华北生产环境第45批告警：结算活动开始后接口错误率和延迟同时升高，影响 settlement-service 的核心链路", "relevant": ["INC-0055"], "query_type": "symptom_verbatim"}
+{"query": "MEMBER_5234 以前怎么处理？", "relevant": ["INC-0144"], "query_type": "error_code"}
+{"query": "payment-service 在 华东 业务单据疑似被反复执行，有没有历史案例", "relevant": ["INC-0026", "INC-0086", "INC-0146"], "query_type": "service_symptom"}
+{"query": "CATALOG_5172 以前怎么处理？", "relevant": ["INC-0082"], "query_type": "error_code"}
+{"query": "会员查询为空（华北第149批）", "relevant": ["INC-0159"], "query_type": "short_query"}
+{"query": "华北 环境中，修正租户限流配置并增加告警 是解决过什么故障", "relevant": ["INC-0027", "INC-0047", "INC-0067", "INC-0087", "INC-0107", "INC-0127", "INC-0147"], "query_type": "resolution"}
+{"query": "华东 环境中，以业务事件 ID 增加幂等记录 是解决过什么故障", "relevant": ["INC-0026", "INC-0046", "INC-0066", "INC-0086", "INC-0106", "INC-0126", "INC-0146"], "query_type": "resolution"}
+{"query": "深海潜航器燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "华南 环境中，以业务事件 ID 增加幂等记录 是解决过什么故障", "relevant": ["INC-0016", "INC-0036", "INC-0056", "INC-0076", "INC-0096", "INC-0116", "INC-0136", "INC-0156"], "query_type": "resolution"}
+{"query": "member-service 在 华南 的 请求体大小限制低于业务配置 如何排查", "relevant": ["INC-0024", "INC-0054", "INC-0084", "INC-0114", "INC-0144"], "query_type": "root_cause"}
+{"query": "海底光缆制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "COUPON_5154 以前怎么处理？", "relevant": ["INC-0064"], "query_type": "error_code"}
+{"query": "ANALYTICS_5152 以前怎么处理？", "relevant": ["INC-0062"], "query_type": "error_code"}
+{"query": "华东 环境中，扩容连接池并限制重试风暴 是解决过什么故障", "relevant": ["INC-0030", "INC-0050", "INC-0070", "INC-0090", "INC-0110", "INC-0130", "INC-0150"], "query_type": "resolution"}
+{"query": "inventory-service 在 海外 的 异步消费者积压且重试策略错误 如何排查", "relevant": ["INC-0013", "INC-0043", "INC-0073", "INC-0103", "INC-0133"], "query_type": "root_cause"}
+{"query": "media-service 在 华北 的 异步消费者积压且重试策略错误 如何排查", "relevant": ["INC-0033", "INC-0063", "INC-0093", "INC-0123", "INC-0153"], "query_type": "root_cause"}
+{"query": "member-service 在 海外 明明有数据却查不到，有没有历史案例", "relevant": ["INC-0069", "INC-0129"], "query_type": "service_symptom"}
+{"query": "ORDER_5136 以前怎么处理？", "relevant": ["INC-0046"], "query_type": "error_code"}
+{"query": "民航导航系统制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "气象雷达燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "risk-service 在 华东 第三方通知持续验签不通过，有没有历史案例", "relevant": ["INC-0038", "INC-0098", "INC-0158"], "query_type": "service_symptom"}
+{"query": "RISK_5188 以前怎么处理？", "relevant": ["INC-0098"], "query_type": "error_code"}
+{"query": "华北生产环境第1批告警：支付运营侧数据停留在数小时前，影响 payment-service 的核心链路", "relevant": ["INC-0011"], "query_type": "symptom_verbatim"}
+{"query": "促销开始后下单接口延迟急剧升高", "relevant": ["INC-007"], "query_type": "symptom_verbatim"}
+{"query": "分析权限拒绝（华东第52批）", "relevant": ["INC-0062"], "query_type": "short_query"}
+{"query": "catalog-service 在 华南 已经授权的账号仍然被拦截，有没有历史案例", "relevant": ["INC-0052", "INC-0112"], "query_type": "service_symptom"}
+{"query": "COUPON_5109 以前怎么处理？", "relevant": ["INC-0019"], "query_type": "error_code"}
+{"query": "海外生产环境第55批告警：物流活动开始后接口错误率和延迟同时升高，影响 shipping-service 的核心链路", "relevant": ["INC-0065"], "query_type": "symptom_verbatim"}
+{"query": "通知请求超时（华南第110批）", "relevant": ["INC-0120"], "query_type": "short_query"}
+{"query": "海外 环境中，重启索引 worker 并重放失败任务 是解决过什么故障", "relevant": ["INC-0029", "INC-0049", "INC-0069", "INC-0089", "INC-0109", "INC-0129", "INC-0149"], "query_type": "resolution"}
+{"query": "海外生产环境第111批告警：订单运营侧数据停留在数小时前，影响 order-service 的核心链路", "relevant": ["INC-0121"], "query_type": "symptom_verbatim"}
+{"query": "NOTIFY_5195 以前怎么处理？", "relevant": ["INC-0105"], "query_type": "error_code"}
+{"query": "民航导航系统液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "catalog-service 在 华东 的 缓存的 RBAC 角色版本没有刷新 如何排查", "relevant": ["INC-0022", "INC-0052", "INC-0082", "INC-0112", "INC-0142"], "query_type": "root_cause"}
+{"query": "notification-service 在 华东 的 PostgreSQL 连接池耗尽 如何排查", "relevant": ["INC-0030", "INC-0060", "INC-0090", "INC-0120", "INC-0150"], "query_type": "root_cause"}
+{"query": "华东生产环境第124批告警：检索大文件传输到一半被网关中断，影响 search-service 的核心链路", "relevant": ["INC-0134"], "query_type": "symptom_verbatim"}
+{"query": "STOCK_5148 以前怎么处理？", "relevant": ["INC-0058"], "query_type": "error_code"}
+{"query": "payment-service 在 华南 的 消息重复投递且缺少幂等键 如何排查", "relevant": ["INC-0026", "INC-0056", "INC-0086", "INC-0116", "INC-0146"], "query_type": "root_cause"}
+{"query": "auth-service 在 华北 的 租户限流配置被错误继承 如何排查", "relevant": ["INC-0027", "INC-0057", "INC-0087", "INC-0117", "INC-0147"], "query_type": "root_cause"}
+{"query": "billing-service 在 华北 的 消费者分区再均衡循环 如何排查", "relevant": ["INC-0021", "INC-0051", "INC-0081", "INC-0111", "INC-0141"], "query_type": "root_cause"}
+{"query": "华南 环境中，失效权限缓存并发布角色版本 是解决过什么故障", "relevant": ["INC-0012", "INC-0032", "INC-0052", "INC-0072", "INC-0092", "INC-0112", "INC-0132", "INC-0152"], "query_type": "resolution"}
+{"query": "华北生产环境第33批告警：库存上游处理成功但页面状态迟迟没有更新，影响 inventory-service 的核心链路", "relevant": ["INC-0043"], "query_type": "symptom_verbatim"}
+{"query": "华北 环境中，缓存增加随机过期并预热热点 是解决过什么故障", "relevant": ["INC-0015", "INC-0035", "INC-0055", "INC-0075", "INC-0095", "INC-0115", "INC-0135", "INC-0155"], "query_type": "resolution"}
+{"query": "华北 环境中，重启索引 worker 并重放失败任务 是解决过什么故障", "relevant": ["INC-0019", "INC-0039", "INC-0059", "INC-0079", "INC-0099", "INC-0119", "INC-0139", "INC-0159"], "query_type": "resolution"}
+{"query": "华东 环境中，失效权限缓存并发布角色版本 是解决过什么故障", "relevant": ["INC-0022", "INC-0042", "INC-0062", "INC-0082", "INC-0102", "INC-0122", "INC-0142"], "query_type": "resolution"}
+{"query": "shipping-service 在 华北 活动流量上来后接口开始雪崩，有没有历史案例", "relevant": ["INC-0035", "INC-0095", "INC-0155"], "query_type": "service_symptom"}
+{"query": "激光测距仪燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "billing-service 在 海外 看板数据滞后了很久，有没有历史案例", "relevant": ["INC-0021", "INC-0081", "INC-0141"], "query_type": "service_symptom"}
+{"query": "MEMBER_5204 以前怎么处理？", "relevant": ["INC-0114"], "query_type": "error_code"}
+{"query": "风控状态不同步（华北第73批）", "relevant": ["INC-0083"], "query_type": "short_query"}
+{"query": "search-service 在 华南 的 请求体大小限制低于业务配置 如何排查", "relevant": ["INC-0014", "INC-0044", "INC-0074", "INC-0104", "INC-0134"], "query_type": "root_cause"}
+{"query": "ORDER_5166 以前怎么处理？", "relevant": ["INC-0076"], "query_type": "error_code"}
+{"query": "search-service 在 海外 明明有数据却查不到，有没有历史案例", "relevant": ["INC-0029", "INC-0089", "INC-0149"], "query_type": "service_symptom"}
+{"query": "民航导航系统液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "线上 环境中，使用业务事件 ID 作为供应商幂等键 是解决过什么故障", "relevant": ["INC-008"], "query_type": "resolution"}
+{"query": "海外 环境中，恢复消费者并补偿积压事件 是解决过什么故障", "relevant": ["INC-0013", "INC-0033", "INC-0053", "INC-0073", "INC-0093", "INC-0113", "INC-0133", "INC-0153"], "query_type": "resolution"}
+{"query": "notification-service 在 海外 的 热点缓存同时过期造成回源洪峰 如何排查", "relevant": ["INC-0015", "INC-0045", "INC-0075", "INC-0105", "INC-0135"], "query_type": "root_cause"}
+{"query": "AUTH_5237 以前怎么处理？", "relevant": ["INC-0147"], "query_type": "error_code"}
+{"query": "华东生产环境第4批告警：检索大文件传输到一半被网关中断，影响 search-service 的核心链路", "relevant": ["INC-0014"], "query_type": "symptom_verbatim"}
+{"query": "深海潜航器液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "通知流量突增（华北第125批）", "relevant": ["INC-0135"], "query_type": "short_query"}
+{"query": "notification-service 在 华东 调用频繁卡住并出现超时，有没有历史案例", "relevant": ["INC-0030", "INC-0090", "INC-0150"], "query_type": "service_symptom"}
+{"query": "火星探测器液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "billing-service 在 华南 业务单据疑似被反复执行，有没有历史案例", "relevant": ["INC-0036", "INC-0096", "INC-0156"], "query_type": "service_symptom"}
+{"query": "通知请求超时（华东第140批）", "relevant": ["INC-0150"], "query_type": "short_query"}
+{"query": "COUPON_5006 以前怎么处理？", "relevant": ["INC-006"], "query_type": "error_code"}
+{"query": "华北生产环境第13批告警：风控上游处理成功但页面状态迟迟没有更新，影响 risk-service 的核心链路", "relevant": ["INC-0023"], "query_type": "symptom_verbatim"}
+{"query": "结算流量突增（海外第15批）", "relevant": ["INC-0025"], "query_type": "short_query"}
+{"query": "华北 环境中，恢复消费者并补偿积压事件 是解决过什么故障", "relevant": ["INC-0023", "INC-0043", "INC-0063", "INC-0083", "INC-0103", "INC-0123", "INC-0143"], "query_type": "resolution"}
+{"query": "海外生产环境第135批告警：结算活动开始后接口错误率和延迟同时升高，影响 settlement-service 的核心链路", "relevant": ["INC-0145"], "query_type": "symptom_verbatim"}
+{"query": "billing-service 在 海外 的 消费者分区再均衡循环 如何排查", "relevant": ["INC-0021", "INC-0051", "INC-0081", "INC-0111", "INC-0141"], "query_type": "root_cause"}
+{"query": "华南 环境中，提高网关请求体限制并增加分片上传 是解决过什么故障", "relevant": ["INC-0024", "INC-0044", "INC-0064", "INC-0084", "INC-0104", "INC-0124", "INC-0144"], "query_type": "resolution"}
+{"query": "优惠券查询为空（海外第39批）", "relevant": ["INC-0049"], "query_type": "short_query"}
+{"query": "SETTLE_5160 以前怎么处理？", "relevant": ["INC-0070"], "query_type": "error_code"}
+{"query": "铁路信号灯液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "华北生产环境第5批告警：通知活动开始后接口错误率和延迟同时升高，影响 notification-service 的核心链路", "relevant": ["INC-0015"], "query_type": "symptom_verbatim"}
+{"query": "auth-service 在 线上 的 Redis 连接数达到上限 如何排查", "relevant": ["INC-002"], "query_type": "root_cause"}
+{"query": "通知请求超时（华东第80批）", "relevant": ["INC-0090"], "query_type": "short_query"}
+{"query": "支付数据延迟（华北第121批）", "relevant": ["INC-0131"], "query_type": "short_query"}
+{"query": "搜索结果为空", "relevant": ["INC-005"], "query_type": "short_query"}
+{"query": "华东生产环境第44批告警：会员大文件传输到一半被网关中断，影响 member-service 的核心链路", "relevant": ["INC-0054"], "query_type": "symptom_verbatim"}
+{"query": "华南 环境中，以业务事件 ID 增加幂等记录 是解决过什么故障", "relevant": ["INC-0016", "INC-0036", "INC-0056", "INC-0076", "INC-0096", "INC-0116", "INC-0136", "INC-0156"], "query_type": "resolution"}
+{"query": "SEARCH_2004 以前怎么处理？", "relevant": ["INC-005"], "query_type": "error_code"}
+{"query": "coupon-service 在 华东 大文件总是在传输中断开，有没有历史案例", "relevant": ["INC-0034", "INC-0094", "INC-0154"], "query_type": "service_symptom"}
+{"query": "MEDIA_5138 以前怎么处理？", "relevant": ["INC-0048"], "query_type": "error_code"}
+{"query": "risk-service 在 华东 的 回调证书过期 如何排查", "relevant": ["INC-0038", "INC-0068", "INC-0098", "INC-0128", "INC-0158"], "query_type": "root_cause"}
+{"query": "STOCK_5193 以前怎么处理？", "relevant": ["INC-0103"], "query_type": "error_code"}
+{"query": "检索上传失败（华南第34批）", "relevant": ["INC-0044"], "query_type": "short_query"}
+{"query": "analytics-service 在 华北 的 租户限流配置被错误继承 如何排查", "relevant": ["INC-0017", "INC-0047", "INC-0077", "INC-0107", "INC-0137"], "query_type": "root_cause"}
+{"query": "认证配额超限（华北第17批）", "relevant": ["INC-0027"], "query_type": "short_query"}
+{"query": "商品存在但搜索不到", "relevant": ["INC-005"], "query_type": "symptom_verbatim"}
+{"query": "华东 环境中，以业务事件 ID 增加幂等记录 是解决过什么故障", "relevant": ["INC-0026", "INC-0046", "INC-0066", "INC-0086", "INC-0106", "INC-0126", "INC-0146"], "query_type": "resolution"}
+{"query": "billing-service 在 华南 的 消息重复投递且缺少幂等键 如何排查", "relevant": ["INC-0036", "INC-0066", "INC-0096", "INC-0126", "INC-0156"], "query_type": "root_cause"}
+{"query": "农业灌溉阀门制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "显微镜成像燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "华南 环境中，扩容连接池并限制重试风暴 是解决过什么故障", "relevant": ["INC-0020", "INC-0040", "INC-0060", "INC-0080", "INC-0100", "INC-0120", "INC-0140", "INC-0160"], "query_type": "resolution"}
+{"query": "search-service 在 线上 的 索引任务积压 如何排查", "relevant": ["INC-005"], "query_type": "root_cause"}
+{"query": "华北 环境中，恢复消费者并补偿积压事件 是解决过什么故障", "relevant": ["INC-0023", "INC-0043", "INC-0063", "INC-0083", "INC-0103", "INC-0123", "INC-0143"], "query_type": "resolution"}
+{"query": "工业机械臂液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "华南 环境中，扩容连接池并限制重试风暴 是解决过什么故障", "relevant": ["INC-0020", "INC-0040", "INC-0060", "INC-0080", "INC-0100", "INC-0120", "INC-0140", "INC-0160"], "query_type": "resolution"}
+{"query": "华北 环境中，缓存增加随机过期并预热热点 是解决过什么故障", "relevant": ["INC-0015", "INC-0035", "INC-0055", "INC-0075", "INC-0095", "INC-0115", "INC-0135", "INC-0155"], "query_type": "resolution"}
+{"query": "order-service 在 华南 业务单据疑似被反复执行，有没有历史案例", "relevant": ["INC-0016", "INC-0076", "INC-0136"], "query_type": "service_symptom"}
+{"query": "火星探测器燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "华北生产环境第25批告警：物流活动开始后接口错误率和延迟同时升高，影响 shipping-service 的核心链路", "relevant": ["INC-0035"], "query_type": "symptom_verbatim"}
+{"query": "shipping-service 在 华东 的 PostgreSQL 连接池耗尽 如何排查", "relevant": ["INC-0020", "INC-0050", "INC-0080", "INC-0110", "INC-0140"], "query_type": "root_cause"}
+{"query": "华东 环境中，以业务事件 ID 增加幂等记录 是解决过什么故障", "relevant": ["INC-0026", "INC-0046", "INC-0066", "INC-0086", "INC-0106", "INC-0126", "INC-0146"], "query_type": "resolution"}
+{"query": "太阳能逆变器液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "UPLOAD_4130 以前怎么处理？", "relevant": ["INC-004"], "query_type": "error_code"}
+{"query": "SHIP_5155 以前怎么处理？", "relevant": ["INC-0065"], "query_type": "error_code"}
+{"query": "华东生产环境第92批告警：认证已授权用户调用接口却被拒绝，影响 auth-service 的核心链路", "relevant": ["INC-0102"], "query_type": "symptom_verbatim"}
+{"query": "BILL_5201 以前怎么处理？", "relevant": ["INC-0111"], "query_type": "error_code"}
+{"query": "太阳能逆变器液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "华北生产环境第21批告警：订单运营侧数据停留在数小时前，影响 order-service 的核心链路", "relevant": ["INC-0031"], "query_type": "symptom_verbatim"}
+{"query": "认证权限拒绝（华南第62批）", "relevant": ["INC-0072"], "query_type": "short_query"}
+{"query": "订单数据延迟（华北第21批）", "relevant": ["INC-0031"], "query_type": "short_query"}
+{"query": "分析权限拒绝（华南第22批）", "relevant": ["INC-0032"], "query_type": "short_query"}
+{"query": "order-service 在 华北 的 消费者分区再均衡循环 如何排查", "relevant": ["INC-0031", "INC-0061", "INC-0091", "INC-0121", "INC-0151"], "query_type": "root_cause"}
+{"query": "media-service 在 华南 第三方通知持续验签不通过，有没有历史案例", "relevant": ["INC-0048", "INC-0108"], "query_type": "service_symptom"}
+{"query": "华北 环境中，缓存增加随机过期并预热热点 是解决过什么故障", "relevant": ["INC-0015", "INC-0035", "INC-0055", "INC-0075", "INC-0095", "INC-0115", "INC-0135", "INC-0155"], "query_type": "resolution"}
+{"query": "inventory-service 在 海外 的 异步消费者积压且重试策略错误 如何排查", "relevant": ["INC-0013", "INC-0043", "INC-0073", "INC-0103", "INC-0133"], "query_type": "root_cause"}
+{"query": "ANALYTICS_5167 以前怎么处理？", "relevant": ["INC-0077"], "query_type": "error_code"}
+{"query": "工业机械臂燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "华东生产环境第68批告警：媒体第三方回调持续验签失败，影响 media-service 的核心链路", "relevant": ["INC-0078"], "query_type": "symptom_verbatim"}
+{"query": "库存回调失败（华南第78批）", "relevant": ["INC-0088"], "query_type": "short_query"}
+{"query": "search-service 在 华东 的 请求体大小限制低于业务配置 如何排查", "relevant": ["INC-0014", "INC-0044", "INC-0074", "INC-0104", "INC-0134"], "query_type": "root_cause"}
+{"query": "SETTLE_5190 以前怎么处理？", "relevant": ["INC-0100"], "query_type": "error_code"}
+{"query": "支付重复处理（华南第46批）", "relevant": ["INC-0056"], "query_type": "short_query"}
+{"query": "settlement-service 在 华南 的 PostgreSQL 连接池耗尽 如何排查", "relevant": ["INC-0040", "INC-0070", "INC-0100", "INC-0130", "INC-0160"], "query_type": "root_cause"}
+{"query": "refund-service 在 线上 退款状态不一致，有没有历史案例", "relevant": ["INC-010"], "query_type": "service_symptom"}
+{"query": "深海潜航器制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "海外 环境中，缓存增加随机过期并预热热点 是解决过什么故障", "relevant": ["INC-0025", "INC-0045", "INC-0065", "INC-0085", "INC-0105", "INC-0125", "INC-0145"], "query_type": "resolution"}
+{"query": "风力发电机液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "billing-service 在 海外 看板数据滞后了很久，有没有历史案例", "relevant": ["INC-0021", "INC-0081", "INC-0141"], "query_type": "service_symptom"}
+{"query": "catalog-service 在 华东 已经授权的账号仍然被拦截，有没有历史案例", "relevant": ["INC-0022", "INC-0082", "INC-0142"], "query_type": "service_symptom"}
+{"query": "会员查询为空（海外第119批）", "relevant": ["INC-0129"], "query_type": "short_query"}
+{"query": "通知流量突增（华北第65批）", "relevant": ["INC-0075"], "query_type": "short_query"}
+{"query": "结算流量突增（华北第105批）", "relevant": ["INC-0115"], "query_type": "short_query"}
+{"query": "铁路信号灯液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "coupon-service 在 华东 大文件总是在传输中断开，有没有历史案例", "relevant": ["INC-0034", "INC-0094", "INC-0154"], "query_type": "service_symptom"}
+{"query": "商品目录配额超限（海外第147批）", "relevant": ["INC-0157"], "query_type": "short_query"}
+{"query": "payment-service 在 华北 的 消费者分区再均衡循环 如何排查", "relevant": ["INC-0011", "INC-0041", "INC-0071", "INC-0101", "INC-0131"], "query_type": "root_cause"}
+{"query": "铁路信号灯燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "CATALOG_5217 以前怎么处理？", "relevant": ["INC-0127"], "query_type": "error_code"}
+{"query": "华东生产环境第12批告警：商品目录已授权用户调用接口却被拒绝，影响 catalog-service 的核心链路", "relevant": ["INC-0022"], "query_type": "symptom_verbatim"}
+{"query": "order-service 在 线上 订单创建雪崩，有没有历史案例", "relevant": ["INC-007"], "query_type": "service_symptom"}
+{"query": "智能电表液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "payment-service 在 华北 看板数据滞后了很久，有没有历史案例", "relevant": ["INC-0011", "INC-0071", "INC-0131"], "query_type": "service_symptom"}
+{"query": "认证配额超限（华北第137批）", "relevant": ["INC-0147"], "query_type": "short_query"}
+{"query": "COUPON_5139 以前怎么处理？", "relevant": ["INC-0049"], "query_type": "error_code"}
+{"query": "inventory-service 在 华北 的 异步消费者积压且重试策略错误 如何排查", "relevant": ["INC-0013", "INC-0043", "INC-0073", "INC-0103", "INC-0133"], "query_type": "root_cause"}
+{"query": "analytics-service 在 华南 已经授权的账号仍然被拦截，有没有历史案例", "relevant": ["INC-0032", "INC-0092", "INC-0152"], "query_type": "service_symptom"}
+{"query": "billing-service 在 华南 业务单据疑似被反复执行，有没有历史案例", "relevant": ["INC-0036", "INC-0096", "INC-0156"], "query_type": "service_symptom"}
+{"query": "太阳能逆变器制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "华东 环境中，轮换证书并补偿失败回调 是解决过什么故障", "relevant": ["INC-0018", "INC-0038", "INC-0058", "INC-0078", "INC-0098", "INC-0118", "INC-0138", "INC-0158"], "query_type": "resolution"}
+{"query": "华东生产环境第112批告警：分析已授权用户调用接口却被拒绝，影响 analytics-service 的核心链路", "relevant": ["INC-0122"], "query_type": "symptom_verbatim"}
+{"query": "华北 环境中，重启索引 worker 并重放失败任务 是解决过什么故障", "relevant": ["INC-0019", "INC-0039", "INC-0059", "INC-0079", "INC-0099", "INC-0119", "INC-0139", "INC-0159"], "query_type": "resolution"}
+{"query": "气象雷达燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "订单重复处理（华东第36批）", "relevant": ["INC-0046"], "query_type": "short_query"}
+{"query": "billing-service 在 华东 业务单据疑似被反复执行，有没有历史案例", "relevant": ["INC-0066", "INC-0126"], "query_type": "service_symptom"}
+{"query": "billing-service 在 华北 看板数据滞后了很久，有没有历史案例", "relevant": ["INC-0051", "INC-0111"], "query_type": "service_symptom"}
+{"query": "华东 环境中，扩容连接池并限制重试风暴 是解决过什么故障", "relevant": ["INC-0030", "INC-0050", "INC-0070", "INC-0090", "INC-0110", "INC-0130", "INC-0150"], "query_type": "resolution"}
+{"query": "智能电表燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "退款成功但订单仍显示退款处理中", "relevant": ["INC-010"], "query_type": "symptom_verbatim"}
+{"query": "notification-service 在 华北 活动流量上来后接口开始雪崩，有没有历史案例", "relevant": ["INC-0015", "INC-0075", "INC-0135"], "query_type": "service_symptom"}
+{"query": "华北 环境中，缓存增加随机过期并预热热点 是解决过什么故障", "relevant": ["INC-0015", "INC-0035", "INC-0055", "INC-0075", "INC-0095", "INC-0115", "INC-0135", "INC-0155"], "query_type": "resolution"}
+{"query": "活动优惠券领取数量超过预算", "relevant": ["INC-006"], "query_type": "symptom_verbatim"}
+{"query": "inventory-service 在 海外 上游完成后页面结果却没有刷新，有没有历史案例", "relevant": ["INC-0013", "INC-0073", "INC-0133"], "query_type": "service_symptom"}
+{"query": "退款状态不一致", "relevant": ["INC-010"], "query_type": "short_query"}
+{"query": "支付数据延迟（海外第91批）", "relevant": ["INC-0101"], "query_type": "short_query"}
+{"query": "结算请求超时（华东第60批）", "relevant": ["INC-0070"], "query_type": "short_query"}
+{"query": "华南生产环境第34批告警：检索大文件传输到一半被网关中断，影响 search-service 的核心链路", "relevant": ["INC-0044"], "query_type": "symptom_verbatim"}
+{"query": "auth-service 在 华东 的 缓存的 RBAC 角色版本没有刷新 如何排查", "relevant": ["INC-0012", "INC-0042", "INC-0072", "INC-0102", "INC-0132"], "query_type": "root_cause"}
+{"query": "member-service 在 海外 明明有数据却查不到，有没有历史案例", "relevant": ["INC-0069", "INC-0129"], "query_type": "service_symptom"}
+{"query": "华北 环境中，缓存增加随机过期并预热热点 是解决过什么故障", "relevant": ["INC-0015", "INC-0035", "INC-0055", "INC-0075", "INC-0095", "INC-0115", "INC-0135", "INC-0155"], "query_type": "resolution"}
+{"query": "SETTLE_5145 以前怎么处理？", "relevant": ["INC-0055"], "query_type": "error_code"}
+{"query": "海外 环境中，恢复消费者并补偿积压事件 是解决过什么故障", "relevant": ["INC-0013", "INC-0033", "INC-0053", "INC-0073", "INC-0093", "INC-0113", "INC-0133", "INC-0153"], "query_type": "resolution"}
+{"query": "search-service 在 海外 的 索引任务积压导致搜索索引滞后 如何排查", "relevant": ["INC-0029", "INC-0059", "INC-0089", "INC-0119", "INC-0149"], "query_type": "root_cause"}
+{"query": "华东 环境中，以业务事件 ID 增加幂等记录 是解决过什么故障", "relevant": ["INC-0026", "INC-0046", "INC-0066", "INC-0086", "INC-0106", "INC-0126", "INC-0146"], "query_type": "resolution"}
+{"query": "settlement-service 在 华北 活动流量上来后接口开始雪崩，有没有历史案例", "relevant": ["INC-0055", "INC-0115"], "query_type": "service_symptom"}
+{"query": "billing-service 在 海外 看板数据滞后了很久，有没有历史案例", "relevant": ["INC-0021", "INC-0081", "INC-0141"], "query_type": "service_symptom"}
+{"query": "RISK_5158 以前怎么处理？", "relevant": ["INC-0068"], "query_type": "error_code"}
+{"query": "海洋浮标燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "SEARCH_5194 以前怎么处理？", "relevant": ["INC-0104"], "query_type": "error_code"}
+{"query": "媒体回调失败（华东第128批）", "relevant": ["INC-0138"], "query_type": "short_query"}
+{"query": "RISK_5203 以前怎么处理？", "relevant": ["INC-0113"], "query_type": "error_code"}
+{"query": "深海潜航器制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "订单数据延迟（海外第111批）", "relevant": ["INC-0121"], "query_type": "short_query"}
+{"query": "auth-service 在 华北 的 租户限流配置被错误继承 如何排查", "relevant": ["INC-0027", "INC-0057", "INC-0087", "INC-0117", "INC-0147"], "query_type": "root_cause"}
+{"query": "民航导航系统燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "海外生产环境第95批告警：通知活动开始后接口错误率和延迟同时升高，影响 notification-service 的核心链路", "relevant": ["INC-0105"], "query_type": "symptom_verbatim"}
+{"query": "海外生产环境第35批告警：通知活动开始后接口错误率和延迟同时升高，影响 notification-service 的核心链路", "relevant": ["INC-0045"], "query_type": "symptom_verbatim"}
+{"query": "search-service 在 华东 大文件总是在传输中断开，有没有历史案例", "relevant": ["INC-0014", "INC-0074", "INC-0134"], "query_type": "service_symptom"}
+{"query": "media-service 在 华东 第三方通知持续验签不通过，有没有历史案例", "relevant": ["INC-0018", "INC-0078", "INC-0138"], "query_type": "service_symptom"}
+{"query": "payment-service 在 华东 业务单据疑似被反复执行，有没有历史案例", "relevant": ["INC-0026", "INC-0086", "INC-0146"], "query_type": "service_symptom"}
+{"query": "inventory-service 在 华南 的 回调证书过期 如何排查", "relevant": ["INC-0028", "INC-0058", "INC-0088", "INC-0118", "INC-0148"], "query_type": "root_cause"}
+{"query": "ORDER_5241 以前怎么处理？", "relevant": ["INC-0151"], "query_type": "error_code"}
+{"query": "卫星姿态控制制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "物流请求超时（华南第10批）", "relevant": ["INC-0020"], "query_type": "short_query"}
+{"query": "风力发电机液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "物流流量突增（华北第85批）", "relevant": ["INC-0095"], "query_type": "short_query"}
+{"query": "海外 环境中，缓存增加随机过期并预热热点 是解决过什么故障", "relevant": ["INC-0025", "INC-0045", "INC-0065", "INC-0085", "INC-0105", "INC-0125", "INC-0145"], "query_type": "resolution"}
+{"query": "refund-service 在 线上 的 回调签名证书过期 如何排查", "relevant": ["INC-010"], "query_type": "root_cause"}
+{"query": "SEARCH_5224 以前怎么处理？", "relevant": ["INC-0134"], "query_type": "error_code"}
+{"query": "华南 环境中，以业务事件 ID 增加幂等记录 是解决过什么故障", "relevant": ["INC-0016", "INC-0036", "INC-0056", "INC-0076", "INC-0096", "INC-0116", "INC-0136", "INC-0156"], "query_type": "resolution"}
+{"query": "media-service 在 线上 的 网关请求体限制小于业务上限 如何排查", "relevant": ["INC-004"], "query_type": "root_cause"}
+{"query": "地震监测仪液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "海外 环境中，修正租户限流配置并增加告警 是解决过什么故障", "relevant": ["INC-0017", "INC-0037", "INC-0057", "INC-0077", "INC-0097", "INC-0117", "INC-0137", "INC-0157"], "query_type": "resolution"}
+{"query": "认证权限拒绝（华东第92批）", "relevant": ["INC-0102"], "query_type": "short_query"}
+{"query": "海外 环境中，修正租户限流配置并增加告警 是解决过什么故障", "relevant": ["INC-0017", "INC-0037", "INC-0057", "INC-0077", "INC-0097", "INC-0117", "INC-0137", "INC-0157"], "query_type": "resolution"}
+{"query": "inventory-service 在 华南 第三方通知持续验签不通过，有没有历史案例", "relevant": ["INC-0028", "INC-0088", "INC-0148"], "query_type": "service_symptom"}
+{"query": "AUTH_5132 以前怎么处理？", "relevant": ["INC-0042"], "query_type": "error_code"}
+{"query": "ANALYTICS_5137 以前怎么处理？", "relevant": ["INC-0047"], "query_type": "error_code"}
+{"query": "MEMBER_5114 以前怎么处理？", "relevant": ["INC-0024"], "query_type": "error_code"}
+{"query": "search-service 在 华北 的 索引任务积压导致搜索索引滞后 如何排查", "relevant": ["INC-0029", "INC-0059", "INC-0089", "INC-0119", "INC-0149"], "query_type": "root_cause"}
+{"query": "华北生产环境第93批告警：库存上游处理成功但页面状态迟迟没有更新，影响 inventory-service 的核心链路", "relevant": ["INC-0103"], "query_type": "symptom_verbatim"}
+{"query": "coupon-service 在 海外 明明有数据却查不到，有没有历史案例", "relevant": ["INC-0049", "INC-0109"], "query_type": "service_symptom"}
+{"query": "海外 环境中，修复消费者超时配置并重启消费组 是解决过什么故障", "relevant": ["INC-0021", "INC-0041", "INC-0061", "INC-0081", "INC-0101", "INC-0121", "INC-0141"], "query_type": "resolution"}
+{"query": "华东 环境中，以业务事件 ID 增加幂等记录 是解决过什么故障", "relevant": ["INC-0026", "INC-0046", "INC-0066", "INC-0086", "INC-0106", "INC-0126", "INC-0146"], "query_type": "resolution"}
+{"query": "risk-service 在 华北 的 异步消费者积压且重试策略错误 如何排查", "relevant": ["INC-0023", "INC-0053", "INC-0083", "INC-0113", "INC-0143"], "query_type": "root_cause"}
+{"query": "AUTH_5102 以前怎么处理？", "relevant": ["INC-0012"], "query_type": "error_code"}
+{"query": "华南 环境中，失效权限缓存并发布角色版本 是解决过什么故障", "relevant": ["INC-0012", "INC-0032", "INC-0052", "INC-0072", "INC-0092", "INC-0112", "INC-0132", "INC-0152"], "query_type": "resolution"}
+{"query": "结算请求超时（华东第120批）", "relevant": ["INC-0130"], "query_type": "short_query"}
+{"query": "settlement-service 在 海外 活动流量上来后接口开始雪崩，有没有历史案例", "relevant": ["INC-0025", "INC-0085", "INC-0145"], "query_type": "service_symptom"}
+{"query": "catalog-service 在 华北 的 租户限流配置被错误继承 如何排查", "relevant": ["INC-0037", "INC-0067", "INC-0097", "INC-0127", "INC-0157"], "query_type": "root_cause"}
+{"query": "CATALOG_5142 以前怎么处理？", "relevant": ["INC-0052"], "query_type": "error_code"}
+{"query": "CATALOG_5187 以前怎么处理？", "relevant": ["INC-0097"], "query_type": "error_code"}
+{"query": "media-service 在 华北 的 异步消费者积压且重试策略错误 如何排查", "relevant": ["INC-0033", "INC-0063", "INC-0093", "INC-0123", "INC-0153"], "query_type": "root_cause"}
+{"query": "华南 环境中，扩容连接池并限制重试风暴 是解决过什么故障", "relevant": ["INC-0020", "INC-0040", "INC-0060", "INC-0080", "INC-0100", "INC-0120", "INC-0140", "INC-0160"], "query_type": "resolution"}
+{"query": "线上 环境中，恢复索引 worker 并重放失败任务 是解决过什么故障", "relevant": ["INC-005"], "query_type": "resolution"}
+{"query": "卫星姿态控制液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "shipping-service 在 华南 的 PostgreSQL 连接池耗尽 如何排查", "relevant": ["INC-0020", "INC-0050", "INC-0080", "INC-0110", "INC-0140"], "query_type": "root_cause"}
+{"query": "高速列车受电弓液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "shipping-service 在 华北 活动流量上来后接口开始雪崩，有没有历史案例", "relevant": ["INC-0035", "INC-0095", "INC-0155"], "query_type": "service_symptom"}
+{"query": "华东生产环境第28批告警：风控第三方回调持续验签失败，影响 risk-service 的核心链路", "relevant": ["INC-0038"], "query_type": "symptom_verbatim"}
+{"query": "火星探测器液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "华南 环境中，以业务事件 ID 增加幂等记录 是解决过什么故障", "relevant": ["INC-0016", "INC-0036", "INC-0056", "INC-0076", "INC-0096", "INC-0116", "INC-0136", "INC-0156"], "query_type": "resolution"}
+{"query": "risk-service 在 华东 的 回调证书过期 如何排查", "relevant": ["INC-0038", "INC-0068", "INC-0098", "INC-0128", "INC-0158"], "query_type": "root_cause"}
+{"query": "分析配额超限（海外第67批）", "relevant": ["INC-0077"], "query_type": "short_query"}
+{"query": "analytics-service 在 海外 还没到预估峰值就被限流，有没有历史案例", "relevant": ["INC-0017", "INC-0077", "INC-0137"], "query_type": "service_symptom"}
+{"query": "MEDIA_5108 以前怎么处理？", "relevant": ["INC-0018"], "query_type": "error_code"}
+{"query": "华南 环境中，失效权限缓存并发布角色版本 是解决过什么故障", "relevant": ["INC-0012", "INC-0032", "INC-0052", "INC-0072", "INC-0092", "INC-0112", "INC-0132", "INC-0152"], "query_type": "resolution"}
+{"query": "auth-service 在 华东 的 缓存的 RBAC 角色版本没有刷新 如何排查", "relevant": ["INC-0012", "INC-0042", "INC-0072", "INC-0102", "INC-0132"], "query_type": "root_cause"}
+{"query": "ORDER_5151 以前怎么处理？", "relevant": ["INC-0061"], "query_type": "error_code"}
+{"query": "media-service 在 华东 第三方通知持续验签不通过，有没有历史案例", "relevant": ["INC-0018", "INC-0078", "INC-0138"], "query_type": "service_symptom"}
+{"query": "inventory-service 在 华东 第三方通知持续验签不通过，有没有历史案例", "relevant": ["INC-0058", "INC-0118"], "query_type": "service_symptom"}
+{"query": "卫星姿态控制燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "SETTLE_5250 以前怎么处理？", "relevant": ["INC-0160"], "query_type": "error_code"}
+{"query": "coupon-service 在 华南 的 请求体大小限制低于业务配置 如何排查", "relevant": ["INC-0034", "INC-0064", "INC-0094", "INC-0124", "INC-0154"], "query_type": "root_cause"}
+{"query": "analytics-service 在 华东 已经授权的账号仍然被拦截，有没有历史案例", "relevant": ["INC-0062", "INC-0122"], "query_type": "service_symptom"}
+{"query": "member-service 在 华东 大文件总是在传输中断开，有没有历史案例", "relevant": ["INC-0054", "INC-0114"], "query_type": "service_symptom"}
+{"query": "华南 环境中，扩容连接池并限制重试风暴 是解决过什么故障", "relevant": ["INC-0020", "INC-0040", "INC-0060", "INC-0080", "INC-0100", "INC-0120", "INC-0140", "INC-0160"], "query_type": "resolution"}
+{"query": "华东生产环境第36批告警：订单同一业务单据被处理两次，出现重复扣款或重复通知，影响 order-service 的核心链路", "relevant": ["INC-0046"], "query_type": "symptom_verbatim"}
+{"query": "华东 环境中，扩容连接池并限制重试风暴 是解决过什么故障", "relevant": ["INC-0030", "INC-0050", "INC-0070", "INC-0090", "INC-0110", "INC-0130", "INC-0150"], "query_type": "resolution"}
+{"query": "农业灌溉阀门燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "BILL_5141 以前怎么处理？", "relevant": ["INC-0051"], "query_type": "error_code"}
+{"query": "线上 环境中，以 order_id 建立消费幂等记录 是解决过什么故障", "relevant": ["INC-003"], "query_type": "resolution"}
+{"query": "火星探测器液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "PAY_5146 以前怎么处理？", "relevant": ["INC-0056"], "query_type": "error_code"}
+{"query": "notification-service 在 华南 的 PostgreSQL 连接池耗尽 如何排查", "relevant": ["INC-0030", "INC-0060", "INC-0090", "INC-0120", "INC-0150"], "query_type": "root_cause"}
+{"query": "港口吊机燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "火星探测器制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "海外 环境中，缓存增加随机过期并预热热点 是解决过什么故障", "relevant": ["INC-0025", "INC-0045", "INC-0065", "INC-0085", "INC-0105", "INC-0125", "INC-0145"], "query_type": "resolution"}
+{"query": "检索查询为空（海外第139批）", "relevant": ["INC-0149"], "query_type": "short_query"}
+{"query": "气象雷达液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "核磁共振设备制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "海外生产环境第59批告警：会员数据已存在但接口返回空结果，影响 member-service 的核心链路", "relevant": ["INC-0069"], "query_type": "symptom_verbatim"}
+{"query": "华南生产环境第134批告警：会员大文件传输到一半被网关中断，影响 member-service 的核心链路", "relevant": ["INC-0144"], "query_type": "symptom_verbatim"}
+{"query": "media-service 在 华北 上游完成后页面结果却没有刷新，有没有历史案例", "relevant": ["INC-0063", "INC-0123"], "query_type": "service_symptom"}
+{"query": "华北 环境中，修复消费者超时配置并重启消费组 是解决过什么故障", "relevant": ["INC-0011", "INC-0031", "INC-0051", "INC-0071", "INC-0091", "INC-0111", "INC-0131", "INC-0151"], "query_type": "resolution"}
+{"query": "华北生产环境第113批告警：媒体上游处理成功但页面状态迟迟没有更新，影响 media-service 的核心链路", "relevant": ["INC-0123"], "query_type": "symptom_verbatim"}
+{"query": "海外生产环境第75批告警：结算活动开始后接口错误率和延迟同时升高，影响 settlement-service 的核心链路", "relevant": ["INC-0085"], "query_type": "symptom_verbatim"}
+{"query": "风力发电机燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "付款成功后订单状态长时间未更新", "relevant": ["INC-001"], "query_type": "symptom_verbatim"}
+{"query": "inventory-service 在 华南 的 回调证书过期 如何排查", "relevant": ["INC-0028", "INC-0058", "INC-0088", "INC-0118", "INC-0148"], "query_type": "root_cause"}
+{"query": "华东生产环境第136批告警：支付同一业务单据被处理两次，出现重复扣款或重复通知，影响 payment-service 的核心链路", "relevant": ["INC-0146"], "query_type": "symptom_verbatim"}
+{"query": "auth-service 在 华北 的 租户限流配置被错误继承 如何排查", "relevant": ["INC-0027", "INC-0057", "INC-0087", "INC-0117", "INC-0147"], "query_type": "root_cause"}
+{"query": "RISK_5173 以前怎么处理？", "relevant": ["INC-0083"], "query_type": "error_code"}
+{"query": "search-service 在 华东 大文件总是在传输中断开，有没有历史案例", "relevant": ["INC-0014", "INC-0074", "INC-0134"], "query_type": "service_symptom"}
+{"query": "coupon-service 在 华北 明明有数据却查不到，有没有历史案例", "relevant": ["INC-0019", "INC-0079", "INC-0139"], "query_type": "service_symptom"}
+{"query": "商品目录权限拒绝（华南第42批）", "relevant": ["INC-0052"], "query_type": "short_query"}
+{"query": "catalog-service 在 华南 已经授权的账号仍然被拦截，有没有历史案例", "relevant": ["INC-0052", "INC-0112"], "query_type": "service_symptom"}
+{"query": "无人机飞控制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "coupon-service 在 华南 的 请求体大小限制低于业务配置 如何排查", "relevant": ["INC-0034", "INC-0064", "INC-0094", "INC-0124", "INC-0154"], "query_type": "root_cause"}
+{"query": "华北生产环境第149批告警：会员数据已存在但接口返回空结果，影响 member-service 的核心链路", "relevant": ["INC-0159"], "query_type": "symptom_verbatim"}
+{"query": "线上 环境中，轮换证书并补偿失败回调 是解决过什么故障", "relevant": ["INC-010"], "query_type": "resolution"}
+{"query": "STOCK_5208 以前怎么处理？", "relevant": ["INC-0118"], "query_type": "error_code"}
+{"query": "媒体回调失败（华东第8批）", "relevant": ["INC-0018"], "query_type": "short_query"}
+{"query": "海洋浮标制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "港口吊机制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "华北 环境中，修复消费者超时配置并重启消费组 是解决过什么故障", "relevant": ["INC-0011", "INC-0031", "INC-0051", "INC-0071", "INC-0091", "INC-0111", "INC-0131", "INC-0151"], "query_type": "resolution"}
+{"query": "member-service 在 华南 的 请求体大小限制低于业务配置 如何排查", "relevant": ["INC-0024", "INC-0054", "INC-0084", "INC-0114", "INC-0144"], "query_type": "root_cause"}
+{"query": "member-service 在 华南 大文件总是在传输中断开，有没有历史案例", "relevant": ["INC-0024", "INC-0084", "INC-0144"], "query_type": "service_symptom"}
+{"query": "华南生产环境第78批告警：库存第三方回调持续验签失败，影响 inventory-service 的核心链路", "relevant": ["INC-0088"], "query_type": "symptom_verbatim"}
+{"query": "分析配额超限（华北第97批）", "relevant": ["INC-0107"], "query_type": "short_query"}
+{"query": "catalog-service 在 海外 的 租户限流配置被错误继承 如何排查", "relevant": ["INC-0037", "INC-0067", "INC-0097", "INC-0127", "INC-0157"], "query_type": "root_cause"}
+{"query": "member-service 在 华南 的 请求体大小限制低于业务配置 如何排查", "relevant": ["INC-0024", "INC-0054", "INC-0084", "INC-0114", "INC-0144"], "query_type": "root_cause"}
+{"query": "auth-service 在 线上 登录接口大量超时，有没有历史案例", "relevant": ["INC-002"], "query_type": "service_symptom"}
+{"query": "计费数据延迟（华北第101批）", "relevant": ["INC-0111"], "query_type": "short_query"}
+{"query": "农业灌溉阀门液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "payment-service 在 华南 的 消息重复投递且缺少幂等键 如何排查", "relevant": ["INC-0026", "INC-0056", "INC-0086", "INC-0116", "INC-0146"], "query_type": "root_cause"}
+{"query": "海外生产环境第15批告警：结算活动开始后接口错误率和延迟同时升高，影响 settlement-service 的核心链路", "relevant": ["INC-0025"], "query_type": "symptom_verbatim"}
+{"query": "华北生产环境第81批告警：订单运营侧数据停留在数小时前，影响 order-service 的核心链路", "relevant": ["INC-0091"], "query_type": "symptom_verbatim"}
+{"query": "华北生产环境第97批告警：分析请求被限流且业务量未达到预估峰值，影响 analytics-service 的核心链路", "relevant": ["INC-0107"], "query_type": "symptom_verbatim"}
+{"query": "物流流量突增（海外第55批）", "relevant": ["INC-0065"], "query_type": "short_query"}
+{"query": "MEMBER_5249 以前怎么处理？", "relevant": ["INC-0159"], "query_type": "error_code"}
+{"query": "BILL_5156 以前怎么处理？", "relevant": ["INC-0066"], "query_type": "error_code"}
+{"query": "检索查询为空（华北第109批）", "relevant": ["INC-0119"], "query_type": "short_query"}
+{"query": "华南生产环境第90批告警：结算接口 P95 延迟超过 3 秒，用户请求持续超时，影响 settlement-service 的核心链路", "relevant": ["INC-0100"], "query_type": "symptom_verbatim"}
+{"query": "order-service 在 华北 看板数据滞后了很久，有没有历史案例", "relevant": ["INC-0031", "INC-0091", "INC-0151"], "query_type": "service_symptom"}
+{"query": "华北 环境中，修复消费者超时配置并重启消费组 是解决过什么故障", "relevant": ["INC-0011", "INC-0031", "INC-0051", "INC-0071", "INC-0091", "INC-0111", "INC-0131", "INC-0151"], "query_type": "resolution"}
+{"query": "工业机械臂燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "search-service 在 海外 明明有数据却查不到，有没有历史案例", "relevant": ["INC-0029", "INC-0089", "INC-0149"], "query_type": "service_symptom"}
+{"query": "火星探测器燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "海外生产环境第91批告警：支付运营侧数据停留在数小时前，影响 payment-service 的核心链路", "relevant": ["INC-0101"], "query_type": "symptom_verbatim"}
+{"query": "payment-service 在 海外 看板数据滞后了很久，有没有历史案例", "relevant": ["INC-0041", "INC-0101"], "query_type": "service_symptom"}
+{"query": "华东 环境中，提高网关请求体限制并增加分片上传 是解决过什么故障", "relevant": ["INC-0014", "INC-0034", "INC-0054", "INC-0074", "INC-0094", "INC-0114", "INC-0134", "INC-0154"], "query_type": "resolution"}
+{"query": "地震监测仪液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "华北 环境中，修复消费者超时配置并重启消费组 是解决过什么故障", "relevant": ["INC-0011", "INC-0031", "INC-0051", "INC-0071", "INC-0091", "INC-0111", "INC-0131", "INC-0151"], "query_type": "resolution"}
+{"query": "SETTLE_5220 以前怎么处理？", "relevant": ["INC-0130"], "query_type": "error_code"}
+{"query": "民航导航系统制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "海外生产环境第79批告警：检索数据已存在但接口返回空结果，影响 search-service 的核心链路", "relevant": ["INC-0089"], "query_type": "symptom_verbatim"}
+{"query": "高速列车受电弓燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "payment-service 在 华南 业务单据疑似被反复执行，有没有历史案例", "relevant": ["INC-0056", "INC-0116"], "query_type": "service_symptom"}
+{"query": "线上 环境中，将 client_max_body_size 调整为 50m 是解决过什么故障", "relevant": ["INC-004"], "query_type": "resolution"}
+{"query": "NOTIFY_5165 以前怎么处理？", "relevant": ["INC-0075"], "query_type": "error_code"}
+{"query": "华南生产环境第126批告警：订单同一业务单据被处理两次，出现重复扣款或重复通知，影响 order-service 的核心链路", "relevant": ["INC-0136"], "query_type": "symptom_verbatim"}
+{"query": "media-service 在 华东 的 回调证书过期 如何排查", "relevant": ["INC-0018", "INC-0048", "INC-0078", "INC-0108", "INC-0138"], "query_type": "root_cause"}
+{"query": "search-service 在 华东 的 请求体大小限制低于业务配置 如何排查", "relevant": ["INC-0014", "INC-0044", "INC-0074", "INC-0104", "INC-0134"], "query_type": "root_cause"}
+{"query": "settlement-service 在 海外 活动流量上来后接口开始雪崩，有没有历史案例", "relevant": ["INC-0025", "INC-0085", "INC-0145"], "query_type": "service_symptom"}
+{"query": "海外生产环境第127批告警：分析请求被限流且业务量未达到预估峰值，影响 analytics-service 的核心链路", "relevant": ["INC-0137"], "query_type": "symptom_verbatim"}
+{"query": "notification-service 在 线上 的 重试没有发送幂等键 如何排查", "relevant": ["INC-008"], "query_type": "root_cause"}
+{"query": "海外生产环境第51批告警：订单运营侧数据停留在数小时前，影响 order-service 的核心链路", "relevant": ["INC-0061"], "query_type": "symptom_verbatim"}
+{"query": "海外生产环境第143批告警：媒体上游处理成功但页面状态迟迟没有更新，影响 media-service 的核心链路", "relevant": ["INC-0153"], "query_type": "symptom_verbatim"}
+{"query": "通知请求超时（华南第50批）", "relevant": ["INC-0060"], "query_type": "short_query"}
+{"query": "订单数据延迟（华北第141批）", "relevant": ["INC-0151"], "query_type": "short_query"}
+{"query": "海外 环境中，缓存增加随机过期并预热热点 是解决过什么故障", "relevant": ["INC-0025", "INC-0045", "INC-0065", "INC-0085", "INC-0105", "INC-0125", "INC-0145"], "query_type": "resolution"}
+{"query": "风控回调失败（华东第88批）", "relevant": ["INC-0098"], "query_type": "short_query"}
+{"query": "SHIP_5200 以前怎么处理？", "relevant": ["INC-0110"], "query_type": "error_code"}
+{"query": "CATALOG_5112 以前怎么处理？", "relevant": ["INC-0022"], "query_type": "error_code"}
+{"query": "order-service 在 华南 的 消息重复投递且缺少幂等键 如何排查", "relevant": ["INC-0016", "INC-0046", "INC-0076", "INC-0106", "INC-0136"], "query_type": "root_cause"}
+{"query": "SEARCH_5164 以前怎么处理？", "relevant": ["INC-0074"], "query_type": "error_code"}
+{"query": "inventory-service 在 华北 的 异步消费者积压且重试策略错误 如何排查", "relevant": ["INC-0013", "INC-0043", "INC-0073", "INC-0103", "INC-0133"], "query_type": "root_cause"}
+{"query": "华东 环境中，失效权限缓存并发布角色版本 是解决过什么故障", "relevant": ["INC-0022", "INC-0042", "INC-0062", "INC-0082", "INC-0102", "INC-0122", "INC-0142"], "query_type": "resolution"}
+{"query": "认证权限拒绝（华东第32批）", "relevant": ["INC-0042"], "query_type": "short_query"}
+{"query": "CATALOG_5247 以前怎么处理？", "relevant": ["INC-0157"], "query_type": "error_code"}
+{"query": "港口吊机燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "智能电表制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "华北生产环境第85批告警：物流活动开始后接口错误率和延迟同时升高，影响 shipping-service 的核心链路", "relevant": ["INC-0095"], "query_type": "symptom_verbatim"}
+{"query": "inventory-service 在 海外 上游完成后页面结果却没有刷新，有没有历史案例", "relevant": ["INC-0013", "INC-0073", "INC-0133"], "query_type": "service_symptom"}
+{"query": "高速列车受电弓制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "coupon-service 在 海外 的 索引任务积压导致搜索索引滞后 如何排查", "relevant": ["INC-0019", "INC-0049", "INC-0079", "INC-0109", "INC-0139"], "query_type": "root_cause"}
+{"query": "核磁共振设备燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "深海潜航器液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "华东 环境中，失效权限缓存并发布角色版本 是解决过什么故障", "relevant": ["INC-0022", "INC-0042", "INC-0062", "INC-0082", "INC-0102", "INC-0122", "INC-0142"], "query_type": "resolution"}
+{"query": "SEARCH_5239 以前怎么处理？", "relevant": ["INC-0149"], "query_type": "error_code"}
+{"query": "AUTH_5162 以前怎么处理？", "relevant": ["INC-0072"], "query_type": "error_code"}
+{"query": "海外生产环境第47批告警：认证请求被限流且业务量未达到预估峰值，影响 auth-service 的核心链路", "relevant": ["INC-0057"], "query_type": "symptom_verbatim"}
+{"query": "高速列车受电弓制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "risk-service 在 华北 上游完成后页面结果却没有刷新，有没有历史案例", "relevant": ["INC-0023", "INC-0083", "INC-0143"], "query_type": "service_symptom"}
+{"query": "华南 环境中，扩容连接池并限制重试风暴 是解决过什么故障", "relevant": ["INC-0020", "INC-0040", "INC-0060", "INC-0080", "INC-0100", "INC-0120", "INC-0140", "INC-0160"], "query_type": "resolution"}
+{"query": "华南生产环境第114批告警：优惠券大文件传输到一半被网关中断，影响 coupon-service 的核心链路", "relevant": ["INC-0124"], "query_type": "symptom_verbatim"}
+{"query": "ANALYTICS_5197 以前怎么处理？", "relevant": ["INC-0107"], "query_type": "error_code"}
+{"query": "华南 环境中，轮换证书并补偿失败回调 是解决过什么故障", "relevant": ["INC-0028", "INC-0048", "INC-0068", "INC-0088", "INC-0108", "INC-0128", "INC-0148"], "query_type": "resolution"}
+{"query": "华南 环境中，以业务事件 ID 增加幂等记录 是解决过什么故障", "relevant": ["INC-0016", "INC-0036", "INC-0056", "INC-0076", "INC-0096", "INC-0116", "INC-0136", "INC-0156"], "query_type": "resolution"}
+{"query": "RISK_5143 以前怎么处理？", "relevant": ["INC-0053"], "query_type": "error_code"}
+{"query": "SEARCH_5119 以前怎么处理？", "relevant": ["INC-0029"], "query_type": "error_code"}
+{"query": "auth-service 在 华南 已经授权的账号仍然被拦截，有没有历史案例", "relevant": ["INC-0012", "INC-0072", "INC-0132"], "query_type": "service_symptom"}
+{"query": "shipping-service 在 华东 调用频繁卡住并出现超时，有没有历史案例", "relevant": ["INC-0050", "INC-0110"], "query_type": "service_symptom"}
+{"query": "BILL_5216 以前怎么处理？", "relevant": ["INC-0126"], "query_type": "error_code"}
+{"query": "SETTLE_5130 以前怎么处理？", "relevant": ["INC-0040"], "query_type": "error_code"}
+{"query": "华北生产环境第105批告警：结算活动开始后接口错误率和延迟同时升高，影响 settlement-service 的核心链路", "relevant": ["INC-0115"], "query_type": "symptom_verbatim"}
+{"query": "大图片上传到一半失败", "relevant": ["INC-004"], "query_type": "symptom_verbatim"}
+{"query": "order-service 在 海外 的 消费者分区再均衡循环 如何排查", "relevant": ["INC-0031", "INC-0061", "INC-0091", "INC-0121", "INC-0151"], "query_type": "root_cause"}
+{"query": "auth-service 在 华北 还没到预估峰值就被限流，有没有历史案例", "relevant": ["INC-0027", "INC-0087", "INC-0147"], "query_type": "service_symptom"}
+{"query": "ORDER_5211 以前怎么处理？", "relevant": ["INC-0121"], "query_type": "error_code"}
+{"query": "海外 环境中，重启索引 worker 并重放失败任务 是解决过什么故障", "relevant": ["INC-0029", "INC-0049", "INC-0069", "INC-0089", "INC-0109", "INC-0129", "INC-0149"], "query_type": "resolution"}
+{"query": "NOTIFY_5135 以前怎么处理？", "relevant": ["INC-0045"], "query_type": "error_code"}
+{"query": "COUPON_5199 以前怎么处理？", "relevant": ["INC-0109"], "query_type": "error_code"}
+{"query": "analytics-service 在 华南 的 缓存的 RBAC 角色版本没有刷新 如何排查", "relevant": ["INC-0032", "INC-0062", "INC-0092", "INC-0122", "INC-0152"], "query_type": "root_cause"}
+{"query": "risk-service 在 海外 的 异步消费者积压且重试策略错误 如何排查", "relevant": ["INC-0023", "INC-0053", "INC-0083", "INC-0113", "INC-0143"], "query_type": "root_cause"}
+{"query": "太阳能逆变器燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "settlement-service 在 海外 的 热点缓存同时过期造成回源洪峰 如何排查", "relevant": ["INC-0025", "INC-0055", "INC-0085", "INC-0115", "INC-0145"], "query_type": "root_cause"}
+{"query": "inventory-service 在 华南 第三方通知持续验签不通过，有没有历史案例", "relevant": ["INC-0028", "INC-0088", "INC-0148"], "query_type": "service_symptom"}
+{"query": "华东生产环境第16批告警：支付同一业务单据被处理两次，出现重复扣款或重复通知，影响 payment-service 的核心链路", "relevant": ["INC-0026"], "query_type": "symptom_verbatim"}
+{"query": "卫星姿态控制液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "海外生产环境第39批告警：优惠券数据已存在但接口返回空结果，影响 coupon-service 的核心链路", "relevant": ["INC-0049"], "query_type": "symptom_verbatim"}
+{"query": "支付数据延迟（华北第1批）", "relevant": ["INC-0011"], "query_type": "short_query"}
+{"query": "华南 环境中，扩容连接池并限制重试风暴 是解决过什么故障", "relevant": ["INC-0020", "INC-0040", "INC-0060", "INC-0080", "INC-0100", "INC-0120", "INC-0140", "INC-0160"], "query_type": "resolution"}
+{"query": "华南 环境中，轮换证书并补偿失败回调 是解决过什么故障", "relevant": ["INC-0028", "INC-0048", "INC-0068", "INC-0088", "INC-0108", "INC-0128", "INC-0148"], "query_type": "resolution"}
+{"query": "无人机飞控燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "海外 环境中，恢复消费者并补偿积压事件 是解决过什么故障", "relevant": ["INC-0013", "INC-0033", "INC-0053", "INC-0073", "INC-0093", "INC-0113", "INC-0133", "INC-0153"], "query_type": "resolution"}
+{"query": "库存状态不同步（海外第63批）", "relevant": ["INC-0073"], "query_type": "short_query"}
+{"query": "商品目录权限拒绝（华东第12批）", "relevant": ["INC-0022"], "query_type": "short_query"}
+{"query": "billing-service 在 华南 业务单据疑似被反复执行，有没有历史案例", "relevant": ["INC-0036", "INC-0096", "INC-0156"], "query_type": "service_symptom"}
+{"query": "order-service 在 华东 的 消息重复投递且缺少幂等键 如何排查", "relevant": ["INC-0016", "INC-0046", "INC-0076", "INC-0106", "INC-0136"], "query_type": "root_cause"}
+{"query": "分析配额超限（海外第7批）", "relevant": ["INC-0017"], "query_type": "short_query"}
+{"query": "shipping-service 在 海外 的 热点缓存同时过期造成回源洪峰 如何排查", "relevant": ["INC-0035", "INC-0065", "INC-0095", "INC-0125", "INC-0155"], "query_type": "root_cause"}
+{"query": "payment-service 在 海外 的 消费者分区再均衡循环 如何排查", "relevant": ["INC-0011", "INC-0041", "INC-0071", "INC-0101", "INC-0131"], "query_type": "root_cause"}
+{"query": "coupon-service 在 华北 明明有数据却查不到，有没有历史案例", "relevant": ["INC-0019", "INC-0079", "INC-0139"], "query_type": "service_symptom"}
+{"query": "notification-service 在 华东 调用频繁卡住并出现超时，有没有历史案例", "relevant": ["INC-0030", "INC-0090", "INC-0150"], "query_type": "service_symptom"}
+{"query": "优惠券查询为空（华北第129批）", "relevant": ["INC-0139"], "query_type": "short_query"}
+{"query": "激光测距仪燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "优惠券上传失败（华南第114批）", "relevant": ["INC-0124"], "query_type": "short_query"}
+{"query": "NOTIFY_5210 以前怎么处理？", "relevant": ["INC-0120"], "query_type": "error_code"}
+{"query": "华东生产环境第72批告警：商品目录已授权用户调用接口却被拒绝，影响 catalog-service 的核心链路", "relevant": ["INC-0082"], "query_type": "symptom_verbatim"}
+{"query": "优惠券查询为空（华北第69批）", "relevant": ["INC-0079"], "query_type": "short_query"}
+{"query": "SEARCH_5104 以前怎么处理？", "relevant": ["INC-0014"], "query_type": "error_code"}
+{"query": "华南 环境中，以业务事件 ID 增加幂等记录 是解决过什么故障", "relevant": ["INC-0016", "INC-0036", "INC-0056", "INC-0076", "INC-0096", "INC-0116", "INC-0136", "INC-0156"], "query_type": "resolution"}
+{"query": "ANALYTICS_5107 以前怎么处理？", "relevant": ["INC-0017"], "query_type": "error_code"}
+{"query": "华南生产环境第70批告警：物流接口 P95 延迟超过 3 秒，用户请求持续超时，影响 shipping-service 的核心链路", "relevant": ["INC-0080"], "query_type": "symptom_verbatim"}
+{"query": "COUPON_5244 以前怎么处理？", "relevant": ["INC-0154"], "query_type": "error_code"}
+{"query": "华北 环境中，缓存增加随机过期并预热热点 是解决过什么故障", "relevant": ["INC-0015", "INC-0035", "INC-0055", "INC-0075", "INC-0095", "INC-0115", "INC-0135", "INC-0155"], "query_type": "resolution"}
+{"query": "order-service 在 华南 业务单据疑似被反复执行，有没有历史案例", "relevant": ["INC-0016", "INC-0076", "INC-0136"], "query_type": "service_symptom"}
+{"query": "PAYMENT_5032 以前怎么处理？", "relevant": ["INC-001"], "query_type": "error_code"}
+{"query": "ORDER_5181 以前怎么处理？", "relevant": ["INC-0091"], "query_type": "error_code"}
+{"query": "显微镜成像制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "media-service 在 线上 图片上传失败，有没有历史案例", "relevant": ["INC-004"], "query_type": "service_symptom"}
+{"query": "media-service 在 海外 上游完成后页面结果却没有刷新，有没有历史案例", "relevant": ["INC-0033", "INC-0093", "INC-0153"], "query_type": "service_symptom"}
+{"query": "图片上传失败", "relevant": ["INC-004"], "query_type": "short_query"}
+{"query": "media-service 在 海外 上游完成后页面结果却没有刷新，有没有历史案例", "relevant": ["INC-0033", "INC-0093", "INC-0153"], "query_type": "service_symptom"}
+{"query": "order-service 在 华北 看板数据滞后了很久，有没有历史案例", "relevant": ["INC-0031", "INC-0091", "INC-0151"], "query_type": "service_symptom"}
+{"query": "catalog-service 在 华东 已经授权的账号仍然被拦截，有没有历史案例", "relevant": ["INC-0022", "INC-0082", "INC-0142"], "query_type": "service_symptom"}
+{"query": "inventory-service 在 华东 的 回调证书过期 如何排查", "relevant": ["INC-0028", "INC-0058", "INC-0088", "INC-0118", "INC-0148"], "query_type": "root_cause"}
+{"query": "risk-service 在 华南 第三方通知持续验签不通过，有没有历史案例", "relevant": ["INC-0068", "INC-0128"], "query_type": "service_symptom"}
+{"query": "华南 环境中，失效权限缓存并发布角色版本 是解决过什么故障", "relevant": ["INC-0012", "INC-0032", "INC-0052", "INC-0072", "INC-0092", "INC-0112", "INC-0132", "INC-0152"], "query_type": "resolution"}
+{"query": "catalog-service 在 海外 的 租户限流配置被错误继承 如何排查", "relevant": ["INC-0037", "INC-0067", "INC-0097", "INC-0127", "INC-0157"], "query_type": "root_cause"}
+{"query": "华东生产环境第8批告警：媒体第三方回调持续验签失败，影响 media-service 的核心链路", "relevant": ["INC-0018"], "query_type": "symptom_verbatim"}
+{"query": "线上 环境中，缓存过期时间增加随机抖动并预热热点 是解决过什么故障", "relevant": ["INC-007"], "query_type": "resolution"}
+{"query": "华南生产环境第62批告警：认证已授权用户调用接口却被拒绝，影响 auth-service 的核心链路", "relevant": ["INC-0072"], "query_type": "symptom_verbatim"}
+{"query": "媒体状态不同步（海外第83批）", "relevant": ["INC-0093"], "query_type": "short_query"}
+{"query": "analytics-service 在 华南 的 缓存的 RBAC 角色版本没有刷新 如何排查", "relevant": ["INC-0032", "INC-0062", "INC-0092", "INC-0122", "INC-0152"], "query_type": "root_cause"}
+{"query": "海外 环境中，修正租户限流配置并增加告警 是解决过什么故障", "relevant": ["INC-0017", "INC-0037", "INC-0057", "INC-0077", "INC-0097", "INC-0117", "INC-0137", "INC-0157"], "query_type": "resolution"}
+{"query": "计费重复处理（华南第146批）", "relevant": ["INC-0156"], "query_type": "short_query"}
+{"query": "高速列车受电弓燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "coupon-service 在 线上 优惠券超发，有没有历史案例", "relevant": ["INC-006"], "query_type": "service_symptom"}
+{"query": "农业灌溉阀门燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "民航导航系统液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "订单数据延迟（华北第81批）", "relevant": ["INC-0091"], "query_type": "short_query"}
+{"query": "华北 环境中，修复消费者超时配置并重启消费组 是解决过什么故障", "relevant": ["INC-0011", "INC-0031", "INC-0051", "INC-0071", "INC-0091", "INC-0111", "INC-0131", "INC-0151"], "query_type": "resolution"}
+{"query": "华北生产环境第145批告警：物流活动开始后接口错误率和延迟同时升高，影响 shipping-service 的核心链路", "relevant": ["INC-0155"], "query_type": "symptom_verbatim"}
+{"query": "报表数据延迟", "relevant": ["INC-009"], "query_type": "short_query"}
+{"query": "华南 环境中，轮换证书并补偿失败回调 是解决过什么故障", "relevant": ["INC-0028", "INC-0048", "INC-0068", "INC-0088", "INC-0108", "INC-0128", "INC-0148"], "query_type": "resolution"}
+{"query": "华北生产环境第41批告警：计费运营侧数据停留在数小时前，影响 billing-service 的核心链路", "relevant": ["INC-0051"], "query_type": "symptom_verbatim"}
+{"query": "会员查询为空（华北第89批）", "relevant": ["INC-0099"], "query_type": "short_query"}
+{"query": "农业灌溉阀门液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "风力发电机制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "华南生产环境第6批告警：订单同一业务单据被处理两次，出现重复扣款或重复通知，影响 order-service 的核心链路", "relevant": ["INC-0016"], "query_type": "symptom_verbatim"}
+{"query": "计费数据延迟（海外第71批）", "relevant": ["INC-0081"], "query_type": "short_query"}
+{"query": "农业灌溉阀门液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "商品目录权限拒绝（华南第102批）", "relevant": ["INC-0112"], "query_type": "short_query"}
+{"query": "risk-service 在 华北 上游完成后页面结果却没有刷新，有没有历史案例", "relevant": ["INC-0023", "INC-0083", "INC-0143"], "query_type": "service_symptom"}
+{"query": "华南生产环境第86批告警：计费同一业务单据被处理两次，出现重复扣款或重复通知，影响 billing-service 的核心链路", "relevant": ["INC-0096"], "query_type": "symptom_verbatim"}
+{"query": "媒体回调失败（华南第38批）", "relevant": ["INC-0048"], "query_type": "short_query"}
+{"query": "结算流量突增（海外第135批）", "relevant": ["INC-0145"], "query_type": "short_query"}
+{"query": "华北生产环境第37批告警：分析请求被限流且业务量未达到预估峰值，影响 analytics-service 的核心链路", "relevant": ["INC-0047"], "query_type": "symptom_verbatim"}
+{"query": "海外生产环境第107批告警：认证请求被限流且业务量未达到预估峰值，影响 auth-service 的核心链路", "relevant": ["INC-0117"], "query_type": "symptom_verbatim"}
+{"query": "海外生产环境第31批告警：支付运营侧数据停留在数小时前，影响 payment-service 的核心链路", "relevant": ["INC-0041"], "query_type": "symptom_verbatim"}
+{"query": "search-service 在 海外 的 索引任务积压导致搜索索引滞后 如何排查", "relevant": ["INC-0029", "INC-0059", "INC-0089", "INC-0119", "INC-0149"], "query_type": "root_cause"}
+{"query": "REPORT_2060 以前怎么处理？", "relevant": ["INC-009"], "query_type": "error_code"}
+{"query": "ANALYTICS_5227 以前怎么处理？", "relevant": ["INC-0137"], "query_type": "error_code"}
+{"query": "检索上传失败（华东第64批）", "relevant": ["INC-0074"], "query_type": "short_query"}
+{"query": "华北 环境中，重启索引 worker 并重放失败任务 是解决过什么故障", "relevant": ["INC-0019", "INC-0039", "INC-0059", "INC-0079", "INC-0099", "INC-0119", "INC-0139", "INC-0159"], "query_type": "resolution"}
+{"query": "order-service 在 华北 看板数据滞后了很久，有没有历史案例", "relevant": ["INC-0031", "INC-0091", "INC-0151"], "query_type": "service_symptom"}
+{"query": "华北生产环境第69批告警：优惠券数据已存在但接口返回空结果，影响 coupon-service 的核心链路", "relevant": ["INC-0079"], "query_type": "symptom_verbatim"}
+{"query": "同一订单的库存被扣减两次", "relevant": ["INC-003"], "query_type": "symptom_verbatim"}
+{"query": "华东生产环境第32批告警：认证已授权用户调用接口却被拒绝，影响 auth-service 的核心链路", "relevant": ["INC-0042"], "query_type": "symptom_verbatim"}
+{"query": "AUTH_5117 以前怎么处理？", "relevant": ["INC-0027"], "query_type": "error_code"}
+{"query": "MEDIA_5183 以前怎么处理？", "relevant": ["INC-0093"], "query_type": "error_code"}
+{"query": "民航导航系统燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "shipping-service 在 华东 的 PostgreSQL 连接池耗尽 如何排查", "relevant": ["INC-0020", "INC-0050", "INC-0080", "INC-0110", "INC-0140"], "query_type": "root_cause"}
+{"query": "analytics-service 在 海外 的 租户限流配置被错误继承 如何排查", "relevant": ["INC-0017", "INC-0047", "INC-0077", "INC-0107", "INC-0137"], "query_type": "root_cause"}
+{"query": "payment-service 在 华北 看板数据滞后了很久，有没有历史案例", "relevant": ["INC-0011", "INC-0071", "INC-0131"], "query_type": "service_symptom"}
+{"query": "media-service 在 华南 的 回调证书过期 如何排查", "relevant": ["INC-0018", "INC-0048", "INC-0078", "INC-0108", "INC-0138"], "query_type": "root_cause"}
+{"query": "catalog-service 在 华北 的 租户限流配置被错误继承 如何排查", "relevant": ["INC-0037", "INC-0067", "INC-0097", "INC-0127", "INC-0157"], "query_type": "root_cause"}
+{"query": "search-service 在 华北 明明有数据却查不到，有没有历史案例", "relevant": ["INC-0059", "INC-0119"], "query_type": "service_symptom"}
+{"query": "订单重复处理（华南第66批）", "relevant": ["INC-0076"], "query_type": "short_query"}
+{"query": "billing-service 在 华北 的 消费者分区再均衡循环 如何排查", "relevant": ["INC-0021", "INC-0051", "INC-0081", "INC-0111", "INC-0141"], "query_type": "root_cause"}
+{"query": "计费数据延迟（海外第131批）", "relevant": ["INC-0141"], "query_type": "short_query"}
+{"query": "search-service 在 华北 明明有数据却查不到，有没有历史案例", "relevant": ["INC-0059", "INC-0119"], "query_type": "service_symptom"}
+{"query": "华东生产环境第88批告警：风控第三方回调持续验签失败，影响 risk-service 的核心链路", "relevant": ["INC-0098"], "query_type": "symptom_verbatim"}
+{"query": "member-service 在 海外 的 索引任务积压导致搜索索引滞后 如何排查", "relevant": ["INC-0039", "INC-0069", "INC-0099", "INC-0129", "INC-0159"], "query_type": "root_cause"}
+{"query": "通知请求超时（华东第20批）", "relevant": ["INC-0030"], "query_type": "short_query"}
+{"query": "华东 环境中，失效权限缓存并发布角色版本 是解决过什么故障", "relevant": ["INC-0022", "INC-0042", "INC-0062", "INC-0082", "INC-0102", "INC-0122", "INC-0142"], "query_type": "resolution"}
+{"query": "search-service 在 华东 大文件总是在传输中断开，有没有历史案例", "relevant": ["INC-0014", "INC-0074", "INC-0134"], "query_type": "service_symptom"}
+{"query": "海底光缆燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "检索上传失败（华东第4批）", "relevant": ["INC-0014"], "query_type": "short_query"}
+{"query": "港口吊机液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "auth-service 在 海外 的 租户限流配置被错误继承 如何排查", "relevant": ["INC-0027", "INC-0057", "INC-0087", "INC-0117", "INC-0147"], "query_type": "root_cause"}
+{"query": "会员上传失败（华南第134批）", "relevant": ["INC-0144"], "query_type": "short_query"}
+{"query": "地震监测仪制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "analytics-service 在 华北 的 租户限流配置被错误继承 如何排查", "relevant": ["INC-0017", "INC-0047", "INC-0077", "INC-0107", "INC-0137"], "query_type": "root_cause"}
+{"query": "民航导航系统制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "notification-service 在 华南 调用频繁卡住并出现超时，有没有历史案例", "relevant": ["INC-0060", "INC-0120"], "query_type": "service_symptom"}
+{"query": "登录接口大量超时", "relevant": ["INC-002"], "query_type": "short_query"}
+{"query": "media-service 在 华东 的 回调证书过期 如何排查", "relevant": ["INC-0018", "INC-0048", "INC-0078", "INC-0108", "INC-0138"], "query_type": "root_cause"}
+{"query": "华东 环境中，提高网关请求体限制并增加分片上传 是解决过什么故障", "relevant": ["INC-0014", "INC-0034", "INC-0054", "INC-0074", "INC-0094", "INC-0114", "INC-0134", "INC-0154"], "query_type": "resolution"}
+{"query": "计费数据延迟（海外第11批）", "relevant": ["INC-0021"], "query_type": "short_query"}
+{"query": "华南生产环境第30批告警：结算接口 P95 延迟超过 3 秒，用户请求持续超时，影响 settlement-service 的核心链路", "relevant": ["INC-0040"], "query_type": "symptom_verbatim"}
+{"query": "风力发电机制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "华北 环境中，修复消费者超时配置并重启消费组 是解决过什么故障", "relevant": ["INC-0011", "INC-0031", "INC-0051", "INC-0071", "INC-0091", "INC-0111", "INC-0131", "INC-0151"], "query_type": "resolution"}
+{"query": "inventory-service 在 线上 库存重复扣减，有没有历史案例", "relevant": ["INC-003"], "query_type": "service_symptom"}
+{"query": "会员上传失败（华南第14批）", "relevant": ["INC-0024"], "query_type": "short_query"}
+{"query": "华北生产环境第125批告警：通知活动开始后接口错误率和延迟同时升高，影响 notification-service 的核心链路", "relevant": ["INC-0135"], "query_type": "symptom_verbatim"}
+{"query": "analytics-service 在 华东 的 缓存的 RBAC 角色版本没有刷新 如何排查", "relevant": ["INC-0032", "INC-0062", "INC-0092", "INC-0122", "INC-0152"], "query_type": "root_cause"}
+{"query": "订单数据延迟（海外第51批）", "relevant": ["INC-0061"], "query_type": "short_query"}
+{"query": "shipping-service 在 海外 的 热点缓存同时过期造成回源洪峰 如何排查", "relevant": ["INC-0035", "INC-0065", "INC-0095", "INC-0125", "INC-0155"], "query_type": "root_cause"}
+{"query": "卫星姿态控制燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "优惠券查询为空（海外第99批）", "relevant": ["INC-0109"], "query_type": "short_query"}
+{"query": "order-service 在 海外 看板数据滞后了很久，有没有历史案例", "relevant": ["INC-0061", "INC-0121"], "query_type": "service_symptom"}
+{"query": "农业灌溉阀门制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "华南生产环境第54批告警：优惠券大文件传输到一半被网关中断，影响 coupon-service 的核心链路", "relevant": ["INC-0064"], "query_type": "symptom_verbatim"}
+{"query": "华东生产环境第100批告警：物流接口 P95 延迟超过 3 秒，用户请求持续超时，影响 shipping-service 的核心链路", "relevant": ["INC-0110"], "query_type": "symptom_verbatim"}
+{"query": "华北生产环境第57批告警：商品目录请求被限流且业务量未达到预估峰值，影响 catalog-service 的核心链路", "relevant": ["INC-0067"], "query_type": "symptom_verbatim"}
+{"query": "线上 环境中，max_pool_size 从 50 调整到 200 是解决过什么故障", "relevant": ["INC-001"], "query_type": "resolution"}
+{"query": "RISK_5248 以前怎么处理？", "relevant": ["INC-0158"], "query_type": "error_code"}
+{"query": "RISK_5128 以前怎么处理？", "relevant": ["INC-0038"], "query_type": "error_code"}
+{"query": "华东生产环境第48批告警：库存第三方回调持续验签失败，影响 inventory-service 的核心链路", "relevant": ["INC-0058"], "query_type": "symptom_verbatim"}
+{"query": "华东生产环境第76批告警：支付同一业务单据被处理两次，出现重复扣款或重复通知，影响 payment-service 的核心链路", "relevant": ["INC-0086"], "query_type": "symptom_verbatim"}
+{"query": "AUTH_5207 以前怎么处理？", "relevant": ["INC-0117"], "query_type": "error_code"}
+{"query": "风控状态不同步（华北第13批）", "relevant": ["INC-0023"], "query_type": "short_query"}
+{"query": "SHIP_5110 以前怎么处理？", "relevant": ["INC-0020"], "query_type": "error_code"}
+{"query": "华南 环境中，轮换证书并补偿失败回调 是解决过什么故障", "relevant": ["INC-0028", "INC-0048", "INC-0068", "INC-0088", "INC-0108", "INC-0128", "INC-0148"], "query_type": "resolution"}
+{"query": "海洋浮标制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "物流请求超时（华东第100批）", "relevant": ["INC-0110"], "query_type": "short_query"}
+{"query": "shipping-service 在 华东 调用频繁卡住并出现超时，有没有历史案例", "relevant": ["INC-0050", "INC-0110"], "query_type": "service_symptom"}
+{"query": "媒体回调失败（华东第68批）", "relevant": ["INC-0078"], "query_type": "short_query"}
+{"query": "库存回调失败（华南第138批）", "relevant": ["INC-0148"], "query_type": "short_query"}
+{"query": "华南 环境中，轮换证书并补偿失败回调 是解决过什么故障", "relevant": ["INC-0028", "INC-0048", "INC-0068", "INC-0088", "INC-0108", "INC-0128", "INC-0148"], "query_type": "resolution"}
+{"query": "华东 环境中，扩容连接池并限制重试风暴 是解决过什么故障", "relevant": ["INC-0030", "INC-0050", "INC-0070", "INC-0090", "INC-0110", "INC-0130", "INC-0150"], "query_type": "resolution"}
+{"query": "AUTH_5192 以前怎么处理？", "relevant": ["INC-0102"], "query_type": "error_code"}
+{"query": "华南 环境中，轮换证书并补偿失败回调 是解决过什么故障", "relevant": ["INC-0028", "INC-0048", "INC-0068", "INC-0088", "INC-0108", "INC-0128", "INC-0148"], "query_type": "resolution"}
+{"query": "分析权限拒绝（华南第142批）", "relevant": ["INC-0152"], "query_type": "short_query"}
+{"query": "海外生产环境第43批告警：风控上游处理成功但页面状态迟迟没有更新，影响 risk-service 的核心链路", "relevant": ["INC-0053"], "query_type": "symptom_verbatim"}
+{"query": "华南生产环境第110批告警：通知接口 P95 延迟超过 3 秒，用户请求持续超时，影响 notification-service 的核心链路", "relevant": ["INC-0120"], "query_type": "symptom_verbatim"}
+{"query": "order-service 在 华南 的 消息重复投递且缺少幂等键 如何排查", "relevant": ["INC-0016", "INC-0046", "INC-0076", "INC-0106", "INC-0136"], "query_type": "root_cause"}
+{"query": "风控回调失败（华南第118批）", "relevant": ["INC-0128"], "query_type": "short_query"}
+{"query": "catalog-service 在 华南 的 缓存的 RBAC 角色版本没有刷新 如何排查", "relevant": ["INC-0022", "INC-0052", "INC-0082", "INC-0112", "INC-0142"], "query_type": "root_cause"}
+{"query": "深海潜航器液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "华东生产环境第140批告警：通知接口 P95 延迟超过 3 秒，用户请求持续超时，影响 notification-service 的核心链路", "relevant": ["INC-0150"], "query_type": "symptom_verbatim"}
+{"query": "认证配额超限（海外第47批）", "relevant": ["INC-0057"], "query_type": "short_query"}
+{"query": "华北生产环境第53批告警：媒体上游处理成功但页面状态迟迟没有更新，影响 media-service 的核心链路", "relevant": ["INC-0063"], "query_type": "symptom_verbatim"}
+{"query": "auth-service 在 海外 的 租户限流配置被错误继承 如何排查", "relevant": ["INC-0027", "INC-0057", "INC-0087", "INC-0117", "INC-0147"], "query_type": "root_cause"}
+{"query": "华东生产环境第104批告警：会员大文件传输到一半被网关中断，影响 member-service 的核心链路", "relevant": ["INC-0114"], "query_type": "symptom_verbatim"}
+{"query": "media-service 在 华南 的 回调证书过期 如何排查", "relevant": ["INC-0018", "INC-0048", "INC-0078", "INC-0108", "INC-0138"], "query_type": "root_cause"}
+{"query": "settlement-service 在 华北 的 热点缓存同时过期造成回源洪峰 如何排查", "relevant": ["INC-0025", "INC-0055", "INC-0085", "INC-0115", "INC-0145"], "query_type": "root_cause"}
+{"query": "settlement-service 在 华东 的 PostgreSQL 连接池耗尽 如何排查", "relevant": ["INC-0040", "INC-0070", "INC-0100", "INC-0130", "INC-0160"], "query_type": "root_cause"}
+{"query": "BILL_5186 以前怎么处理？", "relevant": ["INC-0096"], "query_type": "error_code"}
+{"query": "海洋浮标液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "SETTLE_5175 以前怎么处理？", "relevant": ["INC-0085"], "query_type": "error_code"}
+{"query": "payment-service 在 线上 的 order-service 数据库连接池耗尽 如何排查", "relevant": ["INC-001"], "query_type": "root_cause"}
+{"query": "华南生产环境第26批告警：计费同一业务单据被处理两次，出现重复扣款或重复通知，影响 billing-service 的核心链路", "relevant": ["INC-0036"], "query_type": "symptom_verbatim"}
+{"query": "海外生产环境第123批告警：库存上游处理成功但页面状态迟迟没有更新，影响 inventory-service 的核心链路", "relevant": ["INC-0133"], "query_type": "symptom_verbatim"}
+{"query": "settlement-service 在 华北 的 热点缓存同时过期造成回源洪峰 如何排查", "relevant": ["INC-0025", "INC-0055", "INC-0085", "INC-0115", "INC-0145"], "query_type": "root_cause"}
+{"query": "华东 环境中，提高网关请求体限制并增加分片上传 是解决过什么故障", "relevant": ["INC-0014", "INC-0034", "INC-0054", "INC-0074", "INC-0094", "INC-0114", "INC-0134", "INC-0154"], "query_type": "resolution"}
+{"query": "支付数据延迟（华北第61批）", "relevant": ["INC-0071"], "query_type": "short_query"}
+{"query": "优惠券上传失败（华东第144批）", "relevant": ["INC-0154"], "query_type": "short_query"}
+{"query": "catalog-service 在 海外 的 租户限流配置被错误继承 如何排查", "relevant": ["INC-0037", "INC-0067", "INC-0097", "INC-0127", "INC-0157"], "query_type": "root_cause"}
+{"query": "卫星姿态控制制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "气象雷达燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "risk-service 在 华北 的 异步消费者积压且重试策略错误 如何排查", "relevant": ["INC-0023", "INC-0053", "INC-0083", "INC-0113", "INC-0143"], "query_type": "root_cause"}
+{"query": "华北生产环境第117批告警：商品目录请求被限流且业务量未达到预估峰值，影响 catalog-service 的核心链路", "relevant": ["INC-0127"], "query_type": "symptom_verbatim"}
+{"query": "无人机飞控液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "华北 环境中，修正租户限流配置并增加告警 是解决过什么故障", "relevant": ["INC-0027", "INC-0047", "INC-0067", "INC-0087", "INC-0107", "INC-0127", "INC-0147"], "query_type": "resolution"}
+{"query": "BILL_5111 以前怎么处理？", "relevant": ["INC-0021"], "query_type": "error_code"}
+{"query": "商品目录权限拒绝（华东第132批）", "relevant": ["INC-0142"], "query_type": "short_query"}
+{"query": "华东 环境中，轮换证书并补偿失败回调 是解决过什么故障", "relevant": ["INC-0018", "INC-0038", "INC-0058", "INC-0078", "INC-0098", "INC-0118", "INC-0138", "INC-0158"], "query_type": "resolution"}
+{"query": "海外 环境中，修复消费者超时配置并重启消费组 是解决过什么故障", "relevant": ["INC-0021", "INC-0041", "INC-0061", "INC-0081", "INC-0101", "INC-0121", "INC-0141"], "query_type": "resolution"}
+{"query": "华东生产环境第108批告警：库存第三方回调持续验签失败，影响 inventory-service 的核心链路", "relevant": ["INC-0118"], "query_type": "symptom_verbatim"}
+{"query": "华东 环境中，提高网关请求体限制并增加分片上传 是解决过什么故障", "relevant": ["INC-0014", "INC-0034", "INC-0054", "INC-0074", "INC-0094", "INC-0114", "INC-0134", "INC-0154"], "query_type": "resolution"}
+{"query": "SHIP_5170 以前怎么处理？", "relevant": ["INC-0080"], "query_type": "error_code"}
+{"query": "media-service 在 海外 的 异步消费者积压且重试策略错误 如何排查", "relevant": ["INC-0033", "INC-0063", "INC-0093", "INC-0123", "INC-0153"], "query_type": "root_cause"}
+{"query": "华东 环境中，提高网关请求体限制并增加分片上传 是解决过什么故障", "relevant": ["INC-0014", "INC-0034", "INC-0054", "INC-0074", "INC-0094", "INC-0114", "INC-0134", "INC-0154"], "query_type": "resolution"}
+{"query": "华东 环境中，扩容连接池并限制重试风暴 是解决过什么故障", "relevant": ["INC-0030", "INC-0050", "INC-0070", "INC-0090", "INC-0110", "INC-0130", "INC-0150"], "query_type": "resolution"}
+{"query": "inventory-service 在 华北 上游完成后页面结果却没有刷新，有没有历史案例", "relevant": ["INC-0043", "INC-0103"], "query_type": "service_symptom"}
+{"query": "SHIP_5140 以前怎么处理？", "relevant": ["INC-0050"], "query_type": "error_code"}
+{"query": "支付重复处理（华南第106批）", "relevant": ["INC-0116"], "query_type": "short_query"}
+{"query": "search-service 在 华南 大文件总是在传输中断开，有没有历史案例", "relevant": ["INC-0044", "INC-0104"], "query_type": "service_symptom"}
+{"query": "华北 环境中，缓存增加随机过期并预热热点 是解决过什么故障", "relevant": ["INC-0015", "INC-0035", "INC-0055", "INC-0075", "INC-0095", "INC-0115", "INC-0135", "INC-0155"], "query_type": "resolution"}
+{"query": "ORDER_5196 以前怎么处理？", "relevant": ["INC-0106"], "query_type": "error_code"}
+{"query": "STOCK_5163 以前怎么处理？", "relevant": ["INC-0073"], "query_type": "error_code"}
+{"query": "inventory-service 在 海外 上游完成后页面结果却没有刷新，有没有历史案例", "relevant": ["INC-0013", "INC-0073", "INC-0133"], "query_type": "service_symptom"}
+{"query": "无人机飞控制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "catalog-service 在 海外 还没到预估峰值就被限流，有没有历史案例", "relevant": ["INC-0037", "INC-0097", "INC-0157"], "query_type": "service_symptom"}
+{"query": "华东生产环境第116批告警：计费同一业务单据被处理两次，出现重复扣款或重复通知，影响 billing-service 的核心链路", "relevant": ["INC-0126"], "query_type": "symptom_verbatim"}
+{"query": "ORDER_5038 以前怎么处理？", "relevant": ["INC-007"], "query_type": "error_code"}
+{"query": "华南生产环境第94批告警：检索大文件传输到一半被网关中断，影响 search-service 的核心链路", "relevant": ["INC-0104"], "query_type": "symptom_verbatim"}
+{"query": "华南 环境中，提高网关请求体限制并增加分片上传 是解决过什么故障", "relevant": ["INC-0024", "INC-0044", "INC-0064", "INC-0084", "INC-0104", "INC-0124", "INC-0144"], "query_type": "resolution"}
+{"query": "深海潜航器制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "库存回调失败（华东第108批）", "relevant": ["INC-0118"], "query_type": "short_query"}
+{"query": "MEMBER_5129 以前怎么处理？", "relevant": ["INC-0039"], "query_type": "error_code"}
+{"query": "海外 环境中，恢复消费者并补偿积压事件 是解决过什么故障", "relevant": ["INC-0013", "INC-0033", "INC-0053", "INC-0073", "INC-0093", "INC-0113", "INC-0133", "INC-0153"], "query_type": "resolution"}
+{"query": "铁路信号灯燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "auth-service 在 华东 已经授权的账号仍然被拦截，有没有历史案例", "relevant": ["INC-0042", "INC-0102"], "query_type": "service_symptom"}
+{"query": "risk-service 在 海外 上游完成后页面结果却没有刷新，有没有历史案例", "relevant": ["INC-0053", "INC-0113"], "query_type": "service_symptom"}
+{"query": "华南生产环境第82批告警：分析已授权用户调用接口却被拒绝，影响 analytics-service 的核心链路", "relevant": ["INC-0092"], "query_type": "symptom_verbatim"}
+{"query": "auth-service 在 华北 还没到预估峰值就被限流，有没有历史案例", "relevant": ["INC-0027", "INC-0087", "INC-0147"], "query_type": "service_symptom"}
+{"query": "华北生产环境第137批告警：认证请求被限流且业务量未达到预估峰值，影响 auth-service 的核心链路", "relevant": ["INC-0147"], "query_type": "symptom_verbatim"}
+{"query": "analytics-service 在 海外 还没到预估峰值就被限流，有没有历史案例", "relevant": ["INC-0017", "INC-0077", "INC-0137"], "query_type": "service_symptom"}
+{"query": "华南生产环境第106批告警：支付同一业务单据被处理两次，出现重复扣款或重复通知，影响 payment-service 的核心链路", "relevant": ["INC-0116"], "query_type": "symptom_verbatim"}
+{"query": "order-service 在 华南 业务单据疑似被反复执行，有没有历史案例", "relevant": ["INC-0016", "INC-0076", "INC-0136"], "query_type": "service_symptom"}
+{"query": "物流流量突增（华北第25批）", "relevant": ["INC-0035"], "query_type": "short_query"}
+{"query": "analytics-service 在 海外 的 租户限流配置被错误继承 如何排查", "relevant": ["INC-0017", "INC-0047", "INC-0077", "INC-0107", "INC-0137"], "query_type": "root_cause"}
+{"query": "inventory-service 在 华南 第三方通知持续验签不通过，有没有历史案例", "relevant": ["INC-0028", "INC-0088", "INC-0148"], "query_type": "service_symptom"}
+{"query": "shipping-service 在 华北 活动流量上来后接口开始雪崩，有没有历史案例", "relevant": ["INC-0035", "INC-0095", "INC-0155"], "query_type": "service_symptom"}
+{"query": "订单重复处理（华东第96批）", "relevant": ["INC-0106"], "query_type": "short_query"}
+{"query": "CATALOG_5127 以前怎么处理？", "relevant": ["INC-0037"], "query_type": "error_code"}
+{"query": "库存回调失败（华东第48批）", "relevant": ["INC-0058"], "query_type": "short_query"}
+{"query": "华北 环境中，恢复消费者并补偿积压事件 是解决过什么故障", "relevant": ["INC-0023", "INC-0043", "INC-0063", "INC-0083", "INC-0103", "INC-0123", "INC-0143"], "query_type": "resolution"}
+{"query": "华南生产环境第46批告警：支付同一业务单据被处理两次，出现重复扣款或重复通知，影响 payment-service 的核心链路", "relevant": ["INC-0056"], "query_type": "symptom_verbatim"}
+{"query": "member-service 在 华东 的 请求体大小限制低于业务配置 如何排查", "relevant": ["INC-0024", "INC-0054", "INC-0084", "INC-0114", "INC-0144"], "query_type": "root_cause"}
+{"query": "海外 环境中，修正租户限流配置并增加告警 是解决过什么故障", "relevant": ["INC-0017", "INC-0037", "INC-0057", "INC-0077", "INC-0097", "INC-0117", "INC-0137", "INC-0157"], "query_type": "resolution"}
+{"query": "会员上传失败（华南第74批）", "relevant": ["INC-0084"], "query_type": "short_query"}
+{"query": "MEDIA_5168 以前怎么处理？", "relevant": ["INC-0078"], "query_type": "error_code"}
+{"query": "华北生产环境第89批告警：会员数据已存在但接口返回空结果，影响 member-service 的核心链路", "relevant": ["INC-0099"], "query_type": "symptom_verbatim"}
+{"query": "海洋浮标燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "SETTLE_5235 以前怎么处理？", "relevant": ["INC-0145"], "query_type": "error_code"}
+{"query": "ANALYTICS_5242 以前怎么处理？", "relevant": ["INC-0152"], "query_type": "error_code"}
+{"query": "华北 环境中，修正租户限流配置并增加告警 是解决过什么故障", "relevant": ["INC-0027", "INC-0047", "INC-0067", "INC-0087", "INC-0107", "INC-0127", "INC-0147"], "query_type": "resolution"}
+{"query": "华北 环境中，恢复消费者并补偿积压事件 是解决过什么故障", "relevant": ["INC-0023", "INC-0043", "INC-0063", "INC-0083", "INC-0103", "INC-0123", "INC-0143"], "query_type": "resolution"}
+{"query": "高速列车受电弓液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "铁路信号灯燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "PAY_5236 以前怎么处理？", "relevant": ["INC-0146"], "query_type": "error_code"}
+{"query": "华东 环境中，提高网关请求体限制并增加分片上传 是解决过什么故障", "relevant": ["INC-0014", "INC-0034", "INC-0054", "INC-0074", "INC-0094", "INC-0114", "INC-0134", "INC-0154"], "query_type": "resolution"}
+{"query": "优惠券查询为空（华北第9批）", "relevant": ["INC-0019"], "query_type": "short_query"}
+{"query": "太阳能逆变器燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "risk-service 在 华北 上游完成后页面结果却没有刷新，有没有历史案例", "relevant": ["INC-0023", "INC-0083", "INC-0143"], "query_type": "service_symptom"}
+{"query": "海外生产环境第3批告警：库存上游处理成功但页面状态迟迟没有更新，影响 inventory-service 的核心链路", "relevant": ["INC-0013"], "query_type": "symptom_verbatim"}
+{"query": "订单创建雪崩", "relevant": ["INC-007"], "query_type": "short_query"}
+{"query": "华北 环境中，恢复消费者并补偿积压事件 是解决过什么故障", "relevant": ["INC-0023", "INC-0043", "INC-0063", "INC-0083", "INC-0103", "INC-0123", "INC-0143"], "query_type": "resolution"}
+{"query": "华南生产环境第58批告警：风控第三方回调持续验签失败，影响 risk-service 的核心链路", "relevant": ["INC-0068"], "query_type": "symptom_verbatim"}
+{"query": "商品目录配额超限（华北第117批）", "relevant": ["INC-0127"], "query_type": "short_query"}
+{"query": "华东 环境中，轮换证书并补偿失败回调 是解决过什么故障", "relevant": ["INC-0018", "INC-0038", "INC-0058", "INC-0078", "INC-0098", "INC-0118", "INC-0138", "INC-0158"], "query_type": "resolution"}
+{"query": "激光测距仪液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "工业机械臂燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "海外生产环境第67批告警：分析请求被限流且业务量未达到预估峰值，影响 analytics-service 的核心链路", "relevant": ["INC-0077"], "query_type": "symptom_verbatim"}
+{"query": "order-service 在 海外 看板数据滞后了很久，有没有历史案例", "relevant": ["INC-0061", "INC-0121"], "query_type": "service_symptom"}
+{"query": "notification-service 在 华南 调用频繁卡住并出现超时，有没有历史案例", "relevant": ["INC-0060", "INC-0120"], "query_type": "service_symptom"}
+{"query": "物流请求超时（华南第130批）", "relevant": ["INC-0140"], "query_type": "short_query"}
+{"query": "海底光缆制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "港口吊机液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "BILL_5126 以前怎么处理？", "relevant": ["INC-0036"], "query_type": "error_code"}
+{"query": "settlement-service 在 海外 的 热点缓存同时过期造成回源洪峰 如何排查", "relevant": ["INC-0025", "INC-0055", "INC-0085", "INC-0115", "INC-0145"], "query_type": "root_cause"}
+{"query": "华南生产环境第102批告警：商品目录已授权用户调用接口却被拒绝，影响 catalog-service 的核心链路", "relevant": ["INC-0112"], "query_type": "symptom_verbatim"}
+{"query": "华南生产环境第2批告警：认证已授权用户调用接口却被拒绝，影响 auth-service 的核心链路", "relevant": ["INC-0012"], "query_type": "symptom_verbatim"}
+{"query": "member-service 在 华东 大文件总是在传输中断开，有没有历史案例", "relevant": ["INC-0054", "INC-0114"], "query_type": "service_symptom"}
+{"query": "结算请求超时（华南第90批）", "relevant": ["INC-0100"], "query_type": "short_query"}
+{"query": "payment-service 在 华北 的 消费者分区再均衡循环 如何排查", "relevant": ["INC-0011", "INC-0041", "INC-0071", "INC-0101", "INC-0131"], "query_type": "root_cause"}
+{"query": "华南 环境中，失效权限缓存并发布角色版本 是解决过什么故障", "relevant": ["INC-0012", "INC-0032", "INC-0052", "INC-0072", "INC-0092", "INC-0112", "INC-0132", "INC-0152"], "query_type": "resolution"}
+{"query": "payment-service 在 海外 看板数据滞后了很久，有没有历史案例", "relevant": ["INC-0041", "INC-0101"], "query_type": "service_symptom"}
+{"query": "深海潜航器燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "AUTH_5177 以前怎么处理？", "relevant": ["INC-0087"], "query_type": "error_code"}
+{"query": "PAY_5191 以前怎么处理？", "relevant": ["INC-0101"], "query_type": "error_code"}
+{"query": "coupon-service 在 华北 的 索引任务积压导致搜索索引滞后 如何排查", "relevant": ["INC-0019", "INC-0049", "INC-0079", "INC-0109", "INC-0139"], "query_type": "root_cause"}
+{"query": "PAY_5176 以前怎么处理？", "relevant": ["INC-0086"], "query_type": "error_code"}
+{"query": "海外生产环境第119批告警：会员数据已存在但接口返回空结果，影响 member-service 的核心链路", "relevant": ["INC-0129"], "query_type": "symptom_verbatim"}
+{"query": "media-service 在 海外 的 异步消费者积压且重试策略错误 如何排查", "relevant": ["INC-0033", "INC-0063", "INC-0093", "INC-0123", "INC-0153"], "query_type": "root_cause"}
+{"query": "海外 环境中，恢复消费者并补偿积压事件 是解决过什么故障", "relevant": ["INC-0013", "INC-0033", "INC-0053", "INC-0073", "INC-0093", "INC-0113", "INC-0133", "INC-0153"], "query_type": "resolution"}
+{"query": "卫星姿态控制液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "海洋浮标液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "analytics-service 在 华南 的 缓存的 RBAC 角色版本没有刷新 如何排查", "relevant": ["INC-0032", "INC-0062", "INC-0092", "INC-0122", "INC-0152"], "query_type": "root_cause"}
+{"query": "显微镜成像液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "media-service 在 海外 上游完成后页面结果却没有刷新，有没有历史案例", "relevant": ["INC-0033", "INC-0093", "INC-0153"], "query_type": "service_symptom"}
+{"query": "海外 环境中，修正租户限流配置并增加告警 是解决过什么故障", "relevant": ["INC-0017", "INC-0037", "INC-0057", "INC-0077", "INC-0097", "INC-0117", "INC-0137", "INC-0157"], "query_type": "resolution"}
+{"query": "风力发电机制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "auth-service 在 华北 还没到预估峰值就被限流，有没有历史案例", "relevant": ["INC-0027", "INC-0087", "INC-0147"], "query_type": "service_symptom"}
+{"query": "catalog-service 在 华北 还没到预估峰值就被限流，有没有历史案例", "relevant": ["INC-0067", "INC-0127"], "query_type": "service_symptom"}
+{"query": "notification-service 在 海外 活动流量上来后接口开始雪崩，有没有历史案例", "relevant": ["INC-0045", "INC-0105"], "query_type": "service_symptom"}
+{"query": "农业灌溉阀门燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "华北 环境中，修正租户限流配置并增加告警 是解决过什么故障", "relevant": ["INC-0027", "INC-0047", "INC-0067", "INC-0087", "INC-0107", "INC-0127", "INC-0147"], "query_type": "resolution"}
+{"query": "华南生产环境第130批告警：物流接口 P95 延迟超过 3 秒，用户请求持续超时，影响 shipping-service 的核心链路", "relevant": ["INC-0140"], "query_type": "symptom_verbatim"}
+{"query": "shipping-service 在 华南 的 PostgreSQL 连接池耗尽 如何排查", "relevant": ["INC-0020", "INC-0050", "INC-0080", "INC-0110", "INC-0140"], "query_type": "root_cause"}
+{"query": "华北 环境中，恢复消费者并补偿积压事件 是解决过什么故障", "relevant": ["INC-0023", "INC-0043", "INC-0063", "INC-0083", "INC-0103", "INC-0123", "INC-0143"], "query_type": "resolution"}
+{"query": "华东 环境中，轮换证书并补偿失败回调 是解决过什么故障", "relevant": ["INC-0018", "INC-0038", "INC-0058", "INC-0078", "INC-0098", "INC-0118", "INC-0138", "INC-0158"], "query_type": "resolution"}
+{"query": "华东 环境中，轮换证书并补偿失败回调 是解决过什么故障", "relevant": ["INC-0018", "INC-0038", "INC-0058", "INC-0078", "INC-0098", "INC-0118", "INC-0138", "INC-0158"], "query_type": "resolution"}
+{"query": "order-service 在 华北 的 消费者分区再均衡循环 如何排查", "relevant": ["INC-0031", "INC-0061", "INC-0091", "INC-0121", "INC-0151"], "query_type": "root_cause"}
+{"query": "华北生产环境第9批告警：优惠券数据已存在但接口返回空结果，影响 coupon-service 的核心链路", "relevant": ["INC-0019"], "query_type": "symptom_verbatim"}
+{"query": "海外 环境中，修复消费者超时配置并重启消费组 是解决过什么故障", "relevant": ["INC-0021", "INC-0041", "INC-0061", "INC-0081", "INC-0101", "INC-0121", "INC-0141"], "query_type": "resolution"}
+{"query": "核磁共振设备制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "海外 环境中，缓存增加随机过期并预热热点 是解决过什么故障", "relevant": ["INC-0025", "INC-0045", "INC-0065", "INC-0085", "INC-0105", "INC-0125", "INC-0145"], "query_type": "resolution"}
+{"query": "media-service 在 华北 上游完成后页面结果却没有刷新，有没有历史案例", "relevant": ["INC-0063", "INC-0123"], "query_type": "service_symptom"}
+{"query": "auth-service 在 华南 已经授权的账号仍然被拦截，有没有历史案例", "relevant": ["INC-0012", "INC-0072", "INC-0132"], "query_type": "service_symptom"}
+{"query": "华北 环境中，恢复消费者并补偿积压事件 是解决过什么故障", "relevant": ["INC-0023", "INC-0043", "INC-0063", "INC-0083", "INC-0103", "INC-0123", "INC-0143"], "query_type": "resolution"}
+{"query": "海外 环境中，修复消费者超时配置并重启消费组 是解决过什么故障", "relevant": ["INC-0021", "INC-0041", "INC-0061", "INC-0081", "INC-0101", "INC-0121", "INC-0141"], "query_type": "resolution"}
+{"query": "铁路信号灯液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "会员查询为空（海外第59批）", "relevant": ["INC-0069"], "query_type": "short_query"}
+{"query": "支付回调延迟", "relevant": ["INC-001"], "query_type": "short_query"}
+{"query": "港口吊机液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "华南生产环境第18批告警：库存第三方回调持续验签失败，影响 inventory-service 的核心链路", "relevant": ["INC-0028"], "query_type": "symptom_verbatim"}
+{"query": "settlement-service 在 华南 调用频繁卡住并出现超时，有没有历史案例", "relevant": ["INC-0040", "INC-0100", "INC-0160"], "query_type": "service_symptom"}
+{"query": "会员查询为空（华北第29批）", "relevant": ["INC-0039"], "query_type": "short_query"}
+{"query": "风力发电机液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "核磁共振设备制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "核磁共振设备液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "settlement-service 在 华北 活动流量上来后接口开始雪崩，有没有历史案例", "relevant": ["INC-0055", "INC-0115"], "query_type": "service_symptom"}
+{"query": "order-service 在 海外 的 消费者分区再均衡循环 如何排查", "relevant": ["INC-0031", "INC-0061", "INC-0091", "INC-0121", "INC-0151"], "query_type": "root_cause"}
+{"query": "SEARCH_5134 以前怎么处理？", "relevant": ["INC-0044"], "query_type": "error_code"}
+{"query": "coupon-service 在 华东 大文件总是在传输中断开，有没有历史案例", "relevant": ["INC-0034", "INC-0094", "INC-0154"], "query_type": "service_symptom"}
+{"query": "华东生产环境第52批告警：分析已授权用户调用接口却被拒绝，影响 analytics-service 的核心链路", "relevant": ["INC-0062"], "query_type": "symptom_verbatim"}
+{"query": "coupon-service 在 华北 的 索引任务积压导致搜索索引滞后 如何排查", "relevant": ["INC-0019", "INC-0049", "INC-0079", "INC-0109", "INC-0139"], "query_type": "root_cause"}
+{"query": "analytics-service 在 华北 还没到预估峰值就被限流，有没有历史案例", "relevant": ["INC-0047", "INC-0107"], "query_type": "service_symptom"}
+{"query": "analytics-service 在 海外 的 租户限流配置被错误继承 如何排查", "relevant": ["INC-0017", "INC-0047", "INC-0077", "INC-0107", "INC-0137"], "query_type": "root_cause"}
+{"query": "火星探测器燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "MEDIA_5243 以前怎么处理？", "relevant": ["INC-0153"], "query_type": "error_code"}
+{"query": "华北 环境中，重启索引 worker 并重放失败任务 是解决过什么故障", "relevant": ["INC-0019", "INC-0039", "INC-0059", "INC-0079", "INC-0099", "INC-0119", "INC-0139", "INC-0159"], "query_type": "resolution"}
+{"query": "order-service 在 华南 的 消息重复投递且缺少幂等键 如何排查", "relevant": ["INC-0016", "INC-0046", "INC-0076", "INC-0106", "INC-0136"], "query_type": "root_cause"}
+{"query": "海外生产环境第63批告警：库存上游处理成功但页面状态迟迟没有更新，影响 inventory-service 的核心链路", "relevant": ["INC-0073"], "query_type": "symptom_verbatim"}
+{"query": "PAY_5131 以前怎么处理？", "relevant": ["INC-0041"], "query_type": "error_code"}
+{"query": "风控回调失败（华东第148批）", "relevant": ["INC-0158"], "query_type": "short_query"}
+{"query": "地震监测仪液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "显微镜成像液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "分析权限拒绝（华东第112批）", "relevant": ["INC-0122"], "query_type": "short_query"}
+{"query": "AUTH_5222 以前怎么处理？", "relevant": ["INC-0132"], "query_type": "error_code"}
+{"query": "华东生产环境第80批告警：通知接口 P95 延迟超过 3 秒，用户请求持续超时，影响 notification-service 的核心链路", "relevant": ["INC-0090"], "query_type": "symptom_verbatim"}
+{"query": "search-service 在 华北 的 索引任务积压导致搜索索引滞后 如何排查", "relevant": ["INC-0029", "INC-0059", "INC-0089", "INC-0119", "INC-0149"], "query_type": "root_cause"}
+{"query": "MEDIA_5213 以前怎么处理？", "relevant": ["INC-0123"], "query_type": "error_code"}
+{"query": "海外生产环境第83批告警：媒体上游处理成功但页面状态迟迟没有更新，影响 media-service 的核心链路", "relevant": ["INC-0093"], "query_type": "symptom_verbatim"}
+{"query": "气象雷达制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "shipping-service 在 华北 的 热点缓存同时过期造成回源洪峰 如何排查", "relevant": ["INC-0035", "INC-0065", "INC-0095", "INC-0125", "INC-0155"], "query_type": "root_cause"}
+{"query": "华北 环境中，重启索引 worker 并重放失败任务 是解决过什么故障", "relevant": ["INC-0019", "INC-0039", "INC-0059", "INC-0079", "INC-0099", "INC-0119", "INC-0139", "INC-0159"], "query_type": "resolution"}
+{"query": "MEMBER_5174 以前怎么处理？", "relevant": ["INC-0084"], "query_type": "error_code"}
+{"query": "billing-service 在 华东 的 消息重复投递且缺少幂等键 如何排查", "relevant": ["INC-0036", "INC-0066", "INC-0096", "INC-0126", "INC-0156"], "query_type": "root_cause"}
+{"query": "华东 环境中，失效权限缓存并发布角色版本 是解决过什么故障", "relevant": ["INC-0022", "INC-0042", "INC-0062", "INC-0082", "INC-0102", "INC-0122", "INC-0142"], "query_type": "resolution"}
+{"query": "ORDER_5106 以前怎么处理？", "relevant": ["INC-0016"], "query_type": "error_code"}
+{"query": "media-service 在 华南 第三方通知持续验签不通过，有没有历史案例", "relevant": ["INC-0048", "INC-0108"], "query_type": "service_symptom"}
+{"query": "BILL_5246 以前怎么处理？", "relevant": ["INC-0156"], "query_type": "error_code"}
+{"query": "payment-service 在 华东 业务单据疑似被反复执行，有没有历史案例", "relevant": ["INC-0026", "INC-0086", "INC-0146"], "query_type": "service_symptom"}
+{"query": "华南生产环境第14批告警：会员大文件传输到一半被网关中断，影响 member-service 的核心链路", "relevant": ["INC-0024"], "query_type": "symptom_verbatim"}
+{"query": "华东 环境中，轮换证书并补偿失败回调 是解决过什么故障", "relevant": ["INC-0018", "INC-0038", "INC-0058", "INC-0078", "INC-0098", "INC-0118", "INC-0138", "INC-0158"], "query_type": "resolution"}
+{"query": "海底光缆制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "华东生产环境第120批告警：结算接口 P95 延迟超过 3 秒，用户请求持续超时，影响 settlement-service 的核心链路", "relevant": ["INC-0130"], "query_type": "symptom_verbatim"}
+{"query": "核磁共振设备液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "结算请求超时（华南第30批）", "relevant": ["INC-0040"], "query_type": "short_query"}
+{"query": "工业机械臂液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "SHIP_5125 以前怎么处理？", "relevant": ["INC-0035"], "query_type": "error_code"}
+{"query": "华北生产环境第77批告警：认证请求被限流且业务量未达到预估峰值，影响 auth-service 的核心链路", "relevant": ["INC-0087"], "query_type": "symptom_verbatim"}
+{"query": "STOCK_4092 以前怎么处理？", "relevant": ["INC-003"], "query_type": "error_code"}
+{"query": "华北 环境中，修正租户限流配置并增加告警 是解决过什么故障", "relevant": ["INC-0027", "INC-0047", "INC-0067", "INC-0087", "INC-0107", "INC-0127", "INC-0147"], "query_type": "resolution"}
+{"query": "billing-service 在 海外 的 消费者分区再均衡循环 如何排查", "relevant": ["INC-0021", "INC-0051", "INC-0081", "INC-0111", "INC-0141"], "query_type": "root_cause"}
+{"query": "核磁共振设备液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "华南 环境中，扩容连接池并限制重试风暴 是解决过什么故障", "relevant": ["INC-0020", "INC-0040", "INC-0060", "INC-0080", "INC-0100", "INC-0120", "INC-0140", "INC-0160"], "query_type": "resolution"}
+{"query": "coupon-service 在 华北 的 索引任务积压导致搜索索引滞后 如何排查", "relevant": ["INC-0019", "INC-0049", "INC-0079", "INC-0109", "INC-0139"], "query_type": "root_cause"}
+{"query": "华北生产环境第133批告警：风控上游处理成功但页面状态迟迟没有更新，影响 risk-service 的核心链路", "relevant": ["INC-0143"], "query_type": "symptom_verbatim"}
+{"query": "COUPON_5169 以前怎么处理？", "relevant": ["INC-0079"], "query_type": "error_code"}
+{"query": "优惠券上传失败（华东第24批）", "relevant": ["INC-0034"], "query_type": "short_query"}
+{"query": "媒体回调失败（华南第98批）", "relevant": ["INC-0108"], "query_type": "short_query"}
+{"query": "支付重复处理（华东第136批）", "relevant": ["INC-0146"], "query_type": "short_query"}
+{"query": "华东生产环境第128批告警：媒体第三方回调持续验签失败，影响 media-service 的核心链路", "relevant": ["INC-0138"], "query_type": "symptom_verbatim"}
+{"query": "华北 环境中，重启索引 worker 并重放失败任务 是解决过什么故障", "relevant": ["INC-0019", "INC-0039", "INC-0059", "INC-0079", "INC-0099", "INC-0119", "INC-0139", "INC-0159"], "query_type": "resolution"}
+{"query": "华南生产环境第122批告警：认证已授权用户调用接口却被拒绝，影响 auth-service 的核心链路", "relevant": ["INC-0132"], "query_type": "symptom_verbatim"}
+{"query": "catalog-service 在 华北 还没到预估峰值就被限流，有没有历史案例", "relevant": ["INC-0067", "INC-0127"], "query_type": "service_symptom"}
+{"query": "认证权限拒绝（华南第2批）", "relevant": ["INC-0012"], "query_type": "short_query"}
+{"query": "媒体状态不同步（华北第113批）", "relevant": ["INC-0123"], "query_type": "short_query"}
+{"query": "铁路信号灯制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "member-service 在 华南 大文件总是在传输中断开，有没有历史案例", "relevant": ["INC-0024", "INC-0084", "INC-0144"], "query_type": "service_symptom"}
+{"query": "STOCK_5223 以前怎么处理？", "relevant": ["INC-0133"], "query_type": "error_code"}
+{"query": "billing-service 在 海外 的 消费者分区再均衡循环 如何排查", "relevant": ["INC-0021", "INC-0051", "INC-0081", "INC-0111", "INC-0141"], "query_type": "root_cause"}
+{"query": "inventory-service 在 海外 的 异步消费者积压且重试策略错误 如何排查", "relevant": ["INC-0013", "INC-0043", "INC-0073", "INC-0103", "INC-0133"], "query_type": "root_cause"}
+{"query": "settlement-service 在 华南 的 PostgreSQL 连接池耗尽 如何排查", "relevant": ["INC-0040", "INC-0070", "INC-0100", "INC-0130", "INC-0160"], "query_type": "root_cause"}
+{"query": "华东 环境中，轮换证书并补偿失败回调 是解决过什么故障", "relevant": ["INC-0018", "INC-0038", "INC-0058", "INC-0078", "INC-0098", "INC-0118", "INC-0138", "INC-0158"], "query_type": "resolution"}
+{"query": "notification-service 在 华北 的 热点缓存同时过期造成回源洪峰 如何排查", "relevant": ["INC-0015", "INC-0045", "INC-0075", "INC-0105", "INC-0135"], "query_type": "root_cause"}
+{"query": "search-service 在 华东 的 请求体大小限制低于业务配置 如何排查", "relevant": ["INC-0014", "INC-0044", "INC-0074", "INC-0104", "INC-0134"], "query_type": "root_cause"}
+{"query": "search-service 在 华南 的 请求体大小限制低于业务配置 如何排查", "relevant": ["INC-0014", "INC-0044", "INC-0074", "INC-0104", "INC-0134"], "query_type": "root_cause"}
+{"query": "search-service 在 海外 的 索引任务积压导致搜索索引滞后 如何排查", "relevant": ["INC-0029", "INC-0059", "INC-0089", "INC-0119", "INC-0149"], "query_type": "root_cause"}
+{"query": "计费数据延迟（华北第41批）", "relevant": ["INC-0051"], "query_type": "short_query"}
+{"query": "激光测距仪液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "SEARCH_5149 以前怎么处理？", "relevant": ["INC-0059"], "query_type": "error_code"}
+{"query": "激光测距仪液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "NOTIFY_5225 以前怎么处理？", "relevant": ["INC-0135"], "query_type": "error_code"}
+{"query": "检索上传失败（华南第94批）", "relevant": ["INC-0104"], "query_type": "short_query"}
+{"query": "settlement-service 在 华东 调用频繁卡住并出现超时，有没有历史案例", "relevant": ["INC-0070", "INC-0130"], "query_type": "service_symptom"}
+{"query": "billing-service 在 华北 看板数据滞后了很久，有没有历史案例", "relevant": ["INC-0051", "INC-0111"], "query_type": "service_symptom"}
+{"query": "notification-service 在 华北 的 热点缓存同时过期造成回源洪峰 如何排查", "relevant": ["INC-0015", "INC-0045", "INC-0075", "INC-0105", "INC-0135"], "query_type": "root_cause"}
+{"query": "order-service 在 线上 的 pricing-service 缓存同时过期造成回源洪峰 如何排查", "relevant": ["INC-007"], "query_type": "root_cause"}
+{"query": "无人机飞控制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "coupon-service 在 华北 明明有数据却查不到，有没有历史案例", "relevant": ["INC-0019", "INC-0079", "INC-0139"], "query_type": "service_symptom"}
+{"query": "risk-service 在 华北 的 异步消费者积压且重试策略错误 如何排查", "relevant": ["INC-0023", "INC-0053", "INC-0083", "INC-0113", "INC-0143"], "query_type": "root_cause"}
+{"query": "STOCK_5118 以前怎么处理？", "relevant": ["INC-0028"], "query_type": "error_code"}
+{"query": "CATALOG_5157 以前怎么处理？", "relevant": ["INC-0067"], "query_type": "error_code"}
+{"query": "华南生产环境第142批告警：分析已授权用户调用接口却被拒绝，影响 analytics-service 的核心链路", "relevant": ["INC-0152"], "query_type": "symptom_verbatim"}
+{"query": "智能电表液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "海底光缆液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "RISK_5218 以前怎么处理？", "relevant": ["INC-0128"], "query_type": "error_code"}
+{"query": "海外生产环境第103批告警：风控上游处理成功但页面状态迟迟没有更新，影响 risk-service 的核心链路", "relevant": ["INC-0113"], "query_type": "symptom_verbatim"}
+{"query": "auth-service 在 华东 已经授权的账号仍然被拦截，有没有历史案例", "relevant": ["INC-0042", "INC-0102"], "query_type": "service_symptom"}
+{"query": "华南 环境中，以业务事件 ID 增加幂等记录 是解决过什么故障", "relevant": ["INC-0016", "INC-0036", "INC-0056", "INC-0076", "INC-0096", "INC-0116", "INC-0136", "INC-0156"], "query_type": "resolution"}
+{"query": "billing-service 在 华东 的 消息重复投递且缺少幂等键 如何排查", "relevant": ["INC-0036", "INC-0066", "INC-0096", "INC-0126", "INC-0156"], "query_type": "root_cause"}
+{"query": "analytics-service 在 华东 已经授权的账号仍然被拦截，有没有历史案例", "relevant": ["INC-0062", "INC-0122"], "query_type": "service_symptom"}
+{"query": "结算请求超时（华南第150批）", "relevant": ["INC-0160"], "query_type": "short_query"}
+{"query": "华南 环境中，提高网关请求体限制并增加分片上传 是解决过什么故障", "relevant": ["INC-0024", "INC-0044", "INC-0064", "INC-0084", "INC-0104", "INC-0124", "INC-0144"], "query_type": "resolution"}
+{"query": "SEARCH_5209 以前怎么处理？", "relevant": ["INC-0119"], "query_type": "error_code"}
+{"query": "地震监测仪燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "商品目录配额超限（海外第27批）", "relevant": ["INC-0037"], "query_type": "short_query"}
+{"query": "settlement-service 在 华南 调用频繁卡住并出现超时，有没有历史案例", "relevant": ["INC-0040", "INC-0100", "INC-0160"], "query_type": "service_symptom"}
+{"query": "华东生产环境第64批告警：检索大文件传输到一半被网关中断，影响 search-service 的核心链路", "relevant": ["INC-0074"], "query_type": "symptom_verbatim"}
+{"query": "catalog-service 在 华东 的 缓存的 RBAC 角色版本没有刷新 如何排查", "relevant": ["INC-0022", "INC-0052", "INC-0082", "INC-0112", "INC-0142"], "query_type": "root_cause"}
+{"query": "payment-service 在 华东 的 消息重复投递且缺少幂等键 如何排查", "relevant": ["INC-0026", "INC-0056", "INC-0086", "INC-0116", "INC-0146"], "query_type": "root_cause"}
+{"query": "气象雷达制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "PAY_5101 以前怎么处理？", "relevant": ["INC-0011"], "query_type": "error_code"}
+{"query": "海外生产环境第139批告警：检索数据已存在但接口返回空结果，影响 search-service 的核心链路", "relevant": ["INC-0149"], "query_type": "symptom_verbatim"}
+{"query": "catalog-service 在 华东 的 缓存的 RBAC 角色版本没有刷新 如何排查", "relevant": ["INC-0022", "INC-0052", "INC-0082", "INC-0112", "INC-0142"], "query_type": "root_cause"}
+{"query": "analytics-service 在 线上 报表数据延迟，有没有历史案例", "relevant": ["INC-009"], "query_type": "service_symptom"}
+{"query": "海外 环境中，重启索引 worker 并重放失败任务 是解决过什么故障", "relevant": ["INC-0029", "INC-0049", "INC-0069", "INC-0089", "INC-0109", "INC-0129", "INC-0149"], "query_type": "resolution"}
+{"query": "港口吊机燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "华南生产环境第74批告警：会员大文件传输到一半被网关中断，影响 member-service 的核心链路", "relevant": ["INC-0084"], "query_type": "symptom_verbatim"}
+{"query": "settlement-service 在 华南 的 PostgreSQL 连接池耗尽 如何排查", "relevant": ["INC-0040", "INC-0070", "INC-0100", "INC-0130", "INC-0160"], "query_type": "root_cause"}
+{"query": "catalog-service 在 华南 的 缓存的 RBAC 角色版本没有刷新 如何排查", "relevant": ["INC-0022", "INC-0052", "INC-0082", "INC-0112", "INC-0142"], "query_type": "root_cause"}
+{"query": "auth-service 在 海外 还没到预估峰值就被限流，有没有历史案例", "relevant": ["INC-0057", "INC-0117"], "query_type": "service_symptom"}
+{"query": "优惠券上传失败（华东第84批）", "relevant": ["INC-0094"], "query_type": "short_query"}
+{"query": "notification-service 在 华东 调用频繁卡住并出现超时，有没有历史案例", "relevant": ["INC-0030", "INC-0090", "INC-0150"], "query_type": "service_symptom"}
+{"query": "华北生产环境第141批告警：订单运营侧数据停留在数小时前，影响 order-service 的核心链路", "relevant": ["INC-0151"], "query_type": "symptom_verbatim"}
+{"query": "库存状态不同步（海外第3批）", "relevant": ["INC-0013"], "query_type": "short_query"}
+{"query": "auth-service 在 华南 的 缓存的 RBAC 角色版本没有刷新 如何排查", "relevant": ["INC-0012", "INC-0042", "INC-0072", "INC-0102", "INC-0132"], "query_type": "root_cause"}
+{"query": "payment-service 在 华东 的 消息重复投递且缺少幂等键 如何排查", "relevant": ["INC-0026", "INC-0056", "INC-0086", "INC-0116", "INC-0146"], "query_type": "root_cause"}
+{"query": "激光测距仪制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "order-service 在 华东 业务单据疑似被反复执行，有没有历史案例", "relevant": ["INC-0046", "INC-0106"], "query_type": "service_symptom"}
+{"query": "NOTIFY_5105 以前怎么处理？", "relevant": ["INC-0015"], "query_type": "error_code"}
+{"query": "线上 环境中，启用锁续期并增加数据库唯一约束 是解决过什么故障", "relevant": ["INC-006"], "query_type": "resolution"}
+{"query": "华东 环境中，扩容连接池并限制重试风暴 是解决过什么故障", "relevant": ["INC-0030", "INC-0050", "INC-0070", "INC-0090", "INC-0110", "INC-0130", "INC-0150"], "query_type": "resolution"}
+{"query": "华北生产环境第109批告警：检索数据已存在但接口返回空结果，影响 search-service 的核心链路", "relevant": ["INC-0119"], "query_type": "symptom_verbatim"}
+{"query": "地震监测仪燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "华东生产环境第84批告警：优惠券大文件传输到一半被网关中断，影响 coupon-service 的核心链路", "relevant": ["INC-0094"], "query_type": "symptom_verbatim"}
+{"query": "无人机飞控液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "STOCK_5133 以前怎么处理？", "relevant": ["INC-0043"], "query_type": "error_code"}
+{"query": "MEMBER_5144 以前怎么处理？", "relevant": ["INC-0054"], "query_type": "error_code"}
+{"query": "华东生产环境第132批告警：商品目录已授权用户调用接口却被拒绝，影响 catalog-service 的核心链路", "relevant": ["INC-0142"], "query_type": "symptom_verbatim"}
+{"query": "深海潜航器燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "通知流量突增（海外第95批）", "relevant": ["INC-0105"], "query_type": "short_query"}
+{"query": "海外 环境中，修正租户限流配置并增加告警 是解决过什么故障", "relevant": ["INC-0017", "INC-0037", "INC-0057", "INC-0077", "INC-0097", "INC-0117", "INC-0137", "INC-0157"], "query_type": "resolution"}
+{"query": "核磁共振设备燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "BILL_5171 以前怎么处理？", "relevant": ["INC-0081"], "query_type": "error_code"}
+{"query": "SHIP_5245 以前怎么处理？", "relevant": ["INC-0155"], "query_type": "error_code"}
+{"query": "海底光缆液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "coupon-service 在 华南 大文件总是在传输中断开，有没有历史案例", "relevant": ["INC-0064", "INC-0124"], "query_type": "service_symptom"}
+{"query": "coupon-service 在 海外 明明有数据却查不到，有没有历史案例", "relevant": ["INC-0049", "INC-0109"], "query_type": "service_symptom"}
+{"query": "库存重复扣减", "relevant": ["INC-003"], "query_type": "short_query"}
+{"query": "通知流量突增（华北第5批）", "relevant": ["INC-0015"], "query_type": "short_query"}
+{"query": "海外 环境中，修正租户限流配置并增加告警 是解决过什么故障", "relevant": ["INC-0017", "INC-0037", "INC-0057", "INC-0077", "INC-0097", "INC-0117", "INC-0137", "INC-0157"], "query_type": "resolution"}
+{"query": "coupon-service 在 线上 的 分布式锁租约提前过期 如何排查", "relevant": ["INC-006"], "query_type": "root_cause"}
+{"query": "华南生产环境第150批告警：结算接口 P95 延迟超过 3 秒，用户请求持续超时，影响 settlement-service 的核心链路", "relevant": ["INC-0160"], "query_type": "symptom_verbatim"}
+{"query": "payment-service 在 华南 业务单据疑似被反复执行，有没有历史案例", "relevant": ["INC-0056", "INC-0116"], "query_type": "service_symptom"}
+{"query": "ORDER_5226 以前怎么处理？", "relevant": ["INC-0136"], "query_type": "error_code"}
+{"query": "inventory-service 在 华北 上游完成后页面结果却没有刷新，有没有历史案例", "relevant": ["INC-0043", "INC-0103"], "query_type": "service_symptom"}
+{"query": "风控状态不同步（华北第133批）", "relevant": ["INC-0143"], "query_type": "short_query"}
+{"query": "risk-service 在 海外 的 异步消费者积压且重试策略错误 如何排查", "relevant": ["INC-0023", "INC-0053", "INC-0083", "INC-0113", "INC-0143"], "query_type": "root_cause"}
+{"query": "coupon-service 在 海外 的 索引任务积压导致搜索索引滞后 如何排查", "relevant": ["INC-0019", "INC-0049", "INC-0079", "INC-0109", "INC-0139"], "query_type": "root_cause"}
+{"query": "风控状态不同步（海外第43批）", "relevant": ["INC-0053"], "query_type": "short_query"}
+{"query": "华北生产环境第65批告警：通知活动开始后接口错误率和延迟同时升高，影响 notification-service 的核心链路", "relevant": ["INC-0075"], "query_type": "symptom_verbatim"}
+{"query": "工业机械臂制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "MEDIA_5198 以前怎么处理？", "relevant": ["INC-0108"], "query_type": "error_code"}
+{"query": "计费重复处理（华东第56批）", "relevant": ["INC-0066"], "query_type": "short_query"}
+{"query": "海洋浮标燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "华北 环境中，修复消费者超时配置并重启消费组 是解决过什么故障", "relevant": ["INC-0011", "INC-0031", "INC-0051", "INC-0071", "INC-0091", "INC-0111", "INC-0131", "INC-0151"], "query_type": "resolution"}
+{"query": "analytics-service 在 华南 已经授权的账号仍然被拦截，有没有历史案例", "relevant": ["INC-0032", "INC-0092", "INC-0152"], "query_type": "service_symptom"}
+{"query": "计费重复处理（华南第86批）", "relevant": ["INC-0096"], "query_type": "short_query"}
+{"query": "太阳能逆变器燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "计费重复处理（华南第26批）", "relevant": ["INC-0036"], "query_type": "short_query"}
+{"query": "海外 环境中，缓存增加随机过期并预热热点 是解决过什么故障", "relevant": ["INC-0025", "INC-0045", "INC-0065", "INC-0085", "INC-0105", "INC-0125", "INC-0145"], "query_type": "resolution"}
+{"query": "analytics-service 在 华东 的 缓存的 RBAC 角色版本没有刷新 如何排查", "relevant": ["INC-0032", "INC-0062", "INC-0092", "INC-0122", "INC-0152"], "query_type": "root_cause"}
+{"query": "铁路信号灯制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "风控回调失败（华东第28批）", "relevant": ["INC-0038"], "query_type": "short_query"}
+{"query": "member-service 在 华北 明明有数据却查不到，有没有历史案例", "relevant": ["INC-0039", "INC-0099", "INC-0159"], "query_type": "service_symptom"}
+{"query": "订单重复处理（华南第6批）", "relevant": ["INC-0016"], "query_type": "short_query"}
+{"query": "检索查询为空（华北第49批）", "relevant": ["INC-0059"], "query_type": "short_query"}
+{"query": "地震监测仪制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "CATALOG_5232 以前怎么处理？", "relevant": ["INC-0142"], "query_type": "error_code"}
+{"query": "风力发电机燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "华北 环境中，缓存增加随机过期并预热热点 是解决过什么故障", "relevant": ["INC-0015", "INC-0035", "INC-0055", "INC-0075", "INC-0095", "INC-0115", "INC-0135", "INC-0155"], "query_type": "resolution"}
+{"query": "ANALYTICS_5212 以前怎么处理？", "relevant": ["INC-0122"], "query_type": "error_code"}
+{"query": "结算流量突增（华北第45批）", "relevant": ["INC-0055"], "query_type": "short_query"}
+{"query": "inventory-service 在 华南 的 回调证书过期 如何排查", "relevant": ["INC-0028", "INC-0058", "INC-0088", "INC-0118", "INC-0148"], "query_type": "root_cause"}
+{"query": "华东生产环境第60批告警：结算接口 P95 延迟超过 3 秒，用户请求持续超时，影响 settlement-service 的核心链路", "relevant": ["INC-0070"], "query_type": "symptom_verbatim"}
+{"query": "智能电表制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "shipping-service 在 华北 的 热点缓存同时过期造成回源洪峰 如何排查", "relevant": ["INC-0035", "INC-0065", "INC-0095", "INC-0125", "INC-0155"], "query_type": "root_cause"}
+{"query": "库存状态不同步（华北第33批）", "relevant": ["INC-0043"], "query_type": "short_query"}
+{"query": "华北 环境中，修正租户限流配置并增加告警 是解决过什么故障", "relevant": ["INC-0027", "INC-0047", "INC-0067", "INC-0087", "INC-0107", "INC-0127", "INC-0147"], "query_type": "resolution"}
+{"query": "结算流量突增（海外第75批）", "relevant": ["INC-0085"], "query_type": "short_query"}
+{"query": "海外生产环境第71批告警：计费运营侧数据停留在数小时前，影响 billing-service 的核心链路", "relevant": ["INC-0081"], "query_type": "symptom_verbatim"}
+{"query": "华南 环境中，提高网关请求体限制并增加分片上传 是解决过什么故障", "relevant": ["INC-0024", "INC-0044", "INC-0064", "INC-0084", "INC-0104", "INC-0124", "INC-0144"], "query_type": "resolution"}
+{"query": "华南生产环境第66批告警：订单同一业务单据被处理两次，出现重复扣款或重复通知，影响 order-service 的核心链路", "relevant": ["INC-0076"], "query_type": "symptom_verbatim"}
+{"query": "notification-service 在 线上 短信重复发送，有没有历史案例", "relevant": ["INC-008"], "query_type": "service_symptom"}
+{"query": "无人机飞控液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "search-service 在 海外 明明有数据却查不到，有没有历史案例", "relevant": ["INC-0029", "INC-0089", "INC-0149"], "query_type": "service_symptom"}
+{"query": "coupon-service 在 华南 大文件总是在传输中断开，有没有历史案例", "relevant": ["INC-0064", "INC-0124"], "query_type": "service_symptom"}
+{"query": "海外生产环境第7批告警：分析请求被限流且业务量未达到预估峰值，影响 analytics-service 的核心链路", "relevant": ["INC-0017"], "query_type": "symptom_verbatim"}
+{"query": "通知流量突增（海外第35批）", "relevant": ["INC-0045"], "query_type": "short_query"}
+{"query": "工业机械臂制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "短信重复发送", "relevant": ["INC-008"], "query_type": "short_query"}
+{"query": "海底光缆液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "民航导航系统燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "海外 环境中，修正租户限流配置并增加告警 是解决过什么故障", "relevant": ["INC-0017", "INC-0037", "INC-0057", "INC-0077", "INC-0097", "INC-0117", "INC-0137", "INC-0157"], "query_type": "resolution"}
+{"query": "农业灌溉阀门制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "华北生产环境第49批告警：检索数据已存在但接口返回空结果，影响 search-service 的核心链路", "relevant": ["INC-0059"], "query_type": "symptom_verbatim"}
+{"query": "商品目录权限拒绝（华东第72批）", "relevant": ["INC-0082"], "query_type": "short_query"}
+{"query": "火星探测器制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "华南 环境中，失效权限缓存并发布角色版本 是解决过什么故障", "relevant": ["INC-0012", "INC-0032", "INC-0052", "INC-0072", "INC-0092", "INC-0112", "INC-0132", "INC-0152"], "query_type": "resolution"}
+{"query": "payment-service 在 华北 看板数据滞后了很久，有没有历史案例", "relevant": ["INC-0011", "INC-0071", "INC-0131"], "query_type": "service_symptom"}
+{"query": "media-service 在 海外 的 异步消费者积压且重试策略错误 如何排查", "relevant": ["INC-0033", "INC-0063", "INC-0093", "INC-0123", "INC-0153"], "query_type": "root_cause"}
+{"query": "工业机械臂液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "媒体状态不同步（海外第23批）", "relevant": ["INC-0033"], "query_type": "short_query"}
+{"query": "billing-service 在 华南 的 消息重复投递且缺少幂等键 如何排查", "relevant": ["INC-0036", "INC-0066", "INC-0096", "INC-0126", "INC-0156"], "query_type": "root_cause"}
+{"query": "卫星姿态控制燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "激光测距仪制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "华北生产环境第29批告警：会员数据已存在但接口返回空结果，影响 member-service 的核心链路", "relevant": ["INC-0039"], "query_type": "symptom_verbatim"}
+{"query": "显微镜成像制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "PAY_5206 以前怎么处理？", "relevant": ["INC-0116"], "query_type": "error_code"}
+{"query": "notification-service 在 华东 的 PostgreSQL 连接池耗尽 如何排查", "relevant": ["INC-0030", "INC-0060", "INC-0090", "INC-0120", "INC-0150"], "query_type": "root_cause"}
+{"query": "shipping-service 在 华南 的 PostgreSQL 连接池耗尽 如何排查", "relevant": ["INC-0020", "INC-0050", "INC-0080", "INC-0110", "INC-0140"], "query_type": "root_cause"}
+{"query": "华南生产环境第10批告警：物流接口 P95 延迟超过 3 秒，用户请求持续超时，影响 shipping-service 的核心链路", "relevant": ["INC-0020"], "query_type": "symptom_verbatim"}
+{"query": "铁路信号灯制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "无人机飞控燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "库存状态不同步（华北第93批）", "relevant": ["INC-0103"], "query_type": "short_query"}
+{"query": "MEDIA_5228 以前怎么处理？", "relevant": ["INC-0138"], "query_type": "error_code"}
+{"query": "海底光缆燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "华南 环境中，提高网关请求体限制并增加分片上传 是解决过什么故障", "relevant": ["INC-0024", "INC-0044", "INC-0064", "INC-0084", "INC-0104", "INC-0124", "INC-0144"], "query_type": "resolution"}
+{"query": "海外 环境中，重启索引 worker 并重放失败任务 是解决过什么故障", "relevant": ["INC-0029", "INC-0049", "INC-0069", "INC-0089", "INC-0109", "INC-0129", "INC-0149"], "query_type": "resolution"}
+{"query": "华北 环境中，修复消费者超时配置并重启消费组 是解决过什么故障", "relevant": ["INC-0011", "INC-0031", "INC-0051", "INC-0071", "INC-0091", "INC-0111", "INC-0131", "INC-0151"], "query_type": "resolution"}
+{"query": "华东生产环境第96批告警：订单同一业务单据被处理两次，出现重复扣款或重复通知，影响 order-service 的核心链路", "relevant": ["INC-0106"], "query_type": "symptom_verbatim"}
+{"query": "会员上传失败（华东第44批）", "relevant": ["INC-0054"], "query_type": "short_query"}
+{"query": "海外 环境中，修复消费者超时配置并重启消费组 是解决过什么故障", "relevant": ["INC-0021", "INC-0041", "INC-0061", "INC-0081", "INC-0101", "INC-0121", "INC-0141"], "query_type": "resolution"}
+{"query": "member-service 在 华北 的 索引任务积压导致搜索索引滞后 如何排查", "relevant": ["INC-0039", "INC-0069", "INC-0099", "INC-0129", "INC-0159"], "query_type": "root_cause"}
+{"query": "auth-service 在 华南 已经授权的账号仍然被拦截，有没有历史案例", "relevant": ["INC-0012", "INC-0072", "INC-0132"], "query_type": "service_symptom"}
+{"query": "CATALOG_5202 以前怎么处理？", "relevant": ["INC-0112"], "query_type": "error_code"}
+{"query": "气象雷达制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "shipping-service 在 华南 调用频繁卡住并出现超时，有没有历史案例", "relevant": ["INC-0020", "INC-0080", "INC-0140"], "query_type": "service_symptom"}
+{"query": "地震监测仪制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "risk-service 在 华东 第三方通知持续验签不通过，有没有历史案例", "relevant": ["INC-0038", "INC-0098", "INC-0158"], "query_type": "service_symptom"}
+{"query": "华东 环境中，失效权限缓存并发布角色版本 是解决过什么故障", "relevant": ["INC-0022", "INC-0042", "INC-0062", "INC-0082", "INC-0102", "INC-0122", "INC-0142"], "query_type": "resolution"}
+{"query": "华东生产环境第56批告警：计费同一业务单据被处理两次，出现重复扣款或重复通知，影响 billing-service 的核心链路", "relevant": ["INC-0066"], "query_type": "symptom_verbatim"}
+{"query": "库存回调失败（华南第18批）", "relevant": ["INC-0028"], "query_type": "short_query"}
+{"query": "华东 环境中，以业务事件 ID 增加幂等记录 是解决过什么故障", "relevant": ["INC-0026", "INC-0046", "INC-0066", "INC-0086", "INC-0106", "INC-0126", "INC-0146"], "query_type": "resolution"}
+{"query": "华东 环境中，扩容连接池并限制重试风暴 是解决过什么故障", "relevant": ["INC-0030", "INC-0050", "INC-0070", "INC-0090", "INC-0110", "INC-0130", "INC-0150"], "query_type": "resolution"}
+{"query": "认证配额超限（海外第107批）", "relevant": ["INC-0117"], "query_type": "short_query"}
+{"query": "payment-service 在 海外 的 消费者分区再均衡循环 如何排查", "relevant": ["INC-0011", "INC-0041", "INC-0071", "INC-0101", "INC-0131"], "query_type": "root_cause"}
+{"query": "海外生产环境第87批告警：商品目录请求被限流且业务量未达到预估峰值，影响 catalog-service 的核心链路", "relevant": ["INC-0097"], "query_type": "symptom_verbatim"}
+{"query": "billing-service 在 华南 的 消息重复投递且缺少幂等键 如何排查", "relevant": ["INC-0036", "INC-0066", "INC-0096", "INC-0126", "INC-0156"], "query_type": "root_cause"}
+{"query": "显微镜成像液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "member-service 在 华北 明明有数据却查不到，有没有历史案例", "relevant": ["INC-0039", "INC-0099", "INC-0159"], "query_type": "service_symptom"}
+{"query": "华南 环境中，失效权限缓存并发布角色版本 是解决过什么故障", "relevant": ["INC-0012", "INC-0032", "INC-0052", "INC-0072", "INC-0092", "INC-0112", "INC-0132", "INC-0152"], "query_type": "resolution"}
+{"query": "media-service 在 华东 的 回调证书过期 如何排查", "relevant": ["INC-0018", "INC-0048", "INC-0078", "INC-0108", "INC-0138"], "query_type": "root_cause"}
+{"query": "settlement-service 在 华东 的 PostgreSQL 连接池耗尽 如何排查", "relevant": ["INC-0040", "INC-0070", "INC-0100", "INC-0130", "INC-0160"], "query_type": "root_cause"}
+{"query": "分析配额超限（华北第37批）", "relevant": ["INC-0047"], "query_type": "short_query"}
+{"query": "NOTIFY_5180 以前怎么处理？", "relevant": ["INC-0090"], "query_type": "error_code"}
+{"query": "认证配额超限（华北第77批）", "relevant": ["INC-0087"], "query_type": "short_query"}
+{"query": "notification-service 在 华北 活动流量上来后接口开始雪崩，有没有历史案例", "relevant": ["INC-0015", "INC-0075", "INC-0135"], "query_type": "service_symptom"}
+{"query": "STOCK_5238 以前怎么处理？", "relevant": ["INC-0148"], "query_type": "error_code"}
+{"query": "order-service 在 华北 的 消费者分区再均衡循环 如何排查", "relevant": ["INC-0031", "INC-0061", "INC-0091", "INC-0121", "INC-0151"], "query_type": "root_cause"}
+{"query": "risk-service 在 海外 上游完成后页面结果却没有刷新，有没有历史案例", "relevant": ["INC-0053", "INC-0113"], "query_type": "service_symptom"}
+{"query": "华东 环境中，失效权限缓存并发布角色版本 是解决过什么故障", "relevant": ["INC-0022", "INC-0042", "INC-0062", "INC-0082", "INC-0102", "INC-0122", "INC-0142"], "query_type": "resolution"}
+{"query": "用户收到多条相同验证码短信", "relevant": ["INC-008"], "query_type": "symptom_verbatim"}
+{"query": "检索查询为空（海外第19批）", "relevant": ["INC-0029"], "query_type": "short_query"}
+{"query": "华南生产环境第146批告警：计费同一业务单据被处理两次，出现重复扣款或重复通知，影响 billing-service 的核心链路", "relevant": ["INC-0156"], "query_type": "symptom_verbatim"}
+{"query": "analytics-service 在 海外 还没到预估峰值就被限流，有没有历史案例", "relevant": ["INC-0017", "INC-0077", "INC-0137"], "query_type": "service_symptom"}
+{"query": "海外生产环境第27批告警：商品目录请求被限流且业务量未达到预估峰值，影响 catalog-service 的核心链路", "relevant": ["INC-0037"], "query_type": "symptom_verbatim"}
+{"query": "华南 环境中，轮换证书并补偿失败回调 是解决过什么故障", "relevant": ["INC-0028", "INC-0048", "INC-0068", "INC-0088", "INC-0108", "INC-0128", "INC-0148"], "query_type": "resolution"}
+{"query": "商品目录配额超限（海外第87批）", "relevant": ["INC-0097"], "query_type": "short_query"}
+{"query": "risk-service 在 华东 第三方通知持续验签不通过，有没有历史案例", "relevant": ["INC-0038", "INC-0098", "INC-0158"], "query_type": "service_symptom"}
+{"query": "华北 环境中，重启索引 worker 并重放失败任务 是解决过什么故障", "relevant": ["INC-0019", "INC-0039", "INC-0059", "INC-0079", "INC-0099", "INC-0119", "INC-0139", "INC-0159"], "query_type": "resolution"}
+{"query": "auth-service 在 华南 的 缓存的 RBAC 角色版本没有刷新 如何排查", "relevant": ["INC-0012", "INC-0042", "INC-0072", "INC-0102", "INC-0132"], "query_type": "root_cause"}
+{"query": "catalog-service 在 华东 已经授权的账号仍然被拦截，有没有历史案例", "relevant": ["INC-0022", "INC-0082", "INC-0142"], "query_type": "service_symptom"}
+{"query": "检索查询为空（海外第79批）", "relevant": ["INC-0089"], "query_type": "short_query"}
+{"query": "analytics-service 在 华南 已经授权的账号仍然被拦截，有没有历史案例", "relevant": ["INC-0032", "INC-0092", "INC-0152"], "query_type": "service_symptom"}
+{"query": "inventory-service 在 华东 的 回调证书过期 如何排查", "relevant": ["INC-0028", "INC-0058", "INC-0088", "INC-0118", "INC-0148"], "query_type": "root_cause"}
+{"query": "太阳能逆变器液压回路告警历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "认证权限拒绝（华南第122批）", "relevant": ["INC-0132"], "query_type": "short_query"}
+{"query": "激光测距仪燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "华北 环境中，修正租户限流配置并增加告警 是解决过什么故障", "relevant": ["INC-0027", "INC-0047", "INC-0067", "INC-0087", "INC-0107", "INC-0127", "INC-0147"], "query_type": "resolution"}
+{"query": "AUTH_5041 以前怎么处理？", "relevant": ["INC-002"], "query_type": "error_code"}
+{"query": "媒体状态不同步（海外第143批）", "relevant": ["INC-0153"], "query_type": "short_query"}
+{"query": "华东 环境中，以业务事件 ID 增加幂等记录 是解决过什么故障", "relevant": ["INC-0026", "INC-0046", "INC-0066", "INC-0086", "INC-0106", "INC-0126", "INC-0146"], "query_type": "resolution"}
+{"query": "inventory-service 在 线上 的 消息消费超时后重复投递且缺少幂等键 如何排查", "relevant": ["INC-003"], "query_type": "root_cause"}
+{"query": "payment-service 在 华北 的 消费者分区再均衡循环 如何排查", "relevant": ["INC-0011", "INC-0041", "INC-0071", "INC-0101", "INC-0131"], "query_type": "root_cause"}
+{"query": "settlement-service 在 海外 的 热点缓存同时过期造成回源洪峰 如何排查", "relevant": ["INC-0025", "INC-0055", "INC-0085", "INC-0115", "INC-0145"], "query_type": "root_cause"}
+{"query": "PAY_5116 以前怎么处理？", "relevant": ["INC-0026"], "query_type": "error_code"}
+{"query": "payment-service 在 线上 支付回调延迟，有没有历史案例", "relevant": ["INC-001"], "query_type": "service_symptom"}
+{"query": "港口吊机制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "coupon-service 在 华东 的 请求体大小限制低于业务配置 如何排查", "relevant": ["INC-0034", "INC-0064", "INC-0094", "INC-0124", "INC-0154"], "query_type": "root_cause"}
+{"query": "商品目录配额超限（华北第57批）", "relevant": ["INC-0067"], "query_type": "short_query"}
+{"query": "PAY_5221 以前怎么处理？", "relevant": ["INC-0131"], "query_type": "error_code"}
+{"query": "SHIP_5215 以前怎么处理？", "relevant": ["INC-0125"], "query_type": "error_code"}
+{"query": "NOTIFY_5240 以前怎么处理？", "relevant": ["INC-0150"], "query_type": "error_code"}
+{"query": "支付重复处理（华东第76批）", "relevant": ["INC-0086"], "query_type": "short_query"}
+{"query": "auth-service 在 海外 还没到预估峰值就被限流，有没有历史案例", "relevant": ["INC-0057", "INC-0117"], "query_type": "service_symptom"}
+{"query": "华南生产环境第118批告警：风控第三方回调持续验签失败，影响 risk-service 的核心链路", "relevant": ["INC-0128"], "query_type": "symptom_verbatim"}
+{"query": "COUPON_5124 以前怎么处理？", "relevant": ["INC-0034"], "query_type": "error_code"}
+{"query": "SHIP_5185 以前怎么处理？", "relevant": ["INC-0095"], "query_type": "error_code"}
+{"query": "会员上传失败（华东第104批）", "relevant": ["INC-0114"], "query_type": "short_query"}
+{"query": "订单重复处理（华南第126批）", "relevant": ["INC-0136"], "query_type": "short_query"}
+{"query": "NOTIFY_5150 以前怎么处理？", "relevant": ["INC-0060"], "query_type": "error_code"}
+{"query": "海外 环境中，重启索引 worker 并重放失败任务 是解决过什么故障", "relevant": ["INC-0029", "INC-0049", "INC-0069", "INC-0089", "INC-0109", "INC-0129", "INC-0149"], "query_type": "resolution"}
+{"query": "settlement-service 在 华南 调用频繁卡住并出现超时，有没有历史案例", "relevant": ["INC-0040", "INC-0100", "INC-0160"], "query_type": "service_symptom"}
+{"query": "order-service 在 华东 业务单据疑似被反复执行，有没有历史案例", "relevant": ["INC-0046", "INC-0106"], "query_type": "service_symptom"}
+{"query": "智能电表燃料泄漏历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "高速列车受电弓制动压力不足历史故障", "relevant": [], "query_type": "no_answer"}
+{"query": "SMS_4293 以前怎么处理？", "relevant": ["INC-008"], "query_type": "error_code"}
+{"query": "华东生产环境第148批告警：风控第三方回调持续验签失败，影响 risk-service 的核心链路", "relevant": ["INC-0158"], "query_type": "symptom_verbatim"}
