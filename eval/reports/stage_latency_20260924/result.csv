@@ -1,0 +1,8 @@
+﻿stage,samples,p50_ms,p95_ms,p99_ms,llm_ttft_ms,llm_total_latency_ms
+query_parse,200,0.003,0.006,0.007,,
+embedding,200,0.057,0.098,0.129,,
+fts,200,4.008,6.041,7.039,,
+vector_search,200,0.521,0.893,0.97,,
+rrf,200,5.454,8.191,9.921,,
+reranker,200,0.012,0.02,0.024,,
+end_to_end,200,10.218,14.821,16.836,,

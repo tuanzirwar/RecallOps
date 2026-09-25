@@ -1,0 +1,7 @@
+# idempotency
+
+| concurrency | submissions | success_responses | unique_incident_ids | official_incidents | exactly_once | elapsed_ms |
+|---|---|---|---|---|---|---|
+| 2 | 2 | 2 | 1 | 1 | True | 68.957 |
+| 10 | 10 | 10 | 1 | 1 | True | 145.715 |
+| 100 | 100 | 84 | 1 | 1 | True | 30327.286 |

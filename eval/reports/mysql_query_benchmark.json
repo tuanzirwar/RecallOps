@@ -1,0 +1,38 @@
+{
+  "environment": "MySQL 8.4, real HTTP, same 10K synthetic incidents, single client; 1 warmup + 3 measured requests per variant",
+  "dataset_size": 10000,
+  "variants": {
+    "n_plus_one": {
+      "sql_count_testclient": 10039,
+      "http_latencies_ms": [
+        7056.79,
+        7234.3,
+        7205.6
+      ],
+      "http_mean_ms": 7165.56,
+      "result_ids": [
+        "QBENCH-00000",
+        "QBENCH-00001",
+        "QBENCH-00002",
+        "QBENCH-00003",
+        "QBENCH-00004"
+      ]
+    },
+    "batch": {
+      "sql_count_testclient": 40,
+      "http_latencies_ms": [
+        581.44,
+        610.16,
+        621.05
+      ],
+      "http_mean_ms": 604.22,
+      "result_ids": [
+        "QBENCH-00000",
+        "QBENCH-00001",
+        "QBENCH-00002",
+        "QBENCH-00003",
+        "QBENCH-00004"
+      ]
+    }
+  }
+}

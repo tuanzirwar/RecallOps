@@ -1,0 +1,81 @@
+{
+  "environment": "Redis 7.4 Lua atomic bucket, real elapsed time; static local split simulated with same aggregate rate/capacity",
+  "rate_per_second": 8.0,
+  "capacity": 8.0,
+  "duration_seconds": 4.0,
+  "runs": [
+    {
+      "workers": 2,
+      "pattern": "uniform",
+      "offered": 48,
+      "static_accepted": 38,
+      "shared_accepted": 38,
+      "static_utilization_percent": 97.4,
+      "shared_utilization_percent": 97.4,
+      "allowed_bound": 39,
+      "shared_over_limit": false,
+      "elapsed_seconds": 3.918
+    },
+    {
+      "workers": 2,
+      "pattern": "skewed",
+      "offered": 48,
+      "static_accepted": 25,
+      "shared_accepted": 39,
+      "static_utilization_percent": 64.1,
+      "shared_utilization_percent": 100.0,
+      "allowed_bound": 39,
+      "shared_over_limit": false,
+      "elapsed_seconds": 3.919
+    },
+    {
+      "workers": 2,
+      "pattern": "paused_worker",
+      "offered": 48,
+      "static_accepted": 30,
+      "shared_accepted": 39,
+      "static_utilization_percent": 76.9,
+      "shared_utilization_percent": 100.0,
+      "allowed_bound": 39,
+      "shared_over_limit": false,
+      "elapsed_seconds": 3.919
+    },
+    {
+      "workers": 4,
+      "pattern": "uniform",
+      "offered": 48,
+      "static_accepted": 36,
+      "shared_accepted": 39,
+      "static_utilization_percent": 92.3,
+      "shared_utilization_percent": 100.0,
+      "allowed_bound": 39,
+      "shared_over_limit": false,
+      "elapsed_seconds": 3.919
+    },
+    {
+      "workers": 4,
+      "pattern": "skewed",
+      "offered": 48,
+      "static_accepted": 13,
+      "shared_accepted": 39,
+      "static_utilization_percent": 33.3,
+      "shared_utilization_percent": 100.0,
+      "allowed_bound": 39,
+      "shared_over_limit": false,
+      "elapsed_seconds": 3.919
+    },
+    {
+      "workers": 4,
+      "pattern": "paused_worker",
+      "offered": 48,
+      "static_accepted": 24,
+      "shared_accepted": 39,
+      "static_utilization_percent": 61.5,
+      "shared_utilization_percent": 100.0,
+      "allowed_bound": 39,
+      "shared_over_limit": false,
+      "elapsed_seconds": 3.919
+    }
+  ],
+  "redis_unavailable_fails_closed": true
+}

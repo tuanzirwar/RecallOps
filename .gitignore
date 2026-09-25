@@ -7,3 +7,11 @@ __pycache__/
 .pytest_cache/
 dist/*.map
 
+
+# 本地故障注入与压测过程日志
+eval/reports/*.log
+
+# 本地运行轨迹和压测数据库
+traces/
+memory-service/traces/
+eval/reports/**/benchmark.sqlite3

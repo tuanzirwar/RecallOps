@@ -1,0 +1,54 @@
+[
+  {
+    "incidents": 160,
+    "queries": 5,
+    "mode": "hybrid_rrf",
+    "p50_ms": 30.463,
+    "p95_ms": 40.486,
+    "p99_ms": 40.486,
+    "mean_ms": 37.575,
+    "qps": 26.6134,
+    "build_seconds": 0.101,
+    "python_peak_memory_bytes": 687518,
+    "data_source": "seeded-synthetic-160-expanded-synthetic"
+  },
+  {
+    "incidents": 1000,
+    "queries": 5,
+    "mode": "hybrid_rrf",
+    "p50_ms": 207.44,
+    "p95_ms": 256.01,
+    "p99_ms": 256.01,
+    "mean_ms": 239.953,
+    "qps": 4.1675,
+    "build_seconds": 0.107,
+    "python_peak_memory_bytes": 1713701,
+    "data_source": "seeded-synthetic-160-expanded-synthetic"
+  },
+  {
+    "incidents": 10000,
+    "queries": 5,
+    "mode": "hybrid_rrf",
+    "p50_ms": 2030.79,
+    "p95_ms": 2682.82,
+    "p99_ms": 2682.82,
+    "mean_ms": 2484.784,
+    "qps": 0.4024,
+    "build_seconds": 0.145,
+    "python_peak_memory_bytes": 12438830,
+    "data_source": "seeded-synthetic-160-expanded-synthetic"
+  },
+  {
+    "incidents": 100000,
+    "queries": 5,
+    "mode": "hybrid_rrf",
+    "p50_ms": 24159.827,
+    "p95_ms": 32217.867,
+    "p99_ms": 32217.867,
+    "mean_ms": 29791.135,
+    "qps": 0.0336,
+    "build_seconds": 0.517,
+    "python_peak_memory_bytes": 126874651,
+    "data_source": "seeded-synthetic-160-expanded-synthetic"
+  }
+]

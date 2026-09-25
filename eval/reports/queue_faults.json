@@ -1,0 +1,22 @@
+{
+  "environment": "Docker Compose MySQL + RabbitMQ + fixture worker, real HTTP",
+  "cases": {
+    "db_committed_before_publish": {
+      "accepted": 20,
+      "pending_outbox_before_restart": 20,
+      "succeeded": 20,
+      "recovery_ms": 973.3
+    },
+    "duplicate_after_result_commit": {
+      "redelivered": 20,
+      "tasks_reprocessed": 0,
+      "succeeded": 20
+    },
+    "broker_restart": {
+      "accepted": 20,
+      "queued_during_outage": 20,
+      "succeeded": 20,
+      "recovery_ms": 7250.5
+    }
+  }
+}

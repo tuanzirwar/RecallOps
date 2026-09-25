@@ -1,17 +1,19 @@
 # RecallOps
 
-面向研发团队的故障记忆与混合 RAG MVP：从飞书话题生成待确认草稿，确认后以事务写入 PostgreSQL；查询时在授权 Workspace 内并行使用 PostgreSQL FTS 和 pgvector 召回，再用 RRF 融合，返回结构化根因、处理方案和原始证据。
+面向研发团队的故障记忆与证据检索服务。当前默认 Compose 使用 MySQL 保存审核记录、RabbitMQ 执行独立抽取任务、Redis 协调多 Worker 的模型调用额度；提交材料、人工审核、正式入库和授权检索均可通过 API 完成。默认演示模式使用固定解析器，真实模型模式需配置兼容 OpenAI Chat Completions 的接口。
+
+> 旧版 PostgreSQL FTS/pgvector 代码仍保留供对照；当前 MySQL 版本的检索排序使用本地确定性 hashing embedding。简历中的 MySQL 查询优化仅指服务关联批量加载，不能表述为 pgvector 或生产语义检索效果。
 
 ## 已实现
 
-- FastAPI：健康检查、草稿、确认提交、详情、搜索、修订、索引任务 API。
+- FastAPI：健康检查、异步抽取任务、草稿、确认提交、详情、搜索、修订、索引任务 API。
 - Human-gated Memory：草稿不进入正式检索，提交要求 `confirm=true` 和 Maintainer 权限。
-- 幂等：`content_hash` 防重复草稿，`x-request-id` 防重试重复写入。
+- 幂等：`content_hash` 防重复任务与草稿，`x-request-id` 绑定身份和请求内容；审核结果与幂等记录同事务提交。
 - 数据模型：Tenant、Workspace、成员、Incident、Service、Source、Action、Revision、Job 和检索日志。
-- 混合检索：PostgreSQL FTS 与 pgvector 在 Tenant/Workspace 条件内召回；RRF 融合。SQLite 测试模式使用同接口的本地确定性基线。
+- 检索：MySQL 先按 Tenant/Workspace 限定范围，服务名批量关联加载；本地确定性 FTS/向量排序用于可复现演示。旧 PostgreSQL FTS/pgvector 路径仍在仓库中。
 - Evidence-first：结果包含来源 URL 和回答策略；无可信结果时返回空结果。
 - 可修正：正式字段修改生成 Revision，并创建可重试的重新索引 Job。
-- OpenClaw：五个 TypeScript ESM 工具，身份只取可信 `requesterSenderId`，没有模型可覆盖的用户字段。
+- OpenClaw：异步提交、任务查询/重试、审核和证据查询工具，身份只取可信 `requesterSenderId`。
 - 评测：160 条故障、1,140 条标注查询（960 条有答案、180 条无答案），比较 FTS、向量和混合方案。
 
 ## 快速启动
@@ -29,7 +31,11 @@ docker compose up --build
 pwsh -File scripts/demo.ps1
 ```
 
-API 文档位于 `http://localhost:8000/docs`。首次演示由 `/dev/bootstrap` 创建演示租户、Workspace 和成员；生产部署应禁用该路由并通过管理流程预置成员。
+API 文档位于 `http://localhost:18000/docs`（可用 `RECALLOPS_HTTP_PORT` 修改宿主机端口）。首次演示由 `/dev/bootstrap` 创建演示租户、Workspace 和成员；生产部署应禁用该路由并通过管理流程预置成员。
+
+异步业务流程：`POST /v1/extractions` 返回任务编号；轮询 `GET /v1/extractions/{task_id}`，成功后展示草稿；人工确认后调用 `POST /v1/incidents`。任务失败可调用 `POST /v1/extractions/{task_id}/retry`。API、Publisher、Worker 是独立进程；Outbox 与任务同事务写入，Publisher 确认发布，Worker 提交结果后 ACK。
+
+默认 `RECALLOPS_EXTRACTION_MODE=fixture` 仅用于本地演示。实际调用模型时，改为 `model`，并在本地 `.env` 设置 `RECALLOPS_MODEL_BASE_URL`、`RECALLOPS_MODEL_NAME`、`RECALLOPS_MODEL_API_KEY`。密钥不要提交。
 
 ## 本地测试与评测
 
@@ -60,10 +66,10 @@ npm test
 ## 关键安全边界
 
 - 后端不接受请求体中的用户或 Workspace 身份；插件从运行时上下文注入身份并使用代理密钥认证。
-- 所有读取和两路 PostgreSQL 候选召回都在 Tenant/Workspace 条件下执行，未授权按 ID 读取返回 404。
+- 所有读取都在 Tenant/Workspace 条件下执行，未授权按 ID 读取返回 404。
 - Source 内容按不可信证据处理，不能成为 Prompt 指令。
 - 正式写入和修正需要角色权限；核心事实、来源、关系、行动项和索引 Job 在事务中提交。
-- 生产环境应在反向代理层禁止公网访问 `/dev/bootstrap`，轮换代理密钥，并按组织要求补充 PostgreSQL RLS。
+- 生产环境应在反向代理层禁止公网访问 `/dev/bootstrap`，轮换代理密钥，并落实 MySQL 账号权限与备份。
 
 更多信息见 [`docs/architecture.md`](docs/architecture.md)、[`docs/evaluation.md`](docs/evaluation.md) 和 [`docs/demo-script.md`](docs/demo-script.md)。
 
@@ -71,10 +77,13 @@ npm test
 
 项目设计、简历与面试材料：
 
+- [`docs/RecallOps完整流程与分支设计.md`](docs/RecallOps完整流程与分支设计.md)：从 Session 触发到整理、审批、索引、查询和修订的全流程及异常分支。
 - [`docs/RecallOps项目设计文档.md`](docs/RecallOps项目设计文档.md)：统一的生命周期、触发、队列、审批、检索和维护设计。
 - [`docs/RecallOps简历表述.md`](docs/RecallOps简历表述.md)：当前代码安全口径与自动触发完成后的增强口径。
 - [`docs/RecallOps面试完全手册.md`](docs/RecallOps面试完全手册.md)：高频问题、连续追问和指标说明。
 
 ## 当前边界
 
-仓库不包含真实飞书企业应用凭据，也不伪造线上效果。真实飞书验收需要在你的 OpenClaw/飞书环境中完成安装、授权和群 allowlist；生产 Embedding/LLM 需要在 `app.retrieval.embed` 的接口处接入并重新生成向量。当前实现可在无模型密钥环境完整演示可信写入、权限、检索、证据、修订和评测闭环。
+仓库不包含真实飞书企业应用凭据，也不伪造线上效果。真实飞书验收需要在你的 OpenClaw/飞书环境中完成安装、授权和群 allowlist；生产 Embedding/LLM 需要在 `app.retrieval.embed` 的接口处接入并重新生成向量。当前实现可在无模型密钥环境用固定响应桩演示写入、权限、检索、证据、修订与队列恢复；真实模型质量与耗时仍需单独验收。
+
+后端改造实测结果与简历口径见 [`docs/backend_experiments_20260925.md`](docs/backend_experiments_20260925.md)。

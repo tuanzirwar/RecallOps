@@ -1,0 +1,62 @@
+[
+  {
+    "concurrency": 1,
+    "requests": 200,
+    "qps": 15.943,
+    "p50_ms": 62.979,
+    "p95_ms": 73.955,
+    "p99_ms": 80.881,
+    "error_rate": 0.0,
+    "cpu_percent_normalized": 3.633,
+    "python_peak_memory_bytes": 3928774,
+    "db_connections_peak": 1
+  },
+  {
+    "concurrency": 10,
+    "requests": 200,
+    "qps": 15.712,
+    "p50_ms": 525.622,
+    "p95_ms": 1205.775,
+    "p99_ms": 1942.435,
+    "error_rate": 0.0,
+    "cpu_percent_normalized": 4.429,
+    "python_peak_memory_bytes": 13465212,
+    "db_connections_peak": 10
+  },
+  {
+    "concurrency": 50,
+    "requests": 200,
+    "qps": 15.379,
+    "p50_ms": 2793.76,
+    "p95_ms": 4560.687,
+    "p99_ms": 6254.873,
+    "error_rate": 0.0,
+    "cpu_percent_normalized": 4.34,
+    "python_peak_memory_bytes": 20620083,
+    "db_connections_peak": 15
+  },
+  {
+    "concurrency": 100,
+    "requests": 200,
+    "qps": 2.092,
+    "p50_ms": 32027.734,
+    "p95_ms": 92204.716,
+    "p99_ms": 93066.414,
+    "error_rate": 0.565,
+    "cpu_percent_normalized": 0.466,
+    "python_peak_memory_bytes": 22947059,
+    "db_connections_peak": 15
+  },
+  {
+    "concurrency": 200,
+    "requests": 200,
+    "qps": 1.624,
+    "p50_ms": 91105.646,
+    "p95_ms": 122155.86,
+    "p99_ms": 122549.811,
+    "error_rate": 0.695,
+    "cpu_percent_normalized": 0.343,
+    "python_peak_memory_bytes": 29880675,
+    "db_connections_peak": 15
+  }
+]

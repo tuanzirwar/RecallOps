@@ -1,0 +1,29 @@
+[
+  {
+    "concurrency": 2,
+    "submissions": 2,
+    "success_responses": 2,
+    "unique_incident_ids": 1,
+    "official_incidents": 1,
+    "exactly_once": true,
+    "elapsed_ms": 83.84
+  },
+  {
+    "concurrency": 10,
+    "submissions": 10,
+    "success_responses": 10,
+    "unique_incident_ids": 1,
+    "official_incidents": 1,
+    "exactly_once": true,
+    "elapsed_ms": 185.377
+  },
+  {
+    "concurrency": 100,
+    "submissions": 100,
+    "success_responses": 75,
+    "unique_incident_ids": 1,
+    "official_incidents": 1,
+    "exactly_once": true,
+    "elapsed_ms": 30517.391
+  }
+]

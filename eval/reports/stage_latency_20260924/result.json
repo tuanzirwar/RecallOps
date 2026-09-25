@@ -1,0 +1,65 @@
+[
+  {
+    "stage": "query_parse",
+    "samples": 200,
+    "p50_ms": 0.003,
+    "p95_ms": 0.006,
+    "p99_ms": 0.007,
+    "llm_ttft_ms": null,
+    "llm_total_latency_ms": null
+  },
+  {
+    "stage": "embedding",
+    "samples": 200,
+    "p50_ms": 0.057,
+    "p95_ms": 0.098,
+    "p99_ms": 0.129,
+    "llm_ttft_ms": null,
+    "llm_total_latency_ms": null
+  },
+  {
+    "stage": "fts",
+    "samples": 200,
+    "p50_ms": 4.008,
+    "p95_ms": 6.041,
+    "p99_ms": 7.039,
+    "llm_ttft_ms": null,
+    "llm_total_latency_ms": null
+  },
+  {
+    "stage": "vector_search",
+    "samples": 200,
+    "p50_ms": 0.521,
+    "p95_ms": 0.893,
+    "p99_ms": 0.97,
+    "llm_ttft_ms": null,
+    "llm_total_latency_ms": null
+  },
+  {
+    "stage": "rrf",
+    "samples": 200,
+    "p50_ms": 5.454,
+    "p95_ms": 8.191,
+    "p99_ms": 9.921,
+    "llm_ttft_ms": null,
+    "llm_total_latency_ms": null
+  },
+  {
+    "stage": "reranker",
+    "samples": 200,
+    "p50_ms": 0.012,
+    "p95_ms": 0.02,
+    "p99_ms": 0.024,
+    "llm_ttft_ms": null,
+    "llm_total_latency_ms": null
+  },
+  {
+    "stage": "end_to_end",
+    "samples": 200,
+    "p50_ms": 10.218,
+    "p95_ms": 14.821,
+    "p99_ms": 16.836,
+    "llm_ttft_ms": null,
+    "llm_total_latency_ms": null
+  }
+]

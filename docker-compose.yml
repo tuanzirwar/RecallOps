@@ -1,25 +1,66 @@
 services:
-  postgres:
-    image: pgvector/pgvector:pg16
+  mysql:
+    image: mysql:8.4
     environment:
-      POSTGRES_DB: recallops
-      POSTGRES_USER: recallops
-      POSTGRES_PASSWORD: recallops
-    ports: ["5432:5432"]
-    volumes: ["recallops-data:/var/lib/postgresql/data"]
+      MYSQL_DATABASE: recallops
+      MYSQL_USER: recallops
+      MYSQL_PASSWORD: recallops
+      MYSQL_ROOT_PASSWORD: local-root-only
+    ports: ["3306:3306"]
+    volumes: ["recallops-mysql:/var/lib/mysql"]
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U recallops"]
+      test: ["CMD-SHELL", "mysqladmin ping -h localhost -u recallops -precallops --silent"]
       interval: 5s
       timeout: 3s
-      retries: 10
+      retries: 20
+  rabbitmq:
+    image: rabbitmq:3.13-management
+    ports: ["5672:5672", "15672:15672"]
+    volumes: ["recallops-rabbit:/var/lib/rabbitmq"]
+    healthcheck:
+      test: ["CMD", "rabbitmq-diagnostics", "-q", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+  redis:
+    image: redis:7.4-alpine
+    ports: ["6379:6379"]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
   api:
     build: ./memory-service
-    environment:
-      RECALLOPS_DATABASE_URL: postgresql+psycopg://recallops:recallops@postgres:5432/recallops
+    environment: &service_environment
+      RECALLOPS_DATABASE_URL: mysql+pymysql://recallops:recallops@mysql:3306/recallops?charset=utf8mb4
       RECALLOPS_TRUSTED_PROXY_TOKEN: ${RECALLOPS_TRUSTED_PROXY_TOKEN:-dev-proxy-token}
-    ports: ["8000:8000"]
+      RECALLOPS_RABBITMQ_URL: amqp://guest:guest@rabbitmq:5672/%2F
+      RECALLOPS_REDIS_URL: redis://redis:6379/0
+      RECALLOPS_EXTRACTION_MODE: ${RECALLOPS_EXTRACTION_MODE:-fixture}
+      RECALLOPS_MODEL_BASE_URL: ${RECALLOPS_MODEL_BASE_URL:-}
+      RECALLOPS_MODEL_API_KEY: ${RECALLOPS_MODEL_API_KEY:-}
+      RECALLOPS_MODEL_NAME: ${RECALLOPS_MODEL_NAME:-}
+      RECALLOPS_MODEL_WIRE_API: ${RECALLOPS_MODEL_WIRE_API:-chat_completions}
+    ports: ["${RECALLOPS_HTTP_PORT:-18000}:8000"]
     depends_on:
-      postgres: {condition: service_healthy}
+      mysql: {condition: service_healthy}
+  publisher:
+    build: ./memory-service
+    command: ["python", "-m", "app.queue", "publisher"]
+    environment: *service_environment
+    depends_on:
+      mysql: {condition: service_healthy}
+      rabbitmq: {condition: service_healthy}
+      api: {condition: service_started}
+  worker:
+    build: ./memory-service
+    command: ["python", "-m", "app.queue", "worker"]
+    environment: *service_environment
+    depends_on:
+      mysql: {condition: service_healthy}
+      rabbitmq: {condition: service_healthy}
+      api: {condition: service_started}
 volumes:
-  recallops-data:
-
+  recallops-mysql:
+  recallops-rabbit:

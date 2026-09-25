@@ -1,0 +1,12 @@
+{
+  "model": "gpt-5.6-luna",
+  "provider": "CloudVisit Responses",
+  "source": "synthetic incident, TUI local config; key not copied to report",
+  "task_id": "task_6321238ae5194a6281888859bacf4d3a",
+  "status": "failed",
+  "accept_ms": 33.7,
+  "complete_ms": 2090.8,
+  "attempts": 1,
+  "fields_present": [],
+  "last_error": "HTTP Error 403: Forbidden"
+}

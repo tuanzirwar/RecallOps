@@ -1,0 +1,119 @@
+{
+  "environment": "2/4 real Python worker processes and Redis 7.4 Lua; equal aggregate token rate/capacity",
+  "rate_per_second": 8.0,
+  "capacity": 8.0,
+  "runs": [
+    {
+      "workers": 2,
+      "pattern": "uniform",
+      "allocation": "static",
+      "offered": 48,
+      "admitted": 38,
+      "per_worker": {
+        "0": 19,
+        "1": 19
+      },
+      "global_bound": 39,
+      "elapsed_seconds": 3.957
+    },
+    {
+      "workers": 2,
+      "pattern": "uniform",
+      "allocation": "shared",
+      "offered": 48,
+      "admitted": 39,
+      "per_worker": {
+        "0": 20,
+        "1": 19
+      },
+      "global_bound": 39,
+      "elapsed_seconds": 3.952
+    },
+    {
+      "workers": 2,
+      "pattern": "skewed",
+      "allocation": "static",
+      "offered": 48,
+      "admitted": 23,
+      "per_worker": {
+        "1": 4,
+        "0": 19
+      },
+      "global_bound": 39,
+      "elapsed_seconds": 3.953
+    },
+    {
+      "workers": 2,
+      "pattern": "skewed",
+      "allocation": "shared",
+      "offered": 48,
+      "admitted": 38,
+      "per_worker": {
+        "1": 3,
+        "0": 35
+      },
+      "global_bound": 39,
+      "elapsed_seconds": 3.954
+    },
+    {
+      "workers": 4,
+      "pattern": "uniform",
+      "allocation": "static",
+      "offered": 48,
+      "admitted": 36,
+      "per_worker": {
+        "0": 9,
+        "1": 9,
+        "2": 9,
+        "3": 9
+      },
+      "global_bound": 39,
+      "elapsed_seconds": 3.957
+    },
+    {
+      "workers": 4,
+      "pattern": "uniform",
+      "allocation": "shared",
+      "offered": 48,
+      "admitted": 39,
+      "per_worker": {
+        "0": 10,
+        "1": 9,
+        "2": 10,
+        "3": 10
+      },
+      "global_bound": 39,
+      "elapsed_seconds": 3.956
+    },
+    {
+      "workers": 4,
+      "pattern": "skewed",
+      "allocation": "static",
+      "offered": 48,
+      "admitted": 13,
+      "per_worker": {
+        "2": 1,
+        "3": 1,
+        "1": 2,
+        "0": 9
+      },
+      "global_bound": 39,
+      "elapsed_seconds": 3.952
+    },
+    {
+      "workers": 4,
+      "pattern": "skewed",
+      "allocation": "shared",
+      "offered": 48,
+      "admitted": 39,
+      "per_worker": {
+        "2": 1,
+        "3": 1,
+        "1": 1,
+        "0": 36
+      },
+      "global_bound": 39,
+      "elapsed_seconds": 3.954
+    }
+  ]
+}

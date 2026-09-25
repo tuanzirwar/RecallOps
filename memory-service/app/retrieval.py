@@ -1,10 +1,11 @@
 from __future__ import annotations
+
 import hashlib
 import math
 import re
-from dataclasses import dataclass
-from .models import Incident
+import time
 
+from .models import Incident
 
 TOKEN_RE = re.compile(r"[A-Za-z][A-Za-z0-9_.:-]*|[\u4e00-\u9fff]")
 
@@ -28,7 +29,16 @@ def embed(text: str, dims: int = 96) -> list[float]:
 
 
 def incident_text(row: Incident, service_names: list[str] | None = None) -> str:
-    return " ".join([row.title, row.symptom, row.root_cause, row.resolution, " ".join(row.error_codes or []), " ".join(service_names or [])])
+    return " ".join(
+        [
+            row.title,
+            row.symptom,
+            row.root_cause,
+            row.resolution,
+            " ".join(row.error_codes or []),
+            " ".join(service_names or []),
+        ]
+    )
 
 
 def lexical_score(query: str, document: str) -> float:
@@ -39,12 +49,16 @@ def lexical_score(query: str, document: str) -> float:
     counts = {term: d.count(term) for term in set(q)}
     exact = sum(counts.values()) / len(q)
     phrase = 2.0 if query.lower() in document.lower() else 0.0
-    identifiers = sum(3.0 for term in q if ("_" in term or "-" in term or any(c.isdigit() for c in term)) and term in d)
+    identifiers = sum(
+        3.0
+        for term in q
+        if ("_" in term or "-" in term or any(c.isdigit() for c in term)) and term in d
+    )
     return exact + phrase + identifiers
 
 
 def cosine(left: list[float], right: list[float]) -> float:
-    return sum(a * b for a, b in zip(left, right))
+    return sum(a * b for a, b in zip(left, right, strict=False))
 
 
 def exact_identifier_match(query: str, row: Incident, service_names: list[str]) -> bool:
@@ -63,24 +77,71 @@ def trusted_match(scores: dict, mode: str) -> bool:
     return scores["fts_score"] >= 0.6 or scores["vector_score"] >= 0.3
 
 
-def rank(rows: list[tuple[Incident, list[str]]], query: str, mode: str, k: int = 60) -> list[tuple[Incident, dict]]:
-    lexical = sorted(rows, key=lambda pair: lexical_score(query, incident_text(*pair)), reverse=True)
-    qvec = embed(query)
-    semantic = sorted(rows, key=lambda pair: cosine(qvec, pair[0].embedding or embed(incident_text(*pair))), reverse=True)
+def rank(
+    rows: list[tuple[Incident, list[str]]],
+    query: str,
+    mode: str,
+    k: int = 60,
+    *,
+    query_vector: list[float] | None = None,
+    timings: dict[str, float] | None = None,
+) -> list[tuple[Incident, dict]]:
+    started = time.perf_counter()
+    lexical = sorted(
+        rows, key=lambda pair: lexical_score(query, incident_text(*pair)), reverse=True
+    )
+    _add_timing(timings, "fts", started)
+    qvec = query_vector or embed(query)
+    started = time.perf_counter()
+    semantic = sorted(
+        rows,
+        key=lambda pair: cosine(qvec, pair[0].embedding or embed(incident_text(*pair))),
+        reverse=True,
+    )
+    _add_timing(timings, "vector_search", started)
+    started = time.perf_counter()
     lr = {row.id: i + 1 for i, (row, _) in enumerate(lexical)}
     vr = {row.id: i + 1 for i, (row, _) in enumerate(semantic)}
     lookup = {row.id: (row, services) for row, services in rows}
     scores: dict[str, dict] = {}
     for incident_id in lookup:
         ls = lexical_score(query, incident_text(*lookup[incident_id]))
-        vs = cosine(qvec, lookup[incident_id][0].embedding or embed(incident_text(*lookup[incident_id])))
-        exact = exact_identifier_match(query, lookup[incident_id][0], lookup[incident_id][1])
+        vs = cosine(
+            qvec,
+            lookup[incident_id][0].embedding
+            or embed(incident_text(*lookup[incident_id])),
+        )
+        exact = exact_identifier_match(
+            query, lookup[incident_id][0], lookup[incident_id][1]
+        )
         if mode == "fts":
             combined = ls
         elif mode == "vector":
             combined = vs
+        elif mode == "weighted":
+            lexical_normalized = min(1.0, ls / 3.0)
+            vector_normalized = (vs + 1.0) / 2.0
+            combined = 0.55 * lexical_normalized + 0.45 * vector_normalized
         else:
-            combined = (1 / (k + lr[incident_id]) if ls > 0 else 0) + 1 / (k + vr[incident_id]) + (1.0 if exact else 0.0)
-        scores[incident_id] = {"score": round(combined, 6), "fts_score": round(ls, 6), "vector_score": round(vs, 6), "exact_identifier": exact}
+            combined = (
+                (1 / (k + lr[incident_id]) if ls > 0 else 0)
+                + 1 / (k + vr[incident_id])
+                + (1.0 if exact else 0.0)
+            )
+        scores[incident_id] = {
+            "score": round(combined, 6),
+            "fts_score": round(ls, 6),
+            "vector_score": round(vs, 6),
+            "exact_identifier": exact,
+        }
     ordered = sorted(lookup, key=lambda item: scores[item]["score"], reverse=True)
-    return [(lookup[item][0], scores[item] | {"services": lookup[item][1]}) for item in ordered]
+    _add_timing(timings, "rrf", started)
+    return [
+        (lookup[item][0], scores[item] | {"services": lookup[item][1]})
+        for item in ordered
+    ]
+
+
+def _add_timing(timings: dict[str, float] | None, name: str, started: float) -> None:
+    if timings is not None:
+        timings[name] = timings.get(name, 0.0) + (time.perf_counter() - started) * 1000

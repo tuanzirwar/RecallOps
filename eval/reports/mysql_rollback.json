@@ -1,0 +1,15 @@
+{
+  "environment": "MySQL 8.4; transaction fault after SQL flush and real HTTP concurrent review",
+  "rollback": {
+    "draft_status": "pending",
+    "incident_count": 0,
+    "source_count": 0,
+    "revision_count": 0
+  },
+  "different_request_ids_same_draft": {
+    "requests": 10,
+    "created": 1,
+    "conflicts": 9,
+    "incident_count": 1
+  }
+}

@@ -10,6 +10,10 @@ from .retrieval import embed, incident_text
 from .postgres import store_embedding
 
 
+class DraftAlreadyCommitted(ValueError):
+    pass
+
+
 def digest(value: str) -> str:
     return hashlib.sha256(value.encode()).hexdigest()
 
@@ -58,14 +62,23 @@ def create_draft(db: Session, tenant_id: str, workspace_id: str, user_id: str, t
 
 def commit_draft(db: Session, draft: Draft, corrections: dict, user_id: str) -> Incident:
     if draft.status == "committed":
-        return db.scalar(select(Incident).where(Incident.id == draft.payload["incident_id"]))
+        raise DraftAlreadyCommitted("draft already committed")
+    allowed = {"title", "symptom", "root_cause", "resolution", "severity", "error_codes", "services", "actions"}
+    if set(corrections) - allowed:
+        raise ValueError("unsupported correction field")
     data = dict(draft.payload["incident"]); data.update(corrections)
     incident_id = f"INC-{uuid.uuid4().hex[:8].upper()}"
-    row = Incident(id=incident_id, tenant_id=draft.tenant_id, workspace_id=draft.workspace_id,
+    row = Incident(id=incident_id, origin_draft_id=draft.id, tenant_id=draft.tenant_id, workspace_id=draft.workspace_id,
                    title=str(data["title"]), symptom=str(data["symptom"]), root_cause=str(data["root_cause"]),
                    resolution=str(data["resolution"]), severity=str(data.get("severity", "unknown")),
                    error_codes=list(data.get("error_codes", [])), created_by=draft.created_by, confirmed_by=user_id)
     db.add(row); db.flush()
+    for field, value in corrections.items():
+        original = draft.payload["incident"].get(field)
+        if original != value:
+            db.add(Revision(incident_id=row.id, field=field,
+                            old_value=str(original), new_value=str(value),
+                            reason="审核修订", changed_by=user_id))
     names = []
     for item in data.get("services", []):
         service = db.scalar(select(Service).where(Service.tenant_id == draft.tenant_id, Service.name == item["name"]))

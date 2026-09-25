@@ -1,6 +1,7 @@
 import os
 os.environ["RECALLOPS_DATABASE_URL"] = "sqlite:///./test-recallops.db"
 os.environ["RECALLOPS_TRUSTED_PROXY_TOKEN"] = "test-token"
+os.environ["RECALLOPS_EXTRACTION_MODE"] = "fixture"
 
 import pytest
 from fastapi.testclient import TestClient

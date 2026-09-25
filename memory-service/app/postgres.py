@@ -1,4 +1,6 @@
+import time
 from pathlib import Path
+
 from sqlalchemy import Engine, text
 from sqlalchemy.orm import Session
 
@@ -22,12 +24,22 @@ def store_embedding(db: Session, incident_id: str, vector: list[float]) -> None:
     db.execute(text("UPDATE incidents SET embedding_vector = CAST(:value AS vector) WHERE id = :id"), {"value": literal, "id": incident_id})
 
 
-def candidate_ids(db: Session, tenant_id: str, workspace_id: str, query: str, vector: list[float], mode: str, limit: int = 50) -> list[str] | None:
+def candidate_ids(
+    db: Session,
+    tenant_id: str,
+    workspace_id: str,
+    query: str,
+    vector: list[float],
+    mode: str,
+    limit: int = 50,
+    timings: dict[str, float] | None = None,
+) -> list[str] | None:
     if not enabled(db.get_bind()):
         return None
     common = {"tenant": tenant_id, "workspace": workspace_id, "query": query, "limit": limit}
     found: list[str] = []
     if mode in {"fts", "hybrid"}:
+        started = time.perf_counter()
         statement = text("""
           SELECT id FROM incidents
           WHERE tenant_id=:tenant AND workspace_id=:workspace AND status='active'
@@ -46,7 +58,12 @@ def candidate_ids(db: Session, tenant_id: str, workspace_id: str, query: str, ve
           ORDER BY ts_rank_cd(search_vector, plainto_tsquery('simple', :query)) DESC, id LIMIT :limit
         """)
         found.extend(db.execute(statement, common).scalars().all())
+        if timings is not None:
+            timings["fts"] = timings.get("fts", 0.0) + (
+                time.perf_counter() - started
+            ) * 1000
     if mode in {"vector", "hybrid"}:
+        started = time.perf_counter()
         literal = "[" + ",".join(f"{value:.9f}" for value in vector) + "]"
         statement = text("""
           SELECT id FROM incidents
@@ -54,4 +71,8 @@ def candidate_ids(db: Session, tenant_id: str, workspace_id: str, query: str, ve
           ORDER BY embedding_vector <=> CAST(:vector AS vector) LIMIT :limit
         """)
         found.extend(db.execute(statement, common | {"vector": literal}).scalars().all())
+        if timings is not None:
+            timings["vector_search"] = timings.get("vector_search", 0.0) + (
+                time.perf_counter() - started
+            ) * 1000
     return list(dict.fromkeys(found))

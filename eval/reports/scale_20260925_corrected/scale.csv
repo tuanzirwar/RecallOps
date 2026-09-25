@@ -1,0 +1,5 @@
+﻿incidents,queries,mode,p50_ms,p95_ms,p99_ms,mean_ms,qps,build_seconds,python_peak_memory_bytes,data_source
+160,5,hybrid_rrf,30.463,40.486,40.486,37.575,26.6134,0.101,687518,seeded-synthetic-160-expanded-synthetic
+1000,5,hybrid_rrf,207.44,256.01,256.01,239.953,4.1675,0.107,1713701,seeded-synthetic-160-expanded-synthetic
+10000,5,hybrid_rrf,2030.79,2682.82,2682.82,2484.784,0.4024,0.145,12438830,seeded-synthetic-160-expanded-synthetic
+100000,5,hybrid_rrf,24159.827,32217.867,32217.867,29791.135,0.0336,0.517,126874651,seeded-synthetic-160-expanded-synthetic

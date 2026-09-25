@@ -1,0 +1,44 @@
+{
+  "environment": "real HTTP + MySQL 8.4; fixture extraction",
+  "runs": [
+    {
+      "concurrency": 2,
+      "requests": 2,
+      "success": 2,
+      "conflict": 0,
+      "server_error": 0,
+      "incident_count": 1,
+      "source_count": 1,
+      "same_response": true,
+      "request_record_committed": true,
+      "elapsed_ms": 94.5
+    },
+    {
+      "concurrency": 10,
+      "requests": 10,
+      "success": 10,
+      "conflict": 0,
+      "server_error": 0,
+      "incident_count": 1,
+      "source_count": 1,
+      "same_response": true,
+      "request_record_committed": true,
+      "elapsed_ms": 486.7
+    },
+    {
+      "concurrency": 100,
+      "requests": 100,
+      "success": 100,
+      "conflict": 0,
+      "server_error": 0,
+      "incident_count": 1,
+      "source_count": 1,
+      "same_response": true,
+      "request_record_committed": true,
+      "elapsed_ms": 818.1
+    }
+  ],
+  "same_id_different_body_status": 409,
+  "cross_workspace_read_status": 404,
+  "viewer_review_status": 403
+}

@@ -1,6 +1,6 @@
 from __future__ import annotations
 from datetime import datetime, timezone
-from sqlalchemy import DateTime, ForeignKey, Integer, JSON, String, Text, UniqueConstraint
+from sqlalchemy import DateTime, ForeignKey, Index, Integer, JSON, String, Text, UniqueConstraint
 from sqlalchemy.orm import Mapped, mapped_column
 from .database import Base
 
@@ -48,6 +48,8 @@ class Draft(Base):
 
 class Incident(Base):
     __tablename__ = "incidents"
+    __table_args__ = (Index("ix_incident_scope", "tenant_id", "workspace_id", "status"),)
+    origin_draft_id: Mapped[str | None] = mapped_column(String(64), unique=True, nullable=True)
     id: Mapped[str] = mapped_column(String(64), primary_key=True)
     tenant_id: Mapped[str] = mapped_column(ForeignKey("tenants.id"), index=True)
     workspace_id: Mapped[str] = mapped_column(ForeignKey("workspaces.id"), index=True)
@@ -85,6 +87,7 @@ class IncidentService(Base):
 
 class Source(Base):
     __tablename__ = "sources"
+    __table_args__ = (UniqueConstraint("incident_id", "content_hash"),)
     id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
     incident_id: Mapped[str] = mapped_column(ForeignKey("incidents.id"), index=True)
     source_type: Mapped[str] = mapped_column(String(32), default="feishu_message")
@@ -92,7 +95,7 @@ class Source(Base):
     thread_id: Mapped[str | None] = mapped_column(String(128))
     source_url: Mapped[str] = mapped_column(Text)
     content: Mapped[str] = mapped_column(Text)
-    content_hash: Mapped[str] = mapped_column(String(64), unique=True)
+    content_hash: Mapped[str] = mapped_column(String(64))
 
 
 class Action(Base):
@@ -130,6 +133,7 @@ class RequestRecord(Base):
     __tablename__ = "request_records"
     request_id: Mapped[str] = mapped_column(String(128), primary_key=True)
     operation: Mapped[str] = mapped_column(String(64))
+    fingerprint: Mapped[str] = mapped_column(String(64), default="")
     response: Mapped[dict] = mapped_column(JSON)
 
 
@@ -143,3 +147,28 @@ class RetrievalLog(Base):
     mode: Mapped[str] = mapped_column(String(16))
     returned_incident_ids: Mapped[list] = mapped_column(JSON)
     latency_ms: Mapped[int] = mapped_column(Integer)
+
+
+class ExtractionTask(Base):
+    __tablename__ = "extraction_tasks"
+    __table_args__ = (UniqueConstraint("tenant_id", "workspace_id", "content_hash"),)
+    id: Mapped[str] = mapped_column(String(64), primary_key=True)
+    tenant_id: Mapped[str] = mapped_column(ForeignKey("tenants.id"), index=True)
+    workspace_id: Mapped[str] = mapped_column(ForeignKey("workspaces.id"), index=True)
+    created_by: Mapped[str] = mapped_column(String(128))
+    thread_id: Mapped[str] = mapped_column(String(128))
+    messages: Mapped[list] = mapped_column(JSON)
+    content_hash: Mapped[str] = mapped_column(String(64))
+    status: Mapped[str] = mapped_column(String(32), default="queued", index=True)
+    attempts: Mapped[int] = mapped_column(Integer, default=0)
+    draft_id: Mapped[str | None] = mapped_column(String(64), nullable=True)
+    last_error: Mapped[str | None] = mapped_column(Text, nullable=True)
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=now)
+
+
+class OutboxEvent(Base):
+    __tablename__ = "outbox_events"
+    id: Mapped[str] = mapped_column(String(64), primary_key=True)
+    task_id: Mapped[str] = mapped_column(ForeignKey("extraction_tasks.id"), index=True)
+    status: Mapped[str] = mapped_column(String(32), default="pending", index=True)
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=now)

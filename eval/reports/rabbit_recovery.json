@@ -1,0 +1,130 @@
+{
+  "environment": "MySQL + durable RabbitMQ; real separate worker processes; fixed-response model HTTP stub",
+  "fault": "terminate worker after model request starts, before DB commit and ACK",
+  "count": 20,
+  "succeeded": 20,
+  "duplicate_drafts": 0,
+  "outcomes": [
+    {
+      "task_id": "task_c8e269f1cc934fc182688401b2f9d3d9",
+      "status": "succeeded",
+      "draft_count": 1,
+      "attempts": 1
+    },
+    {
+      "task_id": "task_01212571c5524e3ea3383e3cc7a76474",
+      "status": "succeeded",
+      "draft_count": 1,
+      "attempts": 1
+    },
+    {
+      "task_id": "task_ce942e406a02427f913ec7361cfc937b",
+      "status": "succeeded",
+      "draft_count": 1,
+      "attempts": 1
+    },
+    {
+      "task_id": "task_38257d420f784f13a5f1873fd1fc0a2d",
+      "status": "succeeded",
+      "draft_count": 1,
+      "attempts": 1
+    },
+    {
+      "task_id": "task_09fb3a0b8c364d0a931c18b237bd4d51",
+      "status": "succeeded",
+      "draft_count": 1,
+      "attempts": 1
+    },
+    {
+      "task_id": "task_c3d891e8be784a9cb37c92b3d9ad50c1",
+      "status": "succeeded",
+      "draft_count": 1,
+      "attempts": 1
+    },
+    {
+      "task_id": "task_3d86ead1f9de4a379a932b830b1d825f",
+      "status": "succeeded",
+      "draft_count": 1,
+      "attempts": 1
+    },
+    {
+      "task_id": "task_f7723923980b4622b74cb02614d926af",
+      "status": "succeeded",
+      "draft_count": 1,
+      "attempts": 1
+    },
+    {
+      "task_id": "task_9d67062bb44b4fc9afd2bb9d557e33d4",
+      "status": "succeeded",
+      "draft_count": 1,
+      "attempts": 1
+    },
+    {
+      "task_id": "task_12bc10539db841239f4255e6e6141d9a",
+      "status": "succeeded",
+      "draft_count": 1,
+      "attempts": 1
+    },
+    {
+      "task_id": "task_b9dd79359a214af9908645019603daaa",
+      "status": "succeeded",
+      "draft_count": 1,
+      "attempts": 1
+    },
+    {
+      "task_id": "task_ae4f8ceb64fc4628901ae071d7921196",
+      "status": "succeeded",
+      "draft_count": 1,
+      "attempts": 1
+    },
+    {
+      "task_id": "task_adfced705b2d4026a15ec9a8155b2c58",
+      "status": "succeeded",
+      "draft_count": 1,
+      "attempts": 1
+    },
+    {
+      "task_id": "task_47933d1456764c5a9e2f5221572739d7",
+      "status": "succeeded",
+      "draft_count": 1,
+      "attempts": 1
+    },
+    {
+      "task_id": "task_64fc6adf556b44799004cbb4904d73b1",
+      "status": "succeeded",
+      "draft_count": 1,
+      "attempts": 1
+    },
+    {
+      "task_id": "task_d5e0fc39a2d540559258aa9e49a0a832",
+      "status": "succeeded",
+      "draft_count": 1,
+      "attempts": 1
+    },
+    {
+      "task_id": "task_7d03ed4f8c554d08b5d116f01d817548",
+      "status": "succeeded",
+      "draft_count": 1,
+      "attempts": 1
+    },
+    {
+      "task_id": "task_7df810d637f3472b84dac1e1fa3473b1",
+      "status": "succeeded",
+      "draft_count": 1,
+      "attempts": 1
+    },
+    {
+      "task_id": "task_d3a3b1051b224522917e503bbdf3b34e",
+      "status": "succeeded",
+      "draft_count": 1,
+      "attempts": 1
+    },
+    {
+      "task_id": "task_a31dca4505894a169324416f0a69fec8",
+      "status": "succeeded",
+      "draft_count": 1,
+      "attempts": 1
+    }
+  ],
+  "model_http_calls": 40
+}

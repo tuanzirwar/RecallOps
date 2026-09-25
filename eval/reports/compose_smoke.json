@@ -1,0 +1,9 @@
+{
+  "deployment": "docker compose MySQL+RabbitMQ+Redis+API+Publisher+Worker",
+  "extractor": "fixture",
+  "accepted_p95_claim": null,
+  "single_accept_ms": 37.4,
+  "single_task_complete_ms": 968.2,
+  "task_status": "succeeded",
+  "incident_id": "INC-C02F7247"
+}

@@ -1,0 +1,14 @@
+{
+  "database": "mysql 8.4",
+  "queue": "rabbitmq 3.13",
+  "extractor": "fixture",
+  "api": "real HTTP on localhost",
+  "task_id": "task_677f45182e5b44d7b207ceee34620d30",
+  "queued_before_publisher": "queued",
+  "task_final": "succeeded",
+  "duplicate_delivery_attempts": 1,
+  "incident_id": "INC-3391A596",
+  "revision_count": 1,
+  "search_found": true,
+  "elapsed_ms": 4504.6
+}
